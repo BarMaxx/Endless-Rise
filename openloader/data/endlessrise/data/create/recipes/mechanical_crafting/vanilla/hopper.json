@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "B B",
+    "BCB",
+    "PBP"
+  ],
+  "key": {
+    "B": {
+      "item": "immersiveengineering:plate_steel"
+    },
+    "P": {
+      "item": "immersiveengineering:ingot_steel"
+      },
+    "C": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "minecraft:hopper"
+  },
+  "acceptMirrored": true
+}

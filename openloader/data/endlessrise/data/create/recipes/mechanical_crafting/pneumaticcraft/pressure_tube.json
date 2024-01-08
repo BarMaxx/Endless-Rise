@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "PPP",
+    "CIC",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "I": {
+        "tag": "forge:glass"
+      },
+    "C": {
+      "item": "immersiveengineering:wire_steel"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:pressure_tube"
+  },
+  "acceptMirrored": true
+}

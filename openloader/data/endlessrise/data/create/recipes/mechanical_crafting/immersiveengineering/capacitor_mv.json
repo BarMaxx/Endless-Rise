@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BZC ",
+    "NAPAN",
+    "DPSPD",
+    "NAPAN",
+    " CZB "
+  ],
+  "key": {
+    "P": {
+      "item": "immersiveengineering:plate_steel"
+    },
+    "S": {
+      "item": "immersiveengineering:capacitor_lv"
+    },
+	"B": {
+      "item": "tconstruct:tinkers_bronze_ingot"
+    },
+	"C": {
+      "item": "create:precision_mechanism"
+    },
+	"D": {
+      "item": "immersiveengineering:plate_electrum"
+    },
+	"Z": {
+      "item": "immersiveengineering:plate_constantan"
+    },
+	"N": {
+      "item": "engineersdecor:metal_bar"
+    },
+    "A": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:capacitor_mv",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

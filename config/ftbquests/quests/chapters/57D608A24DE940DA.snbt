@@ -1,0 +1,204 @@
+{
+	id: "57D608A24DE940DA"
+	group: "11EC8770AFEB5B52"
+	order_index: 1
+	filename: "57D608A24DE940DA"
+	title: "Незер"
+	icon: "minecraft:nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Портал"
+			x: -0.5d
+			y: -0.5d
+			shape: "pentagon"
+			description: ["С помощью обсидиана можно построить портал в ад."]
+			dependencies: ["31BD23CD6DFA60B1"]
+			size: 1.2d
+			id: "462BD8A3987B8465"
+			tasks: [{
+				id: "45985AE217B5C27D"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 10L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			description: ["С помощью алмазной кирки можно добыть обсидиан."]
+			id: "31BD23CD6DFA60B1"
+			tasks: [{
+				id: "20BB3C13423F8C8C"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Босс"
+			x: 1.5d
+			y: 0.5d
+			description: ["С помощью 3 черепов скелета и 4 песка душ можно призвать босса - Иссушителя."]
+			dependencies: ["462BD8A3987B8465"]
+			id: "3B1B40E055D9689D"
+			tasks: [
+				{
+					id: "4E0BA4D60E76231F"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 3L
+				}
+				{
+					id: "0179A5EF577264BD"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			shape: "hexagon"
+			description: ["После победы над боссом вы получите нагрду - Звезду Незера. Она вам понадобится."]
+			dependencies: ["3B1B40E055D9689D"]
+			size: 1.1d
+			id: "417082ECCD50CFA0"
+			tasks: [{
+				id: "71CA143BD64F22D4"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			description: ["С помощью Маяка можно получить постоянный положительный эффект, но для этого вам нужно немало потратиться. Для первого уровня вам понадобится 9 драгоценный блоков, например железные. Их нужно поставить под Маяком (3х3), после чего он активируется."]
+			dependencies: ["417082ECCD50CFA0"]
+			id: "7BBC76EDB8528709"
+			tasks: [{
+				id: "0C6737AF272A1362"
+				type: "item"
+				item: "minecraft:beacon"
+			}]
+		}
+		{
+			title: "Светокаменная пыль"
+			x: 1.5d
+			y: -1.5d
+			description: ["Просто светокаменная пыль, которую можно перекрафтить в светокамень!"]
+			dependencies: ["462BD8A3987B8465"]
+			id: "15812550ADBA539C"
+			tasks: [{
+				id: "05B0B519602B4D93"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+				count: 16L
+			}]
+		}
+		{
+			title: "Древние обломки"
+			x: 0.0d
+			y: 1.0d
+			description: ["Древние обломки очень редкая руда в Нижнем мире, но с помощью неё можно получить сильное снаряжение."]
+			dependencies: ["462BD8A3987B8465"]
+			id: "67061367401ADFFB"
+			tasks: [{
+				id: "5EC07FD3B9819EE4"
+				type: "item"
+				item: "minecraft:ancient_debris"
+				count: 8L
+			}]
+		}
+		{
+			title: "Незеритовый лом"
+			x: 0.5d
+			y: 2.5d
+			description: ["С помощью незеритового лома можно создать незеритовые слитки для улучшения своего снаряжения."]
+			dependencies: ["67061367401ADFFB"]
+			id: "2472ED4B88B44529"
+			tasks: [{
+				id: "711F74FD714AC33F"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+				count: 8L
+			}]
+		}
+		{
+			title: "Незеритовые слитки"
+			x: 0.5d
+			y: 4.0d
+			description: ["С помощью незеритовых слитков можно улучшить своё снаряжение и не только. Эти слитки понадобятся вам во многих крафтах."]
+			dependencies: ["2472ED4B88B44529"]
+			id: "7C6F8290B3E50949"
+			tasks: [{
+				id: "1B4BE9DC45420F43"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+				count: 2L
+			}]
+		}
+		{
+			title: "Огненные стержни"
+			x: -1.0d
+			y: 1.0d
+			description: ["С помощью огненных стержней можно создать Око Эндера, которые в свою очередь помогут вам попасть в Край!"]
+			dependencies: ["462BD8A3987B8465"]
+			id: "5807AA78E1578DDF"
+			tasks: [{
+				id: "5D6ACCCDC1081E83"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 6L
+			}]
+		}
+		{
+			title: "Око эндера"
+			x: -1.0d
+			y: 2.5d
+			description: ["С помощью Око Эндера можно попасть в новое измерение - Край!"]
+			dependencies: ["5807AA78E1578DDF"]
+			size: 1.1d
+			id: "5A4E2FDAE9E6BDB5"
+			tasks: [{
+				id: "6B88D4725A0CA70D"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 12L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			description: ["С помощью зельеварки можно варить зелья, которые могут понадобиться вам в дальнейшем."]
+			dependencies: ["5807AA78E1578DDF"]
+			id: "054786CC970C41B3"
+			tasks: [{
+				id: "4D9EB3BAFEFA4F40"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+		}
+		{
+			title: "Светокамень"
+			x: 3.0d
+			y: -1.5d
+			description: ["Просто обычный светокамень."]
+			dependencies: ["15812550ADBA539C"]
+			id: "2B4AB3B3ED59D5B7"
+			tasks: [{
+				id: "409753A557CFEAAD"
+				type: "item"
+				item: "minecraft:glowstone"
+				count: 4L
+			}]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "PBP",
+    "A  ",
+    "PBP"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:sticky_piston"
+    },
+    "P": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+    "A": {
+      "item": "appliedenergistics2:fluix_crystal"
+      }
+  },
+  "result": {
+    "item": "appliedenergistics2:inscriber"
+  },
+  "acceptMirrored": true
+}

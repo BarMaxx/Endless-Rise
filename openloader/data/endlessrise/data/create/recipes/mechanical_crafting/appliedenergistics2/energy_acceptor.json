@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "PBP",
+    "BCB",
+    "PBP"
+  ],
+  "key": {
+    "B": {
+      "item": "appliedenergistics2:quartz_vibrant_glass"
+    },
+    "P": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+    "C": {
+      "item": "appliedenergistics2:fluix_block"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:energy_acceptor"
+  },
+  "acceptMirrored": true
+}

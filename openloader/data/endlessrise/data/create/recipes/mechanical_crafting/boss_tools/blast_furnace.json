@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BDB",
+    "CD D",
+    " BDB"
+  ],
+  "key": {
+    "B": {
+      "item": "boss_tools:battery"
+    },
+    "C": {
+      "item": "atum:kiln"
+    },
+	"D": {
+      "item": "immersiveengineering:blastbrick_reinforced"
+    }
+  },
+  "result": {
+    "item": "boss_tools:blast_furnace"
+  },
+  "acceptMirrored": true
+}

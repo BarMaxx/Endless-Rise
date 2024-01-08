@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "DXPDD",
+    "SAFAS",
+    "DDPZD",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "S": {
+      "item": "tconstruct:hepatizon_ingot"
+    },
+    "A": {
+      "item": "create:precision_mechanism"
+    },
+	 "D": {
+      "item": "boss_tools:compressed_desh"
+    },
+	"X": {
+      "item": "mekanism:teleportation_core"
+    },
+	"Z": {
+      "item": "powah:crystal_nitro"
+    },
+	 "F": {
+      "item": "mekanism:pellet_polonium"
+    }
+  },
+  "result": {
+    "item": "boss_tools:golden_tank",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

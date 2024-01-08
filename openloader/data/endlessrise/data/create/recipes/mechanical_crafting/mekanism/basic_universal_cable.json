@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "PPP",
+    "CIC",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "immersiveengineering:wire_steel"
+    },
+    "I": {
+        "item": "mekanism:ingot_osmium"
+      },
+    "C": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "mekanism:basic_universal_cable"
+  },
+  "acceptMirrored": true
+}

@@ -1,0 +1,44 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " USD ",
+    "СWPWB",
+    "SAFAS",
+    "BWPWС",
+    " DSU "
+  ],
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "scalinghealth:enchanted_heart"
+    },
+    "A": {
+      "item": "the_bumblezone:pollen_puff"
+    },
+	"B": {
+      "item": "powah:ender_core"
+    },
+	"D": {
+      "item": "atum:nebu_ingot"
+    },
+    "W": {
+      "item": "magicalwings:netherite_sheating"
+    },
+	"U": {
+      "item": "quark:diamond_heart"
+    },
+	"С": {
+      "item": "upgradednetherite:wither_upgraded_netherite_ingot"
+    },
+	"F": {
+      "item": "mekanism:jetpack"
+    }
+  },
+  "result": {
+    "item": "magicalwings:netherite_wings",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

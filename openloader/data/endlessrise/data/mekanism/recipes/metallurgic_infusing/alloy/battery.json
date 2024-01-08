@@ -1,0 +1,1 @@
+{"type":"mekanism:metallurgic_infusing","itemInput":{"ingredient":{"tag":"forge:plates/iron"}},"infusionInput":{"amount":100,"tag":"mekanism:redstone"},"output":{"item":"boss_tools:battery"}}

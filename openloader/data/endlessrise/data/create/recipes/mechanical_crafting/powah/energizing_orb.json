@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "DSPSD",
+    "SAFAS",
+    "DSPSD",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "appliedenergistics2:purified_fluix_crystal"
+    },
+    "A": {
+      "item": "mekanism:teleportation_core"
+    },
+	 "D": {
+      "item": "powah:dielectric_paste"
+    },
+	 "F": {
+      "item": "appliedenergistics2:logic_processor"
+    }
+  },
+  "result": {
+    "item": "powah:energizing_orb",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

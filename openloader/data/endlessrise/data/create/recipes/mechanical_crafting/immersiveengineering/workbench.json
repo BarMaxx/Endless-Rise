@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BDB",
+    "CD D",
+    " BDB"
+  ],
+  "key": {
+    "B": {
+      "item": "immersiveengineering:plate_steel"
+    },
+    "C": {
+      "item": "immersiveengineering:craftingtable"
+    },
+	"D": {
+      "item": "immersiveengineering:treated_wood_horizontal"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:workbench"
+  },
+  "acceptMirrored": true
+}

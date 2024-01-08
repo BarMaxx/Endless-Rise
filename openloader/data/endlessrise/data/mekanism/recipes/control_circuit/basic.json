@@ -1,0 +1,1 @@
+{"type":"mekanism:metallurgic_infusing","itemInput":{"ingredient":{"item":"create:chromatic_compound"}},"infusionInput":{"amount":200,"tag":"mekanism:redstone"},"output":{"item":"mekanism:basic_control_circuit"}}

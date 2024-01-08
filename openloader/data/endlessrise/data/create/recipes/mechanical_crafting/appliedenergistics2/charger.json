@@ -1,0 +1,20 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "PBP",
+    "P  ",
+    "PBP"
+  ],
+  "key": {
+    "B": {
+      "item": "appliedenergistics2:fluix_crystal"
+    },
+    "P": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+      }
+  },
+  "result": {
+    "item": "appliedenergistics2:charger"
+  },
+  "acceptMirrored": true
+}

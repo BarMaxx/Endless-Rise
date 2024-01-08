@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:energy_tablet"
+    },
+    "S": {
+      "item": "create:precision_mechanism"
+    },
+    "A": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+	"B": {
+      "item": "mekanism:basic_control_circuit"
+    },
+	"D": {
+      "item": "create:electron_tube"
+    },
+    "W": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+	"F": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "result": {
+    "item": "mekanism:energized_smelter",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

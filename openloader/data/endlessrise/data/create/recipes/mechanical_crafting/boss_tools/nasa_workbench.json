@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " NDA ",
+    "ABPCM",
+    "DPSPD",
+    "MCPBA",
+    " ADN "
+  ],
+  "key": {
+    "P": {
+      "item": "pneumaticcraft:advanced_pcb"
+    },
+    "S": {
+      "item": "craftingstation:crafting_station"
+    },
+    "D": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+	"B": {
+      "item": "appliedenergistics2:quantum_entangled_singularity"
+    },
+	"C": {
+      "item": "mekanism:teleportation_core"
+    },
+	"N": {
+      "item": "powah:crystal_nitro"
+    },
+	"M": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "A": {
+      "item": "boss_tools:compressed_steel"
+    }
+  },
+  "result": {
+    "item": "boss_tools:nasa_workbench",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

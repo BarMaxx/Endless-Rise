@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " AAA ",
+    "AAPAA",
+    "APSPA",
+    "AAPAA",
+    " AAA "
+  ],
+  "key": {
+    "P": {
+      "item": "immersiveengineering:treated_wood_horizontal"
+    },
+    "S": {
+      "item": "immersiveengineering:coke"
+    },
+    "A": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:blastbrick",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BSB ",
+    "BDPDB",
+    "SAFAS",
+    "BDPDB",
+    " BSB "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "S": {
+      "item": "immersiveengineering:sheetmetal_electrum"
+    },
+    "A": {
+      "item": "create:electron_tube"
+    },
+	 "D": {
+      "item": "immersiveengineering:sheetmetal_electrum"
+    },
+	"B": {
+      "item": "powah:steel_energized"
+    },
+	 "F": {
+      "item": "mekanism:crusher"
+    }
+  },
+  "result": {
+    "item": "mekanism:basic_crushing_factory",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

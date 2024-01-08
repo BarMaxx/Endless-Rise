@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "pneumaticcraft:plastic"
+    },
+    "S": {
+      "item": "powah:dielectric_paste"
+    },
+    "A": {
+      "item": "create:precision_mechanism"
+    },
+	"B": {
+      "item": "pneumaticcraft:advanced_pcb"
+    },
+	"D": {
+      "item": "create:electron_tube"
+    },
+    "W": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+	"F": {
+      "item": "mekanism:enrichment_chamber"
+    }
+  },
+  "result": {
+    "item": "mekanism:pressurized_reaction_chamber",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

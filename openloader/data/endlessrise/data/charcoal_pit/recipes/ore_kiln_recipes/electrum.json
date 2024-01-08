@@ -1,0 +1,25 @@
+{
+  "type": "charcoal_pit:orekiln",
+  "ingredients": [
+    [
+        {
+          "tag": "forge:ores/gold"
+        },
+        {
+          "tag": "forge:dusts/gold"
+        }
+    ],
+    [
+        {
+          "tag": "forge:ores/silver"
+        },
+        {
+          "tag": "forge:dusts/silver"
+        }
+    ]
+  ],
+  "result": {
+    "tag": "forge:ingots/electrum"
+  },
+  "amount": 1
+}

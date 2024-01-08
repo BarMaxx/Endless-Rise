@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:reinforced_stone"
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:reinforced_bricks"
+    }
+  ]
+}

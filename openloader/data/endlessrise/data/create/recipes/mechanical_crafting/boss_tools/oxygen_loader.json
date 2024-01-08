@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BDB",
+    "CD D",
+    " BDB"
+  ],
+  "key": {
+    "B": {
+      "item": "boss_tools:battery"
+    },
+    "C": {
+      "item": "boss_tools:oxygen_tank"
+    },
+	"D": {
+      "item": "immersiveengineering:sheetmetal_iron"
+    }
+  },
+  "result": {
+    "item": "boss_tools:oxygen_loader"
+  },
+  "acceptMirrored": true
+}

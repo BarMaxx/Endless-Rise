@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "PPB",
+    "PCI",
+    "PPB"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "B": {
+      "item": "create:polished_rose_quartz"
+    },
+    "I": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+    "C": {
+      "item": "immersiveengineering:coil_lv"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:dynamo"
+  },
+  "acceptMirrored": true
+}

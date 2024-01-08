@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "PBP",
+    "BCB",
+    "PBP"
+  ],
+  "key": {
+    "B": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "P": {
+      "item": "pneumaticcraft:reinforced_bricks"
+      },
+    "C": {
+      "item": "pneumaticcraft:pressure_tube"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:pressure_chamber_valve"
+  },
+  "acceptMirrored": true
+}

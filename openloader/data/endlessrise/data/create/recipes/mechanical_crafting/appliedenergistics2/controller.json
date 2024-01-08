@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BSB ",
+    "CAPAC",
+    "GPFPG",
+    "CAPAC",
+    " BSB "
+  ],
+  "key": {
+    "P": {
+      "item": "appliedenergistics2:engineering_processor"
+    },
+    "A": {
+      "item": "appliedenergistics2:smooth_sky_stone_block"
+    },
+	"B": {
+      "item": "appliedenergistics2:formation_core"
+    },
+	"S": {
+      "item": "tconstruct:manyullyn_ingot"
+    },
+	"C": {
+      "item": "appliedenergistics2:annihilation_core"
+    },
+	"G": {
+      "item": "create:precision_mechanism"
+    },
+	"F": {
+      "item": "appliedenergistics2:purified_fluix_crystal"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:controller",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

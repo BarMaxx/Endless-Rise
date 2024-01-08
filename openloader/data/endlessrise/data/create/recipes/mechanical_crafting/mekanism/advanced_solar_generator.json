@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:energy_tablet"
+    },
+    "S": {
+      "item": "powah:steel_energized"
+    },
+    "A": {
+      "item": "create:precision_mechanism"
+    },
+	"B": {
+      "item": "mekanism:elite_control_circuit"
+    },
+	"D": {
+      "item": "pneumaticcraft:pcb_blueprint"
+    },
+    "W": {
+      "item": "pneumaticcraft:plastic"
+    },
+	"F": {
+      "item": "mekanismgenerators:solar_generator"
+    }
+  },
+  "result": {
+    "item": "mekanismgenerators:advanced_solar_generator",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

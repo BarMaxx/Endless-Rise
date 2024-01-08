@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "S": {
+      "item": "powah:crystal_spirited"
+    },
+    "A": {
+      "item": "create:precision_mechanism"
+    },
+	"B": {
+      "item": "immersiveengineering:sheetmetal_constantan"
+    },
+	"D": {
+      "item": "create:polished_rose_quartz"
+    },
+    "W": {
+      "item": "mekanism:electrolytic_core"
+    },
+	"F": {
+      "item": "pneumaticcraft:lpg_bucket"
+    }
+  },
+  "result": {
+    "item": "mekanismgenerators:gas_burning_generator",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BDB",
+    "CD D",
+    " BDB"
+  ],
+  "key": {
+    "B": {
+      "item": "boss_tools:battery"
+    },
+    "C": {
+      "item": "mekanismgenerators:advanced_solar_generator"
+    },
+	"D": {
+      "item": "mekanism:elite_control_circuit"
+    }
+  },
+  "result": {
+    "item": "boss_tools:solar_panel"
+  },
+  "acceptMirrored": true
+}

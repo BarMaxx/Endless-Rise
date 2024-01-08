@@ -1,0 +1,47 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " USG ",
+    "XZPID",
+    "SAFAS",
+    "DIPZX",
+    " GSU "
+  ],
+  "key": {
+    "P": {
+      "item": "tconstruct:manyullyn_ingot"
+    },
+    "S": {
+      "item": "boss_tools:iron_plate"
+    },
+    "A": {
+      "item": "create:precision_mechanism"
+    },
+	 "D": {
+      "item": "boss_tools:compressed_steel"
+    },
+	"Z": {
+      "item": "mekanism:teleportation_core"
+    },
+	"I": {
+      "item": "pneumaticcraft:advanced_pcb"
+    },
+	"G": {
+      "item": "mekanism:pellet_polonium"
+    },
+	"U": {
+      "item": "powah:crystal_nitro"
+    },
+	"X": {
+      "item": "betterendforge:aeternium_ingot"
+    },
+	 "F": {
+      "item": "mekanism:qio_drive_supermassive"
+    }
+  },
+  "result": {
+    "item": "boss_tools:rocket_fin",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

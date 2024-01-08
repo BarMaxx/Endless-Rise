@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " AAA ",
+    "AAPAA",
+    "APSPA",
+    "AAPAA",
+    " AAA "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "S": {
+      "item": "boss_tools:hammer"
+    },
+    "A": {
+      "item": "immersiveengineering:plate_steel"
+    }
+  },
+  "result": {
+    "item": "boss_tools:compressor",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

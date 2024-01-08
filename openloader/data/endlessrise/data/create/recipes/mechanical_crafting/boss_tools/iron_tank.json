@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "DZPXD",
+    "SAFAS",
+    "DXPZD",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "S": {
+      "item": "tconstruct:hepatizon_ingot"
+    },
+    "A": {
+      "item": "create:precision_mechanism"
+    },
+	 "D": {
+      "item": "boss_tools:compressed_steel"
+    },
+	"Z": {
+      "item": "pneumaticcraft:advanced_pcb"
+    },
+	"X": {
+      "item": "powah:crystal_nitro"
+    },
+	 "F": {
+      "item": "mekanism:pellet_plutonium"
+    }
+  },
+  "result": {
+    "item": "boss_tools:iron_tank",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

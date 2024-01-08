@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BDB",
+    "CD D",
+    " BDB"
+  ],
+  "key": {
+    "B": {
+      "item": "boss_tools:battery"
+    },
+    "C": {
+      "item": "mekanismgenerators:heat_generator"
+    },
+	"D": {
+      "item": "mekanism:pellet_plutonium"
+    }
+  },
+  "result": {
+    "item": "boss_tools:coal_generator"
+  },
+  "acceptMirrored": true
+}

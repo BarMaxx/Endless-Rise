@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BSB ",
+    "BZPXB",
+    "SAFAS",
+    "BXPZB",
+    " BSB "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "S": {
+      "item": "immersiveengineering:sheetmetal_electrum"
+    },
+    "A": {
+      "item": "mekanism:alloy_atomic"
+    },
+	"B": {
+      "item": "powah:crystal_nitro"
+    },
+	"Z": {
+      "item": "mekanism:teleportation_core"
+    },
+	"X": {
+      "item": "mekanism:pellet_polonium"
+    },
+	 "F": {
+      "item": "mekanism:elite_combining_factory"
+    }
+  },
+  "result": {
+    "item": "mekanism:ultimate_combining_factory",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

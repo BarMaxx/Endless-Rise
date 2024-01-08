@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BDB",
+    "CD D",
+    " BDB"
+  ],
+  "key": {
+    "B": {
+      "item": "boss_tools:battery"
+    },
+    "C": {
+      "item": "mekanism:fuelwood_heater"
+    },
+	"D": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    }
+  },
+  "result": {
+    "item": "boss_tools:fuel_refinery"
+  },
+  "acceptMirrored": true
+}

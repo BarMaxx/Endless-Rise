@@ -1,0 +1,644 @@
+{
+	id: "79806CE493974743"
+	group: "4F34514062F979C6"
+	order_index: 1
+	filename: "79806CE493974743"
+	title: "Хранилище"
+	icon: "appliedenergistics2:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Изменчивые кристаллы"
+			x: -4.5d
+			y: 1.5d
+			description: ["Изменчивые кристаллы один из основных ресурсов для создания БЕСКОНЕЧНОГО(ну, почти) хранилища! Чтобы их получить, нужно бросить в воду 1 заряженный истинный кварц, 1 кварц нижнего мира и 1 редстоун пыль."]
+			size: 1.1d
+			id: "38D25F8137A28EFD"
+			tasks: [{
+				id: "5AECA94727BED8A7"
+				type: "item"
+				item: "appliedenergistics2:fluix_crystal"
+				count: 8L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: ["С помощью зарядника можно заряжать кварц."]
+			dependencies: ["7B666CDF873DD532"]
+			id: "2614C1BF4AFBEB08"
+			tasks: [{
+				id: "7F424986E0A8CFC8"
+				type: "item"
+				item: "appliedenergistics2:charger"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["С помощью высекателя можно создавать различные компоненты, которые нужны для создания МЭ хранилища. Для создния этих компонентов нужны формы этих компонентов, которые в свою очередь, находятся внутри метеоритов.(Всего форм 4)"]
+			dependencies: ["2614C1BF4AFBEB08"]
+			id: "116A04DB56AEFF3E"
+			tasks: [{
+				id: "56A0C6C1A7C6BFC2"
+				type: "item"
+				item: "appliedenergistics2:inscriber"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			description: ["Пресс для высекателя, нужен для того, чтобы создать МЭ систему."]
+			hide_dependency_lines: true
+			dependencies: ["116A04DB56AEFF3E"]
+			id: "611330E698CC1E78"
+			tasks: [{
+				id: "425B355DBD855B0A"
+				type: "item"
+				item: "appliedenergistics2:calculation_processor_press"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			description: ["Пресс для высекателя, нужен для того, чтобы создать МЭ систему."]
+			hide_dependency_lines: true
+			dependencies: ["116A04DB56AEFF3E"]
+			id: "1F8CCECCACA5D33A"
+			tasks: [{
+				id: "3991FC1316C677AD"
+				type: "item"
+				item: "appliedenergistics2:engineering_processor_press"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			description: ["Пресс для высекателя, нужен для того, чтобы создать МЭ систему."]
+			hide_dependency_lines: true
+			dependencies: ["116A04DB56AEFF3E"]
+			id: "759C0F5612C90F04"
+			tasks: [{
+				id: "575349332F11A177"
+				type: "item"
+				item: "appliedenergistics2:logic_processor_press"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			description: ["Пресс для высекателя, нужен для того, чтобы создать МЭ систему."]
+			hide_dependency_lines: true
+			dependencies: ["116A04DB56AEFF3E"]
+			id: "4E19E43FFAFC0BDB"
+			tasks: [{
+				id: "0BA02540CE16F796"
+				type: "item"
+				item: "appliedenergistics2:silicon_press"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			description: ["С помощью метеоритного компаса можно искать метеориты по всему миру. Внутри метеорита находится сундук, в котором находятся формы. Обычно этот сундук находится по-центру метеорита."]
+			dependencies: ["2614C1BF4AFBEB08"]
+			id: "5E5746EA61145D4C"
+			tasks: [{
+				id: "3123A856FC1986C3"
+				type: "item"
+				item: "appliedenergistics2:sky_compass"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: ["С помощью изменчивого МЭ стеклянного кабеля можно передавать энергию из этого мода на расстояние."]
+			dependencies: ["38D25F8137A28EFD"]
+			id: "2A0A5A9E18005F31"
+			tasks: [{
+				id: "0B985E2751535367"
+				type: "item"
+				item: "appliedenergistics2:fluix_glass_cable"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["С помощью ускорителя роста кристаллов можно ускорить рост чистых кристаллов.(Советую вам их создать)"]
+			dependencies: ["2A0A5A9E18005F31"]
+			id: "71CD56B8654872BE"
+			tasks: [{
+				id: "29500A1514B66CB2"
+				type: "item"
+				item: "appliedenergistics2:quartz_growth_accelerator"
+			}]
+		}
+		{
+			title: "Семена кварца"
+			x: 0.5d
+			y: -0.5d
+			description: ["Семена, из которых, путём роста в воде, получются чистые кристаллы."]
+			dependencies: ["71CD56B8654872BE"]
+			id: "3E655507E5C51C7A"
+			tasks: [
+				{
+					id: "7029C2ECA72FEFC4"
+					type: "item"
+					item: "appliedenergistics2:fluix_crystal_seed"
+				}
+				{
+					id: "5D7A9F9037A1318F"
+					type: "item"
+					item: "appliedenergistics2:certus_crystal_seed"
+				}
+				{
+					id: "5D77EC79BD6D7816"
+					type: "item"
+					item: "appliedenergistics2:nether_quartz_seed"
+				}
+			]
+		}
+		{
+			title: "Чистые кристаллы"
+			x: 2.0d
+			y: 0.0d
+			description: ["С помощью чистых кристаллов создаётся много предметов из этого мода."]
+			dependencies: ["3E655507E5C51C7A"]
+			id: "1864C5BF06205F25"
+			tasks: [
+				{
+					id: "1AA64362868CFEC7"
+					type: "item"
+					item: "appliedenergistics2:purified_fluix_crystal"
+				}
+				{
+					id: "25CAB141A2103816"
+					type: "item"
+					item: "appliedenergistics2:purified_certus_quartz_crystal"
+				}
+				{
+					id: "1BFD8C51A0C12AB9"
+					type: "item"
+					item: "appliedenergistics2:purified_nether_quartz_crystal"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			description: ["Принимает энергию из других модов!"]
+			dependencies: ["38D25F8137A28EFD"]
+			id: "7B666CDF873DD532"
+			tasks: [{
+				id: "4E694B5033F22BC6"
+				type: "item"
+				item: "appliedenergistics2:energy_acceptor"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			shape: "pentagon"
+			description: ["МЭ контроллер один из самых важных блоков при создании МЭ системы."]
+			dependencies: [
+				"116A04DB56AEFF3E"
+				"1864C5BF06205F25"
+			]
+			size: 1.2d
+			id: "6A63DD0C75C4DC73"
+			tasks: [{
+				id: "26FC0118846E6FA3"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			description: ["С помощью МЭ накопителя можно хранить почти бесконечное количество ресурсов. Всё что нужно, это положить внутрь МЭ накопителя ячейки хранения."]
+			dependencies: ["6A63DD0C75C4DC73"]
+			id: "601325ECE439EDA4"
+			tasks: [{
+				id: "7972A379E6E71A12"
+				type: "item"
+				item: "appliedenergistics2:drive"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			description: ["Самый обычный терминал, с помощью него можно работать с МЭ системой."]
+			dependencies: ["6A63DD0C75C4DC73"]
+			id: "7CE9B4C41FD8D048"
+			tasks: [{
+				id: "737DA8D1511DD00F"
+				type: "item"
+				item: "appliedenergistics2:terminal"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			description: ["С помощью МЭ терминала шаблонов можно создавать шаблоны для автокрафта! "]
+			hide_dependency_lines: true
+			dependencies: ["7CE9B4C41FD8D048"]
+			id: "45BC756331F2C438"
+			tasks: [{
+				id: "6991B1EF7E903103"
+				type: "item"
+				item: "appliedenergistics2:pattern_terminal"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			description: ["С помощью МЭ термина крафта можно не только работать с МЭ системой, но и крафтить различные предметы."]
+			hide_dependency_lines: true
+			dependencies: ["7CE9B4C41FD8D048"]
+			id: "6947B0D789ACD97E"
+			tasks: [{
+				id: "5144F47EF09D85EA"
+				type: "item"
+				item: "appliedenergistics2:crafting_terminal"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			description: ["Ячейка, которая может вместить 1024 байтов и 63 типа предметов."]
+			hide_dependency_lines: true
+			dependencies: ["601325ECE439EDA4"]
+			id: "7CC7A8055789364C"
+			tasks: [{
+				id: "513244AB315B5E58"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			description: ["Ячейка, которая может вместить 4096 байтов и 63 типа предметов."]
+			hide_dependency_lines: true
+			dependencies: ["601325ECE439EDA4"]
+			id: "7FABF570E44135F5"
+			tasks: [{
+				id: "4297B27A41CE7D8B"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.5d
+			description: ["Ячейка, которая может вместить 16384 байтов и 63 типа предметов."]
+			hide_dependency_lines: true
+			dependencies: ["601325ECE439EDA4"]
+			id: "689B487E6F2176EB"
+			tasks: [{
+				id: "65272A1BF6B793D0"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			description: ["Ячейка, которая может вместить 65536 байтов и 63 типа предметов."]
+			hide_dependency_lines: true
+			dependencies: ["601325ECE439EDA4"]
+			id: "5C35B7CA713C8447"
+			tasks: [{
+				id: "6A0A54C9C865116F"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			description: ["Ячейка, которая может вместить 1024 байтов и 5 типа жидкостей."]
+			hide_dependency_lines: true
+			dependencies: ["601325ECE439EDA4"]
+			id: "47B535D420AC234A"
+			tasks: [{
+				id: "2214BD39ED908A7B"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			description: ["Ячейка, которая может вместить 4096 байтов и 5 типа жидкостей."]
+			hide_dependency_lines: true
+			dependencies: ["601325ECE439EDA4"]
+			id: "2F138F22E3E5185A"
+			tasks: [{
+				id: "6D27F0397AC7B807"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			description: ["Ячейка, которая может вместить 16384 байтов и 5 типа жидкостей."]
+			hide_dependency_lines: true
+			dependencies: ["601325ECE439EDA4"]
+			id: "7316E9856F0A6A86"
+			tasks: [{
+				id: "4A4C0B3D88305107"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:16k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			description: ["Ячейка, которая может вместить 65536 байтов и 5 типа жидкостей."]
+			hide_dependency_lines: true
+			dependencies: ["601325ECE439EDA4"]
+			id: "78412AAE2B2B48D7"
+			tasks: [{
+				id: "5B1288F1DA58FFA3"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			description: ["С помощью блока крафта можно создать блоки обработки крафта и блоки хранения крафта."]
+			dependencies: ["601325ECE439EDA4"]
+			id: "292289FEE7F94D68"
+			tasks: [{
+				id: "308478163CAF0C9B"
+				type: "item"
+				item: "appliedenergistics2:crafting_unit"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			description: ["С помощью блока обработки крафта можно создавать авто-крафты для автоматизации производства."]
+			dependencies: ["292289FEE7F94D68"]
+			id: "69825D5DFE2FB5F8"
+			tasks: [{
+				id: "2A680EAA23C52A14"
+				type: "item"
+				item: "appliedenergistics2:crafting_accelerator"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			description: ["Хранилище, которое может хранить 1024 байтов крафта."]
+			hide_dependency_lines: true
+			dependencies: ["69825D5DFE2FB5F8"]
+			id: "1FDCD30F8BD7404F"
+			tasks: [{
+				id: "2E5970D18B14060A"
+				type: "item"
+				item: "appliedenergistics2:1k_crafting_storage"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			description: ["Хранилище, которое может хранить 4096 байтов крафта."]
+			hide_dependency_lines: true
+			dependencies: ["69825D5DFE2FB5F8"]
+			id: "3BD10D801BF998D9"
+			tasks: [{
+				id: "457FF15D445E1B26"
+				type: "item"
+				item: "appliedenergistics2:4k_crafting_storage"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			description: ["Хранилище, которое может хранить 16384 байтов крафта."]
+			hide_dependency_lines: true
+			dependencies: ["69825D5DFE2FB5F8"]
+			id: "277CDE6E08FF89AB"
+			tasks: [{
+				id: "79268CE839B50FE1"
+				type: "item"
+				item: "appliedenergistics2:16k_crafting_storage"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			description: ["Хранилище, которое может хранить 65536 байтов крафта."]
+			hide_dependency_lines: true
+			dependencies: ["69825D5DFE2FB5F8"]
+			id: "43C122C1636BFB88"
+			tasks: [{
+				id: "533F18395F9313F0"
+				type: "item"
+				item: "appliedenergistics2:64k_crafting_storage"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			description: ["С помощью монитора крафта можно следить за вашими авто-крафтами, чтобы они никуда не сбежали."]
+			dependencies: ["69825D5DFE2FB5F8"]
+			id: "190383D0B53D0F7D"
+			tasks: [{
+				id: "7827CA0D30D7A469"
+				type: "item"
+				item: "appliedenergistics2:crafting_monitor"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			description: ["С помощью энергетической ячейки можно хранить энергии из этого мода, а именно AE."]
+			dependencies: ["7B666CDF873DD532"]
+			id: "2BDCD81FDB48C02B"
+			tasks: [{
+				id: "3BAE55C0E8C55FDF"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			description: ["С помощью плотной энергетической ячейки можно хранить больше энергии из этого мода."]
+			dependencies: ["2BDCD81FDB48C02B"]
+			id: "1C2B1B511457BAF0"
+			tasks: [{
+				id: "24452BA5B72A1C56"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:dense_energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.0d
+			description: ["С помощью конденсатора материи можно создавать шары материи и сингулярность, при этом удаляя очень много предметов."]
+			dependencies: ["5C35B7CA713C8447"]
+			id: "28228B7B50410FD3"
+			tasks: [{
+				id: "39A6338A91884606"
+				type: "item"
+				item: "appliedenergistics2:condenser"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			shape: "pentagon"
+			description: ["Сингулярность создаётся в конденсаторе материи, при этом нужно удалить 256 ТЫСЯЧ предметов.(всего-то...)"]
+			dependencies: ["28228B7B50410FD3"]
+			size: 1.2d
+			id: "48FABDCCAEA50360"
+			tasks: [{
+				id: "080E8F54B5EC77A6"
+				type: "item"
+				item: "appliedenergistics2:singularity"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.5d
+			shape: "pentagon"
+			description: ["Чтобы сделать квантовую запутанную сингулярность, нужно бросить на землю сингулярность и эндер-пыль, после взорвав рядом с ними что-нибудь."]
+			dependencies: ["48FABDCCAEA50360"]
+			size: 1.2d
+			id: "0CC765D2CCFCA86B"
+			tasks: [{
+				id: "4C32C3834402F31F"
+				type: "item"
+				item: "appliedenergistics2:quantum_entangled_singularity"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			shape: "hexagon"
+			description: ["В этом руководстве расписан каждый предмет из этого мода, если что-то не понимате, откройте его и почитайте."]
+			dependencies: ["38D25F8137A28EFD"]
+			size: 1.3d
+			id: "7C9DBDAAF22D2DAF"
+			tasks: [{
+				id: "116C7525E208E706"
+				type: "item"
+				item: "powah:book"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			dependencies: ["7C9DBDAAF22D2DAF"]
+			size: 1.1d
+			id: "4BC27B8F8CBF12A3"
+			tasks: [{
+				id: "419F9F59CF4FA7F8"
+				type: "item"
+				item: "powah:energizing_orb"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			dependencies: ["4BC27B8F8CBF12A3"]
+			id: "4222E4C3CB12466C"
+			tasks: [{
+				id: "3F961B57CF367A8D"
+				type: "item"
+				item: "powah:steel_energized"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.5d
+			dependencies: ["4BC27B8F8CBF12A3"]
+			id: "55089144A1EAB58D"
+			tasks: [{
+				id: "267C50F26D4EDAA8"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 1.5d
+			dependencies: ["4BC27B8F8CBF12A3"]
+			id: "297BFFD7B579CB71"
+			tasks: [{
+				id: "726F71DF2A08B309"
+				type: "item"
+				item: "powah:crystal_niotic"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			dependencies: ["4BC27B8F8CBF12A3"]
+			id: "740DC1D7FBBB85D3"
+			tasks: [{
+				id: "0B63516D112B09F7"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.5d
+			dependencies: ["4BC27B8F8CBF12A3"]
+			id: "6188EB67616DEC14"
+			tasks: [{
+				id: "77C4F4D7ABEACD90"
+				type: "item"
+				item: "powah:crystal_nitro"
+			}]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "language": "English",
+  "language.region": "United States",
+  "language.code": "en_us",
+  "author": "KrykiZZ",
+
+  "item.magicalwings.leather_wings": "Кожаные Крылья",
+  "item.magicalwings.iron_wings": "Железные Крылья",
+  "item.magicalwings.gold_wings": "Золотые Крылья",
+  "item.magicalwings.diamond_wings": "Алмазные Крылья",
+  "item.magicalwings.netherite_wings": "Незеритовые Крылья",
+
+  "item.magicalwings.fairy_dust": "Сказочная пыль",
+  "item.magicalwings.ender_dust": "Эндер пыль",
+  "item.magicalwings.floating_feather": "Перо Феникса",
+  "item.magicalwings.floating_leather": "Адская Кожа",
+
+  "item.magicalwings.netherite_sheating": "Незеритовая Обшивка",
+  "item.magicalwings.diamond_sheating": "Алмазная Обшивка",
+  "item.magicalwings.iron_sheating": "Железная Обшивка",
+  "item.magicalwings.gold_sheating": "Золотая Обшивка",
+  "item.magicalwings.leather_sheating": "Кожаная Обшивка"
+}

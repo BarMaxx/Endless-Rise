@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "DZPXD",
+    "SAFAS",
+    "DXPZD",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "boss_tools:engine_casing"
+    },
+    "S": {
+      "item": "boss_tools:battery"
+    },
+    "A": {
+      "item": "boss_tools:engine_fan"
+    },
+	 "D": {
+      "item": "boss_tools:compressed_silicon"
+    },
+	"Z": {
+      "item": "mekanism:qio_drive_supermassive"
+    },
+	"X": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+	 "F": {
+      "item": "appliedenergistics2:quantum_entangled_singularity"
+    }
+  },
+  "result": {
+    "item": "boss_tools:diamond_engine",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

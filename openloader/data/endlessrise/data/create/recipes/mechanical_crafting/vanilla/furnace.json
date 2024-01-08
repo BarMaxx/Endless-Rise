@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "PPB",
+    "PCI",
+    "PPB"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/brass"
+    },
+    "B": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "I": 
+      {
+        "item": "immersiveengineering:sheetmetal_iron"
+      },
+    "C": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace"
+  },
+  "acceptMirrored": true
+}

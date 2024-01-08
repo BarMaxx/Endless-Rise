@@ -1,0 +1,921 @@
+{
+	id: "09BC33749D387467"
+	group: ""
+	order_index: 0
+	filename: "09BC33749D387467"
+	title: "Эпоха Примитива"
+	icon: "notreepunching:flint_shard"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.5d
+			y: 0.0d
+			shape: "gear"
+			description: ["Приветствуем вас на сборке Endless Rise. В этой сборке вам предстоит изучить множество модов, от примитивных технологий до полёта в Космос. Это будет сложный путь, но мы обещаем - он вам понравится.       P.s. Эта сборка сделана командой LGame, и мы желаем вам удачи в прохождении. "]
+			size: 1.3d
+			id: "4015F9A5ADB11078"
+			tasks: [{
+				id: "60365BB57572B491"
+				type: "checkmark"
+				title: "Начало сборки"
+			}]
+			rewards: [{
+				id: "5DFB8AD4407E5E8A"
+				type: "item"
+				item: "antiqueatlas:empty_antique_atlas"
+			}]
+		}
+		{
+			title: "Палки и осколки кремня"
+			x: -0.5d
+			y: 0.0d
+			description: ["Палки выпадают при ломании листвы. А вот осколки кремения можно получить раздробив кремень об твёрдый блок, например - камень."]
+			dependencies: ["4F79D63210D7FE5D"]
+			id: "40F68DE6AA5E6427"
+			tasks: [
+				{
+					id: "1A4B12B4B4F177BE"
+					type: "item"
+					item: "minecraft:stick"
+					count: 8L
+				}
+				{
+					id: "7B3F1A50C70A9F90"
+					type: "item"
+					item: "notreepunching:flint_shard"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Добыча верёвки"
+			x: 1.5d
+			y: 0.0d
+			description: ["Верёвка вам понадобится для создания примитивных инструментов."]
+			dependencies: ["40F68DE6AA5E6427"]
+			id: "5FC3EB3CCCFF0F05"
+			tasks: [
+				{
+					id: "019BF4C23C9EDCFC"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6BAA7EF15E62EC27"
+					type: "item"
+					item: "notreepunching:plant_fiber"
+					count: 6L
+				}
+				{
+					id: "58D6B1E5D0A5AD5E"
+					type: "item"
+					item: "notreepunching:plant_string"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["С помощью любой ванильной мотыги можно получить сено, а из него волокна, которые нужны для создания верёвки."]
+			dependencies: ["40F68DE6AA5E6427"]
+			id: "55592F4BB319F39F"
+			tasks: [{
+				id: "580C81DE54238A94"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Сено"
+			x: -1.0d
+			y: -3.0d
+			description: ["Выпадает с любой травы, используя ванильную мотыгу."]
+			dependencies: ["55592F4BB319F39F"]
+			id: "0F5335A370C7C1BF"
+			tasks: [{
+				id: "47815D72B12A00B1"
+				type: "item"
+				item: "charcoal_pit:straw"
+			}]
+		}
+		{
+			title: "Примитивный топор"
+			x: 3.5d
+			y: 0.0d
+			shape: "pentagon"
+			description: ["С примитивным топором можно быстрее рубить деревья."]
+			dependencies: ["5FC3EB3CCCFF0F05"]
+			size: 1.1d
+			id: "3A6840BC06F09951"
+			tasks: [
+				{
+					id: "26735D401C842263"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4BA229A3FE1DA2CE"
+					type: "item"
+					item: "craftingstation:crafting_station"
+				}
+			]
+		}
+		{
+			title: "Примитивная кирка"
+			x: 8.0d
+			y: -1.5d
+			description: ["Поможет вам в добыче руды для дальнейшей её оброботке. Эту кирку можно создать на специальных столах."]
+			dependencies: ["5A4656CE89EAE595"]
+			id: "6264DD1A5265CA11"
+			tasks: [{
+				id: "670E77B8F1E9E6A1"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 3.5f
+							"tconstruct:attack_damage": 1.4250001f
+							"tconstruct:harvest_level": 1.0f
+							"tconstruct:durability": 68.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:jagged"
+								level: 3s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:flint"
+							"tconstruct:flint"
+							"tconstruct:flint"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Примитивный меч"
+			x: 5.5d
+			y: 0.0d
+			description: ["Простой способ убийства враждебных мобов на ранних этапах игры. Этот меч можно создать на специальных столах."]
+			dependencies: ["3A6840BC06F09951"]
+			id: "0A92EA23D2322807"
+			tasks: [{
+				id: "2A7F77D58B337AF8"
+				type: "item"
+				item: {
+					id: "tconstruct:sword"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.5f
+							"tconstruct:durability": 1.1f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.6f
+							"tconstruct:mining_speed": 1.75f
+							"tconstruct:attack_damage": 4.675f
+							"tconstruct:harvest_level": 1.0f
+							"tconstruct:durability": 74.8f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:jagged"
+								level: 3s
+							}
+							{
+								name: "tconstruct:silky_shears"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:flint"
+							"tconstruct:flint"
+							"tconstruct:flint"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Примитивная лопата"
+			x: 4.5d
+			y: 1.5d
+			description: ["Глина нужна чтобы создать глиняный сосуд и в нём выплавить свой первый металл - медь!"]
+			dependencies: ["3A6840BC06F09951"]
+			id: "7EBB21849EC41175"
+			tasks: [
+				{
+					id: "056E0C8B9457D3C0"
+					type: "item"
+					item: "minecraft:clay"
+					count: 10L
+				}
+				{
+					id: "3A57B475116FF8AD"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Глиняный сосуд"
+			x: 10.5d
+			y: -3.0d
+			shape: "hexagon"
+			description: ["Нужен чтобы плавить металлы(в основном). Для этого нужно положить его в яму(Шифт + ПКМ) закрыть со всех сторон землей, поверх сосуда положить сено(ПКМ) и дерево(ПКМ), а дальше поджечь."]
+			dependencies: ["08D541875A03DFFD"]
+			size: 1.1d
+			id: "42FE908F1D88CAE9"
+			tasks: [{
+				id: "17235380861E02CA"
+				type: "item"
+				item: "charcoal_pit:clay_pot"
+			}]
+		}
+		{
+			title: "Кирпичи"
+			x: 9.5d
+			y: 1.5d
+			description: ["Они понадобятся для получения коксового угля и постройки домны."]
+			dependencies: [
+				"33D766CC2E68C961"
+				"226D273CFCD69825"
+			]
+			id: "7A0E4BDCE0CFCEEF"
+			tasks: [{
+				id: "594B9539BDD08E01"
+				type: "item"
+				item: "minecraft:bricks"
+				count: 12L
+			}]
+		}
+		{
+			title: "Медные слитки"
+			x: 11.5d
+			y: -1.5d
+			description: ["Слитки меди нужны, чтобы построить домну и плавить более тугоплавкие металлы."]
+			dependencies: [
+				"08D541875A03DFFD"
+				"42FE908F1D88CAE9"
+			]
+			id: "2F178217D0C37FC8"
+			tasks: [{
+				id: "7A9E26A9EE9E75A4"
+				type: "item"
+				title: "Медные слитки"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/copper"
+					}
+				}
+				count: 2L
+			}]
+		}
+		{
+			title: "Домна"
+			x: 11.5d
+			y: 0.5d
+			description: ["Чтобы построить домну нужно поставить 2 блока фурмы по краям, на них блоки кирпича. Также, чтобы процесс шёл быстрее, нужны меха, которые ставятся к блокам фурмы."]
+			dependencies: [
+				"7A0E4BDCE0CFCEEF"
+				"2F178217D0C37FC8"
+			]
+			id: "4EBFB6F86A201036"
+			tasks: [
+				{
+					id: "6C236567795EC17D"
+					type: "item"
+					item: "charcoal_pit:brick_tuyere"
+					count: 2L
+				}
+				{
+					id: "15CD856AD86D76FE"
+					type: "item"
+					item: "charcoal_pit:bellows"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Железная руда"
+			x: 13.0d
+			y: 0.5d
+			description: ["Просто железная руда."]
+			dependencies: ["4EBFB6F86A201036"]
+			id: "0D1E69925DD2C3CE"
+			tasks: [{
+				id: "40841BC25AD67AE4"
+				type: "item"
+				title: "Железная руда"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ores/iron"
+					}
+				}
+				count: 4L
+			}]
+		}
+		{
+			title: "Железные слитки"
+			x: 14.5d
+			y: 0.0d
+			shape: "gear"
+			description: ["Это главный металл, чтобы перейти в новую эпоху - Эпоху Механики!"]
+			dependencies: ["0D1E69925DD2C3CE"]
+			size: 1.3d
+			id: "544D867E9E65F95E"
+			tasks: [{
+				id: "67925F061791895F"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 8L
+			}]
+		}
+		{
+			title: "Блок коксового угля"
+			x: 9.5d
+			y: 3.0d
+			description: ["Чтобы получить блок коксового угля, нужно зажечь и герметично застроить кирпичами блок обычного угля."]
+			dependencies: ["7A0E4BDCE0CFCEEF"]
+			id: "17DABC5FC1A79596"
+			tasks: [{
+				id: "51B2005EAC8205F6"
+				type: "item"
+				item: "charcoal_pit:coke_block"
+			}]
+		}
+		{
+			title: "Огниво"
+			x: 2.0d
+			y: -1.5d
+			description: ["Используется для разжигания огня."]
+			dependencies: ["5FC3EB3CCCFF0F05"]
+			id: "069BDFDAE5930675"
+			tasks: [{
+				id: "6F23942737E391A8"
+				type: "item"
+				item: {
+					id: "notreepunching:fire_starter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Медная руда"
+			x: 9.5d
+			y: -1.5d
+			description: ["Просто медная руда."]
+			dependencies: ["6264DD1A5265CA11"]
+			id: "08D541875A03DFFD"
+			tasks: [{
+				id: "23315BF678E2A4A0"
+				type: "item"
+				title: "Медная руда"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ores/copper"
+					}
+				}
+				count: 4L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: ["Довольно простой способ добычи еды на ранних этапах игры."]
+			dependencies: ["5FC3EB3CCCFF0F05"]
+			id: "1623F52695BB1A56"
+			tasks: [{
+				id: "5A095D884FA72716"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Добыча кремния"
+			x: -2.0d
+			y: 0.0d
+			description: ["С помощью ручной мельницы вы можете получить кремень, который понадобится вам для создания примитивных инструментов."]
+			dependencies: ["4015F9A5ADB11078"]
+			id: "4F79D63210D7FE5D"
+			tasks: [
+				{
+					id: "5C49500CA9F58541"
+					type: "item"
+					item: "atum:quern"
+				}
+				{
+					id: "0B08A5311B6409A5"
+					type: "item"
+					item: "minecraft:flint"
+					count: 3L
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			description: ["Сундук, который хранит больше вещей, он вам понадобится."]
+			dependencies: ["544D867E9E65F95E"]
+			id: "7E50B0D00134778F"
+			tasks: [{
+				id: "7E2899B13AF3E999"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+		{
+			title: "Обычный рюкзак"
+			x: -0.5d
+			y: -4.0d
+			description: ["Рюкзак позволяет переносить вещи, не забивая инвентарь."]
+			dependencies: ["0F5335A370C7C1BF"]
+			id: "5B98F2283C80A47C"
+			tasks: [{
+				id: "10CFC3E56023A19A"
+				type: "item"
+				item: {
+					id: "simplybackpacks:commonbackpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Необычный рюкзак"
+			x: 0.5d
+			y: -4.5d
+			description: ["Улучшенная версия предыдущего рюкзака."]
+			dependencies: ["5B98F2283C80A47C"]
+			hide_text_until_complete: false
+			id: "2E2896B1845F4A78"
+			tasks: [{
+				id: "2289087BD40F828A"
+				type: "item"
+				item: {
+					id: "simplybackpacks:uncommonbackpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Редкий рюкзак"
+			x: 1.5d
+			y: -4.5d
+			description: ["Улучшенная версия предыдущего рюкзака."]
+			dependencies: ["2E2896B1845F4A78"]
+			id: "441F7FA5A7DA456D"
+			tasks: [{
+				id: "1DC00D045941A8C5"
+				type: "item"
+				item: {
+					id: "simplybackpacks:rarebackpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Эпичный рюкзак"
+			x: 2.5d
+			y: -4.5d
+			description: ["Улучшенная версия предыдущего рюкзака."]
+			dependencies: ["441F7FA5A7DA456D"]
+			id: "7082D2463AB90EC2"
+			tasks: [{
+				id: "6F69EE03D4B22524"
+				type: "item"
+				item: {
+					id: "simplybackpacks:epicbackpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Последний рюкзак"
+			x: 3.5d
+			y: -4.0d
+			description: ["Улучшенная версия предыдущего рюкзака."]
+			dependencies: ["7082D2463AB90EC2"]
+			id: "4D3B7789FD274E2D"
+			tasks: [{
+				id: "3F3032A2C6EB644C"
+				type: "item"
+				item: {
+					id: "simplybackpacks:ultimatebackpack"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			description: ["Эндер-жемчуг понадобится вам для того, чтобы попасть в улей."]
+			dependencies: ["0A92EA23D2322807"]
+			id: "13668D94CD79BF0D"
+			tasks: [{
+				id: "1F44A61C5CB4F998"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			title: "Внутри Улья \"бз..з\""
+			x: 8.0d
+			y: -0.5d
+			shape: "gear"
+			description: ["Чтобы попасть в улей, нужно кинуть эндер-жемчуг в сам улей. А чтобы выйти из него, вам нужно спуститься в самый низ.(выпасть из улья)"]
+			dependencies: ["13668D94CD79BF0D"]
+			size: 1.2d
+			id: "18B3AC82C7E152D5"
+			tasks: [{
+				id: "5C617C63E0E9D69C"
+				type: "dimension"
+				dimension: "the_bumblezone:the_bumblezone"
+			}]
+		}
+		{
+			title: "Пыльца"
+			x: 9.5d
+			y: 0.0d
+			description: ["Эта пыльца генерируется в измерении улья. Её там очень много, хватит на всё."]
+			dependencies: ["18B3AC82C7E152D5"]
+			id: "33D766CC2E68C961"
+			tasks: [{
+				id: "1B49B9FBF4A61070"
+				type: "item"
+				item: "the_bumblezone:pollen_puff"
+				count: 32L
+			}]
+		}
+		{
+			title: "Пчелиный воск для улья"
+			x: 8.0d
+			y: 0.5d
+			description: ["Спавнится на самом дне улья.(Можно сказать вместо бедрока)"]
+			dependencies: ["18B3AC82C7E152D5"]
+			id: "7007EB833169459C"
+			tasks: [{
+				id: "52760E754FA3F8FD"
+				type: "item"
+				item: "the_bumblezone:beehive_beeswax"
+				count: 16L
+			}]
+		}
+		{
+			title: "Кирпичи"
+			x: 7.0d
+			y: 1.5d
+			description: ["Чтобы получить кирпичи, нужно положить на землю глинянные кирпичи (шифт + правый клик чтобы положить на землю, со всех сторон, кроме вверха, нужно закрыть землёй). Дальше, на кирпичи положить сено (правый клик) и на самый вверх брёвна(правый клик), потом поджечь и подождать."]
+			dependencies: ["7EBB21849EC41175"]
+			id: "226D273CFCD69825"
+			tasks: [
+				{
+					id: "2CF815EE9BCB5193"
+					type: "item"
+					item: "charcoal_pit:unfired_brick"
+					count: 16L
+				}
+				{
+					id: "6AE24406C260AB20"
+					type: "item"
+					item: "charcoal_pit:straw"
+					count: 12L
+				}
+				{
+					id: "152A6146364CE110"
+					type: "item"
+					title: "Any #minecraft:logs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					count: 6L
+				}
+				{
+					id: "172E3C506939A4FE"
+					type: "item"
+					item: "minecraft:brick"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "Новые инструменты"
+			x: 6.0d
+			y: -1.0d
+			description: ["С помощью этих столов можно создавать интересные и полезные инструменты."]
+			dependencies: ["14890981853C622D"]
+			id: "5A4656CE89EAE595"
+			tasks: [
+				{
+					id: "56D66262809FFFD1"
+					type: "item"
+					title: "Any #tconstruct:tables"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "531E855C55708248"
+					type: "item"
+					title: "Any #tconstruct:tables"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					only_from_crafting: false
+				}
+			]
+		}
+		{
+			title: "Шаблоны"
+			x: 4.5d
+			y: -1.0d
+			description: ["С помощью шаблонов можно создавать части инструментов на формирователе частей, а с помощью этих частей можно создавать инструменты на Литейной станции!"]
+			dependencies: ["3A6840BC06F09951"]
+			id: "14890981853C622D"
+			tasks: [{
+				id: "4163ACFB338D3737"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 16L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			description: ["С помощью костра можно легко жарить еду."]
+			dependencies: ["3A6840BC06F09951"]
+			id: "0ABFF94FA1462431"
+			tasks: [{
+				id: "1A9093D042E85EF8"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.5d
+			description: ["На кухоную плиту можно поставить кухоные приборы и приготовить очень вкусные блюда!"]
+			dependencies: ["544D867E9E65F95E"]
+			id: "7455E4A62CD8E5E9"
+			tasks: [{
+				id: "40D8DF64462B82B4"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -3.0d
+			description: ["С помощью кухоного котла можно приготовить вкусные блюда, для это нужно поставить его на кухоную плиту."]
+			dependencies: ["7455E4A62CD8E5E9"]
+			id: "098811FF1C8C0952"
+			tasks: [{
+				id: "5ED598E95E6A06F3"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+		}
+		{
+			title: "Главный разработчик"
+			x: -4.5d
+			y: -1.0d
+			shape: "gear"
+			description: ["Над Endless Rise трудилось много креативных ребят из майнкрафт студии - LGame, о них вы можете почитать в группе вк. Но главным разработчиком сборки является - _BarMaxx_ (Максим)."]
+			dependencies: ["4015F9A5ADB11078"]
+			size: 1.2d
+			id: "0201F0A201EAC913"
+			tasks: [{
+				id: "28B25FC1FD8EAF50"
+				type: "checkmark"
+				title: "Главный разработчик"
+			}]
+			rewards: [{
+				id: "257F7BAC250C1B27"
+				type: "command"
+				command: "/say Привет, ссылка на вконаткте главного разработчика сборки - https://vk.com/barahtanovm . Можете написать мне, если возникли трудности при игре или появились идеи, как улучшить сборку."
+				player_command: false
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			shape: "gear"
+			description: ["Данная сборка была сделана LGame Studio. У нас есть множество сборок, в которые вы можете поиграть(после этой естественно). Также мы занимаемся переводом англоязычных сборок, чтобы вам было комфортнее играть. У нас очень ламповая атмосфера, заходите, не стесняйтесь!"]
+			dependencies: ["4015F9A5ADB11078"]
+			size: 1.2d
+			id: "241F9AF7B1E9356C"
+			tasks: [{
+				id: "76537730FA97BCCC"
+				type: "checkmark"
+				title: "LGame Studio"
+			}]
+			rewards: [{
+				id: "267C67AC23BD8ABB"
+				type: "command"
+				command: "/say вк - https://vk.com/liberator_games Discord - https://discord.gg/U3g8e4nq"
+				player_command: false
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.5d
+			description: ["Камень перемещения нужен для того, чтобы сделать путеводный обелиск. И для того, чтобы без обелиска телепортироваться на другую точку. (Зажмите ПКМ)"]
+			dependencies: ["544D867E9E65F95E"]
+			id: "12AE8B72E160FB72"
+			tasks: [{
+				id: "3A9F83BE35A86B49"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 2.5d
+			description: ["С помощью путеводного обелиска можно телепортироваться на большие расстояния. Для этого нужно как минимум 2 точки (2 обелиска) или камень перемещения."]
+			dependencies: ["12AE8B72E160FB72"]
+			id: "7364D564BF495130"
+			tasks: [{
+				id: "1499E27E53E3D280"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 1.0d
+			description: ["Хранит больше вещей, чем предыдущий."]
+			dependencies: ["7E50B0D00134778F"]
+			id: "13FA122C8542990B"
+			tasks: [{
+				id: "05A1E5ADE9462152"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 1.5d
+			description: ["Хранит больше вещей, чем предыдущий."]
+			dependencies: ["13FA122C8542990B"]
+			id: "2A19E271224246D7"
+			tasks: [{
+				id: "1C530418D607D56D"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -0.5d
+			description: ["Хранит больше вещей, чем предыдущий."]
+			dependencies: ["7E50B0D00134778F"]
+			id: "6CE840F7970DCC24"
+			tasks: [{
+				id: "2E4BA0AC5A53B593"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.0d
+			description: ["Хранит больше вещей, чем предыдущий."]
+			dependencies: ["7E50B0D00134778F"]
+			id: "3363807CB15C1E20"
+			tasks: [{
+				id: "2604DE52564BBF0C"
+				type: "item"
+				item: "ironchest:silver_chest"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 2.5d
+			description: ["Хранит больше вещей, чем предыдущий."]
+			dependencies: ["2A19E271224246D7"]
+			id: "129B6B9A21E8AB4D"
+			tasks: [{
+				id: "7D06C850AEDEF30C"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 2.0d
+			description: ["Хранит больше вещей, чем предыдущий."]
+			dependencies: ["2A19E271224246D7"]
+			id: "659A5D8969BAEF8C"
+			tasks: [{
+				id: "585355AF6495A04A"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			shape: "octagon"
+			description: ["Если вы что-то не понимаете, можете зайти на видео по этой сборки и посмотреть."]
+			dependencies: ["4015F9A5ADB11078"]
+			id: "1A32C47EC29F6720"
+			tasks: [{
+				id: "3A8175E6E7662E49"
+				type: "checkmark"
+				title: "ЛП по сборке"
+			}]
+			rewards: [{
+				id: "1DCC717400A7C342"
+				type: "command"
+				command: "/say YT - https://www.youtube.com/watch?v=JYLN1OExi98"
+				player_command: false
+			}]
+		}
+	]
+}

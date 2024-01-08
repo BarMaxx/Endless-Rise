@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:energy_tablet"
+    },
+    "S": {
+      "item": "betterendforge:ender_shard"
+    },
+    "A": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+	"B": {
+      "item": "mekanism:basic_control_circuit"
+    },
+	"D": {
+      "item": "create:chromatic_compound"
+    },
+    "W": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+	"F": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "result": {
+    "item": "mekanism:enrichment_chamber",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

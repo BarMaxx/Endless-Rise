@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "DZPXD",
+    "SAFAS",
+    "DXPZD",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "boss_tools:engine_casing"
+    },
+    "S": {
+      "item": "boss_tools:battery"
+    },
+    "A": {
+      "item": "boss_tools:engine_fan"
+    },
+	 "D": {
+      "item": "boss_tools:compressed_desh"
+    },
+	"Z": {
+      "item": "pneumaticcraft:advanced_pcb"
+    },
+	"X": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+	 "F": {
+      "item": "mekanism:teleportation_core"
+    }
+  },
+  "result": {
+    "item": "boss_tools:golden_engine",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

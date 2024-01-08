@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " SAS ",
+    "SDPDS",
+    "APFPA",
+    "SDPDS",
+    " SAS "
+  ],
+  "key": {
+    "P": {
+      "item": "tconstruct:tinkers_bronze_ingot"
+    },
+    "S": {
+      "item": "create:zinc_ingot"
+    },
+    "A": {
+      "item": "immersiveengineering:component_steel"
+    },
+	 "D": {
+      "item": "immersiveengineering:sheetmetal_electrum"
+    },
+	 "F": {
+      "item": "immersiveengineering:steel_scaffolding_standard"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:heavy_engineering",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " AAA ",
+    "AAPAA",
+    "APSPA",
+    "AAPAA",
+    " AAA "
+  ],
+  "key": {
+    "P": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "S": {
+      "item": "pneumaticcraft:reinforced_bricks"
+    },
+    "A": {
+      "item": "immersiveengineering:plate_steel"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:thermopneumatic_processing_plant",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

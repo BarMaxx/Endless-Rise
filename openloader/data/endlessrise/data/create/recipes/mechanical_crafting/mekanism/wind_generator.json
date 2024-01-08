@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:energy_tablet"
+    },
+    "S": {
+      "item": "tconstruct:queens_slime_ingot"
+    },
+    "A": {
+      "item": "create:precision_mechanism"
+    },
+	"B": {
+      "item": "immersiveengineering:sheetmetal_electrum"
+    },
+	"D": {
+      "item": "pneumaticcraft:plastic"
+    },
+    "W": {
+      "item": "create:polished_rose_quartz"
+    },
+	"F": {
+      "item": "pneumaticcraft:turbine_rotor"
+    }
+  },
+  "result": {
+    "item": "mekanismgenerators:wind_generator",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

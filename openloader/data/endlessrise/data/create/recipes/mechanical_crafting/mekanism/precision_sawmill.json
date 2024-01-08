@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:energy_tablet"
+    },
+    "S": {
+      "item": "immersiveengineering:rockcutter"
+    },
+    "A": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+	"B": {
+      "item": "mekanism:basic_control_circuit"
+    },
+	"D": {
+      "item": "create:shadow_steel"
+    },
+    "W": {
+      "item": "pneumaticcraft:advanced_pcb"
+    },
+	"F": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "result": {
+    "item": "mekanism:precision_sawmill",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

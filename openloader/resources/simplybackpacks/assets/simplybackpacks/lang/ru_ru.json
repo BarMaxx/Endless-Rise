@@ -1,0 +1,35 @@
+{
+  "simplybackpacks.shift":"Нажмите <§6§oShift§r> для информации.",
+  "key.simplybackpacks.category":"Simply Backpacks",
+  "key.simplybackpacks.backpackpickup.desc":"Переключить Авто-поднятие",
+  "key.simplybackpacks.backpackopen.desc":"Открыть Рюкзак",
+
+  "simplybackpacks.autopickup":"Авто-поднятие",
+  "simplybackpacks.autopickupenabled":"Авто-поднятие: §aВключено§r",
+  "simplybackpacks.autopickupdisabled":"Авто-поднятие: §4Выключено§r",
+
+  "simplybackpacks.whitelist":"Вайтлист",
+  "simplybackpacks.nbtdata":"NBT Теги",
+
+  "simplybackpacks.invaliduuid": "Unknown UUID",
+
+  "item.simplybackpacks.commonbackpack": "Обычный Рюкзак",
+  "item.simplybackpacks.commonbackpack.info":"Самый просто рюкзак.",
+  "item.simplybackpacks.commonbackpack.info2":"§fИмеет 18 стаков§r",
+
+  "item.simplybackpacks.uncommonbackpack":"Необычный Рюкзак",
+  "item.simplybackpacks.uncommonbackpack.info":"Немного лучше рюкзак.",
+  "item.simplybackpacks.uncommonbackpack.info2":"§eИмеет 33 стака§r",
+
+  "item.simplybackpacks.rarebackpack":"Редкий Рюкзак",
+  "item.simplybackpacks.rarebackpack.info":"Довольно хороший рюкзак.",
+  "item.simplybackpacks.rarebackpack.info2":"§bИмеет 66 стаков§r",
+
+  "item.simplybackpacks.epicbackpack":"Эпичный Рюкзак",
+  "item.simplybackpacks.epicbackpack.info":"Довольно эпический рюкзак.",
+  "item.simplybackpacks.epicbackpack.info2":"§dИмеет 99 стаков§r",
+
+  "item.simplybackpacks.ultimatebackpack":"Последний Рюкзак",
+  "item.simplybackpacks.ultimatebackpack.info":"Это последний рюкзак.",
+  "item.simplybackpacks.ultimatebackpack.info2":"§dИмеет 158 стаков§r"
+}

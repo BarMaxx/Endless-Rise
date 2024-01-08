@@ -1,0 +1,379 @@
+{
+	id: "110A9E07E1121F26"
+	group: "11EC8770AFEB5B52"
+	order_index: 0
+	filename: "110A9E07E1121F26"
+	title: "Атум"
+	icon: "atum:nebu_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "pentagon"
+			description: ["Чтобы попасть в мир Атум нужно бросить Скоробея в специальную конструкцию из песчаника. Нужно построить 5х5 конструкцию(из песчаника) и залить 3х3 водой, добавить по бокам 2 блока в высоту и кинуть скоробея."]
+			dependencies: ["7C8A764A4A0F003E"]
+			size: 1.1d
+			id: "4969DAD337FCABE1"
+			tasks: [{
+				id: "0CB26D49333F93C8"
+				type: "item"
+				item: "atum:scarab"
+			}]
+		}
+		{
+			title: "Потрескавшийся известняк"
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["4969DAD337FCABE1"]
+			id: "7A6D61FA5C10CC91"
+			tasks: [{
+				id: "7391E0C80E36791F"
+				type: "item"
+				item: "atum:limestone_cracked"
+				count: 16L
+			}]
+		}
+		{
+			title: "Слитки Небу"
+			x: 4.0d
+			y: 0.0d
+			description: ["Слитки Небу можно получить созданием из осколков Небу, а их, в свою очередь, переплавкой руды Небу."]
+			dependencies: ["7A6D61FA5C10CC91"]
+			size: 1.1d
+			id: "632D858FA5AEF2CB"
+			tasks: [{
+				id: "32D8AC81BE7F0884"
+				type: "item"
+				item: "atum:nebu_ingot"
+				count: 5L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["Печь для обжига можно использовать как обычную печь."]
+			dependencies: ["7A6D61FA5C10CC91"]
+			id: "1B5158F335DFBA89"
+			tasks: [{
+				id: "1813010E612E2A74"
+				type: "item"
+				item: "atum:kiln"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			description: ["С помощью прялки можно получить льняную нить или обычные нитки."]
+			dependencies: ["7A6D61FA5C10CC91"]
+			id: "0FD5BAA169067EBD"
+			tasks: [{
+				id: "74D76ACB603FB0A5"
+				type: "item"
+				item: "atum:spinning_wheel"
+			}]
+		}
+		{
+			title: "Молот Небу"
+			x: 5.5d
+			y: 0.0d
+			description: ["С помощью молота Небу можно ломать GodForged Block, а из этого блока падают различные реликвии!"]
+			dependencies: ["632D858FA5AEF2CB"]
+			id: "67FDC152546EFFF7"
+			tasks: [{
+				id: "62E77F8814B06BC4"
+				type: "item"
+				item: "atum:nebu_hammer"
+			}]
+		}
+		{
+			title: "Броня Атума"
+			x: -1.0d
+			y: 1.5d
+			description: ["Очень крутая и стильная броня, но броня Ра всё равно лучше!"]
+			dependencies: ["4969DAD337FCABE1"]
+			id: "0B47526986E9ACE0"
+			tasks: [
+				{
+					id: "19A34566EBDD492B"
+					type: "item"
+					item: {
+						id: "atum:eyes_of_atem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2EDC747F7FFA8152"
+					type: "item"
+					item: {
+						id: "atum:body_of_atem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "679FE03DA41EA88C"
+					type: "item"
+					item: {
+						id: "atum:legs_of_atem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "74571FD2A614EDD5"
+					type: "item"
+					item: {
+						id: "atum:feet_of_atem"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Броня Ра"
+			x: 1.0d
+			y: 1.5d
+			description: ["Очень крутая и стильная броня."]
+			dependencies: ["4969DAD337FCABE1"]
+			id: "06288659F7984AAD"
+			tasks: [
+				{
+					id: "408EE87E88246E14"
+					type: "item"
+					item: {
+						id: "atum:halo_of_ra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "43412C98011E18EB"
+					type: "item"
+					item: {
+						id: "atum:body_of_ra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0841DAF1FD41D68D"
+					type: "item"
+					item: {
+						id: "atum:legs_of_ra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "378ED0371C12DFF7"
+					type: "item"
+					item: {
+						id: "atum:feet_of_ra"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Луки"
+			x: 0.0d
+			y: -1.5d
+			description: ["В этом моде есть довольно много луков, выбирай самый крутой."]
+			dependencies: ["4969DAD337FCABE1"]
+			id: "5994C2B43C20B396"
+			tasks: [
+				{
+					id: "2FCC4586F5B4BD24"
+					type: "item"
+					item: {
+						id: "atum:anputs_grounding"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C5E843F8F7AABD8"
+					type: "item"
+					item: {
+						id: "atum:horus_soaring"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BB4189ED6F513F7"
+					type: "item"
+					item: {
+						id: "atum:isis_division"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			shape: "octagon"
+			description: ["Милосердие Анубиса можно получить, ломая Godforged Block молотом Небу. Эта реликвия сохраняет ваши вещи после смерти!"]
+			dependencies: ["67FDC152546EFFF7"]
+			size: 1.2d
+			id: "12C3B76EC2D1D263"
+			tasks: [{
+				id: "332B773C0300B2A4"
+				type: "item"
+				item: {
+					id: "atum:osiris_mercy"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			description: ["Жало Сета можно получить ломая GodForged Block молотом Небу. Это оружие отравляет врага, если его полность зарядить."]
+			dependencies: ["67FDC152546EFFF7"]
+			id: "5A9DFEF835545F59"
+			tasks: [{
+				id: "26834536F9C5CB1F"
+				type: "item"
+				item: {
+					id: "atum:seths_sting"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			description: ["Гнев Анубиса можно получить ломая GodForged Block молотом Небу. Это оружие становится сильнее, путём поглащение душ убитых вами врагов!"]
+			dependencies: ["67FDC152546EFFF7"]
+			id: "2EC4B1D1DD00509F"
+			tasks: [{
+				id: "08FDB8BFBCB93C72"
+				type: "item"
+				item: {
+					id: "atum:anubis_wrath"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: ["Просто прикольная декорация."]
+			dependencies: ["632D858FA5AEF2CB"]
+			id: "14A964BA8C2CB2AA"
+			tasks: [{
+				id: "24ECF580F53719C6"
+				type: "item"
+				item: "atum:godforge"
+			}]
+		}
+		{
+			title: "Известняк"
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["7A6D61FA5C10CC91"]
+			size: 1.1d
+			id: "10680882FA67673F"
+			tasks: [{
+				id: "2B83CDC334480A4D"
+				type: "item"
+				item: "atum:limestone"
+				count: 8L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["10680882FA67673F"]
+			id: "62C30D504664D20E"
+			tasks: [{
+				id: "6BFFEAC97FB4E2A5"
+				type: "item"
+				item: "atum:burning_trap"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["10680882FA67673F"]
+			id: "30D873C1A4EBDF47"
+			tasks: [{
+				id: "6BD16CAE2C089C34"
+				type: "item"
+				item: "atum:poison_trap"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["10680882FA67673F"]
+			id: "106568EEFDE3BB16"
+			tasks: [{
+				id: "08A6953D4754952A"
+				type: "item"
+				item: "atum:tar_trap"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["10680882FA67673F"]
+			id: "465C4EFFDEB2A231"
+			tasks: [{
+				id: "4CEA0C2CC6EF2F36"
+				type: "item"
+				item: "atum:smoke_trap"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["10680882FA67673F"]
+			id: "355CE38C9AD4BF67"
+			tasks: [{
+				id: "70880FA8981EEBC1"
+				type: "item"
+				item: "atum:arrow_trap"
+			}]
+		}
+	]
+}

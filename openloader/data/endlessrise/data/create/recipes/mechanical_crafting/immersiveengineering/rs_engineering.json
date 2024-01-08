@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " ASA ",
+    "SDPDS",
+    "APBPA",
+    "SDPDS",
+    " ASA "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:redstone_block"
+    },
+    "S": {
+      "item": "immersiveengineering:plate_steel"
+    },
+    "A": {
+      "item": "create:zinc_ingot"
+    },
+	"B": {
+      "item": "immersiveengineering:steel_scaffolding_standard"
+    },
+	 "D": {
+      "item": "immersiveengineering:sheetmetal_iron"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:rs_engineering",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

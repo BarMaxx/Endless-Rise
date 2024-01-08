@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "DDPDD",
+    "SAFAS",
+    "DDPDD",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "boss_tools:battery"
+    },
+    "S": {
+      "item": "boss_tools:iron_plate"
+    },
+    "A": {
+      "item": "tconstruct:manyullyn_ingot"
+    },
+	 "D": {
+      "item": "boss_tools:compressed_steel"
+    },
+	 "F": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "item": "boss_tools:rocket_launch_pad",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

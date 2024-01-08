@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "BCB",
+    "IPI",
+    "BCB"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/brass"
+    },
+    "B": {
+      "item": "immersiveengineering:plate_steel"
+    },
+    "I": 
+      {
+      "item": "immersiveengineering:ingot_steel"
+      },
+    "C": {
+      "item": "immersiveengineering:stick_steel"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:steel_fence"
+  },
+  "acceptMirrored": true
+}

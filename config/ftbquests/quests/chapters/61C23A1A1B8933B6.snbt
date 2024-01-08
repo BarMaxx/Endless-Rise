@@ -1,0 +1,1103 @@
+{
+	id: "61C23A1A1B8933B6"
+	group: ""
+	order_index: 1
+	filename: "61C23A1A1B8933B6"
+	title: "Эпоха Механики"
+	icon: "create:large_cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Андезитовые сплавы"
+			x: -1.0d
+			y: 0.0d
+			description: ["Главный ингридиент в моде Create. Также, если вам не понятно как работает тот или иной механизм из этого моды, зажмите W и вам всё подробно объяснят!"]
+			dependencies: ["7CAEFFF51B924E9A"]
+			size: 1.2d
+			id: "1618941433039F79"
+			tasks: [{
+				id: "7B783C3BBF00F3EA"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 10L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: ["Очень полезная вещь, с ёё помощью можно передрабливать руды с помощью своих сил."]
+			dependencies: ["544D867E9E65F95E"]
+			id: "7CAEFFF51B924E9A"
+			tasks: [
+				{
+					id: "45715C66AF051739"
+					type: "item"
+					item: "appliedenergistics2:grindstone"
+				}
+				{
+					id: "499AB74F3892A1D1"
+					type: "item"
+					item: "appliedenergistics2:crank"
+				}
+			]
+		}
+		{
+			title: "Передача механической энергии"
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["1618941433039F79"]
+			id: "31B0B795411A5508"
+			tasks: [
+				{
+					id: "3B5E2BE5DE7B336E"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+				{
+					id: "16B33DABB95C7A3C"
+					type: "item"
+					item: "create:cogwheel"
+					count: 4L
+				}
+				{
+					id: "53CC01FEFF45928D"
+					type: "item"
+					item: "create:shaft"
+					count: 16L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["31B0B795411A5508"]
+			id: "67D2C16A151DAF63"
+			tasks: [{
+				id: "31A69242441A0BF9"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			title: "Валы в андезитовом корпусе"
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["31B0B795411A5508"]
+			id: "20FDA68842111866"
+			tasks: [{
+				id: "749F9A573C969E3A"
+				type: "item"
+				item: "create:andesite_encased_shaft"
+				count: 6L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["67D2C16A151DAF63"]
+			id: "549F858A9EB00499"
+			tasks: [
+				{
+					id: "3CCA7CDE8F70312D"
+					type: "item"
+					item: "create:basin"
+				}
+				{
+					id: "1CAFCF65A6C563F3"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["67D2C16A151DAF63"]
+			id: "7C8A764A4A0F003E"
+			tasks: [{
+				id: "5A9E39371F1DB7AE"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["7C8A764A4A0F003E"]
+			id: "106E7E7ABAE9B21A"
+			tasks: [{
+				id: "51F6AE3F80645416"
+				type: "item"
+				item: "create:millstone"
+			}]
+		}
+		{
+			title: "Железные листы"
+			x: 3.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["7C8A764A4A0F003E"]
+			id: "759CD5F854301CA1"
+			tasks: [{
+				id: "162AA645BC55F932"
+				type: "item"
+				item: "create:iron_sheet"
+				count: 16L
+			}]
+		}
+		{
+			title: "Медные листы"
+			x: 3.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["7C8A764A4A0F003E"]
+			id: "30141E3997BA2ADF"
+			tasks: [{
+				id: "5C45F80B572434D9"
+				type: "item"
+				item: "create:copper_sheet"
+				count: 16L
+			}]
+		}
+		{
+			title: "Золотые листы"
+			x: 4.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["7C8A764A4A0F003E"]
+			id: "2373D730A820B6FB"
+			tasks: [{
+				id: "21320A3D0400104C"
+				type: "item"
+				item: "create:golden_sheet"
+				count: 16L
+			}]
+		}
+		{
+			title: "Латунные листы"
+			x: 4.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["7C8A764A4A0F003E"]
+			id: "29039481EF4BB2EF"
+			tasks: [{
+				id: "58ACB21720A7811D"
+				type: "item"
+				item: "create:brass_sheet"
+				count: 16L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["7C8A764A4A0F003E"]
+			id: "562B29B6639F36A9"
+			tasks: [{
+				id: "3E1CF5EB8616DF6A"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			description: ["Просто декор..."]
+			dependencies: ["562B29B6639F36A9"]
+			id: "5367617E37DBFD97"
+			tasks: [
+				{
+					id: "0AB326DAB063B3BE"
+					type: "item"
+					item: "notreepunching:clay_flower_pot"
+				}
+				{
+					id: "72B2CB8EA0D4668B"
+					type: "item"
+					item: "minecraft:flower_pot"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["1618941433039F79"]
+			id: "533FAB3239A6359F"
+			tasks: [
+				{
+					id: "5CFF819C2C048EEB"
+					type: "item"
+					item: "create:sail_frame"
+				}
+				{
+					id: "73EE6FBBDF5A7E99"
+					type: "item"
+					item: "create:white_sail"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["533FAB3239A6359F"]
+			id: "462BBE365EAB472A"
+			tasks: [{
+				id: "08C09F5EE542FA3A"
+				type: "item"
+				item: "create:windmill_bearing"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["30141E3997BA2ADF"]
+			id: "3045A3DD55265737"
+			tasks: [{
+				id: "7724C6BDCAA660EA"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			dependencies: ["2C356C79E12F86BE"]
+			id: "46515BC511B4975E"
+			tasks: [
+				{
+					id: "725B5F2A5FA783A3"
+					type: "item"
+					item: {
+						id: "create:sand_paper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C719E333BBC55BF"
+					type: "item"
+					item: {
+						id: "create:red_sand_paper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Известняк"
+			x: 5.0d
+			y: -2.5d
+			description: ["Для этого вам нужно сходить в Атум!"]
+			dependencies: ["562B29B6639F36A9"]
+			id: "2C356C79E12F86BE"
+			tasks: [
+				{
+					id: "467711908237576D"
+					type: "item"
+					item: "atum:limestone"
+					count: 8L
+				}
+				{
+					id: "51EBBEC070BCC878"
+					type: "item"
+					item: "atum:limestone_cracked"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			dependencies: ["46515BC511B4975E"]
+			id: "309F4243634A2888"
+			tasks: [{
+				id: "17BCBCD782FC4A3F"
+				type: "item"
+				item: "create:polished_rose_quartz"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			dependencies: ["309F4243634A2888"]
+			id: "3A22BE56B1E3CBDA"
+			tasks: [{
+				id: "3B437F6D21ED3550"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["2373D730A820B6FB"]
+			id: "746E116CECECCC5F"
+			tasks: [{
+				id: "396D12FCC4608E3C"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			title: "Механические крафтеры"
+			x: 8.450000000000001d
+			y: 1.3d
+			dependencies: [
+				"3A22BE56B1E3CBDA"
+				"746E116CECECCC5F"
+			]
+			size: 1.3d
+			id: "365E33230CE0071A"
+			tasks: [{
+				id: "4701F415D04385BB"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 9L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			dependencies: ["29039481EF4BB2EF"]
+			id: "4909C2352D61DC48"
+			tasks: [{
+				id: "3D4E1B2692E63608"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			dependencies: ["365E33230CE0071A"]
+			id: "781C653D37B7AA5B"
+			tasks: [
+				{
+					id: "229319E087AAA651"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "605B5EF3B10895A9"
+					type: "item"
+					item: "create:furnace_engine"
+				}
+				{
+					id: "2A7242E93B29112B"
+					type: "item"
+					item: "create:flywheel"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			dependencies: ["365E33230CE0071A"]
+			id: "3FB4B3A128FF3B65"
+			tasks: [{
+				id: "692FD6D4F82BC31E"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			dependencies: ["365E33230CE0071A"]
+			id: "19080414E59C38ED"
+			tasks: [
+				{
+					id: "2C2960C6331C907C"
+					type: "item"
+					item: {
+						id: "create:potato_cannon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4A3C74D00316AD34"
+					type: "item"
+					item: {
+						id: "create:copper_backtank"
+						Count: 1b
+						tag: {
+							Air: 900
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			dependencies: ["365E33230CE0071A"]
+			id: "0221FA51E282769A"
+			tasks: [{
+				id: "2FF8F16E32810F31"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			dependencies: ["365E33230CE0071A"]
+			id: "21231BF299577C9D"
+			tasks: [
+				{
+					id: "4F2129679DFF23F1"
+					type: "item"
+					item: "create:mechanical_saw"
+				}
+				{
+					id: "3489BD322902CAA9"
+					type: "item"
+					item: "create:mechanical_drill"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			dependencies: ["309F4243634A2888"]
+			id: "3BAF123A064275AA"
+			tasks: [{
+				id: "43A74BA3A8B0085F"
+				type: "item"
+				item: "create:schematicannon"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			dependencies: ["309F4243634A2888"]
+			id: "690064A2F31FE0B0"
+			tasks: [{
+				id: "3D7A9F75F8AFAE6F"
+				type: "item"
+				item: "create:schematic_table"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			dependencies: ["2373D730A820B6FB"]
+			id: "749932931AA04C35"
+			tasks: [{
+				id: "4631CD5C82534A5C"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["759CD5F854301CA1"]
+			id: "24448D1558BD4C69"
+			tasks: [
+				{
+					id: "0E006D838A29050E"
+					type: "item"
+					item: "create:mechanical_harvester"
+				}
+				{
+					id: "31A1F3D19649A407"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["759CD5F854301CA1"]
+			id: "248C5E7559471BC6"
+			tasks: [{
+				id: "2AB5E6D266E1D19A"
+				type: "item"
+				item: "create:mechanical_plough"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["1618941433039F79"]
+			id: "6F9AF24E06600707"
+			tasks: [{
+				id: "6C30E3831578C22A"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["6F9AF24E06600707"]
+			id: "178F23DEA9C9D2A7"
+			tasks: [
+				{
+					id: "115EBD8E0B28E7EA"
+					type: "item"
+					item: "create:mechanical_piston"
+				}
+				{
+					id: "5C3A93B0E40A5E5D"
+					type: "item"
+					item: "create:sticky_mechanical_piston"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["6F9AF24E06600707"]
+			id: "2E81C1ABE2188FB5"
+			tasks: [
+				{
+					id: "61DE563A8E1DCDFD"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+				{
+					id: "508FC5379694F338"
+					type: "item"
+					item: "create:secondary_linear_chassis"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["7CAEFFF51B924E9A"]
+			hide: true
+			id: "5D94C680958B9C01"
+			tasks: [{
+				id: "40BA64F228ECA950"
+				type: "item"
+				item: "create:red_seat"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			dependencies: ["309F4243634A2888"]
+			id: "089CD8540B945006"
+			tasks: [
+				{
+					id: "1BF6FC29C160029D"
+					type: "item"
+					item: "create:cuckoo_clock"
+				}
+				{
+					id: "25DBD9E9465C780E"
+					type: "item"
+					item: "create:clockwork_bearing"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			shape: "pentagon"
+			description: ["Один из самых простых способов добыть кинетическую энергию в начале игры!"]
+			dependencies: ["1618941433039F79"]
+			id: "4B7996FC7BE671DA"
+			tasks: [{
+				id: "74D2C7FAFE35CA64"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["30141E3997BA2ADF"]
+			id: "2C26A692DADE6537"
+			tasks: [{
+				id: "21306F0FBC834AEE"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["1618941433039F79"]
+			id: "2A7143B5C2651C21"
+			tasks: [{
+				id: "415E832C94845C8E"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["562B29B6639F36A9"]
+			id: "5844C43FF8870951"
+			tasks: [{
+				id: "35202A81AAFF6F78"
+				type: "item"
+				item: "create:nozzle"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			dependencies: ["3A22BE56B1E3CBDA"]
+			id: "339E99FFA9CEE6D2"
+			tasks: [{
+				id: "616689522C8C08B5"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["30141E3997BA2ADF"]
+			id: "632FE60A12CA0DEA"
+			tasks: [{
+				id: "324EBC79A3429A2E"
+				type: "item"
+				item: "create:copper_valve_handle"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["31B0B795411A5508"]
+			id: "01E9195AA8FEA16F"
+			tasks: [
+				{
+					id: "39CA126B680AAB9B"
+					type: "item"
+					item: "create:wooden_bracket"
+				}
+				{
+					id: "701BE54B7F7E36E4"
+					type: "item"
+					item: "create:metal_bracket"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["6F9AF24E06600707"]
+			id: "0FC5374A65732986"
+			tasks: [{
+				id: "540790BE8EC141F4"
+				type: "item"
+				item: "create:depot"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			dependencies: ["0FC5374A65732986"]
+			id: "20E5BAE249D5CD79"
+			tasks: [{
+				id: "5023FC709F3BEE44"
+				type: "item"
+				item: "create:weighted_ejector"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["2CD44FAE0380EB2A"]
+			id: "37DB0D68D3053365"
+			tasks: [{
+				id: "7D831C063CE3BB44"
+				type: "item"
+				item: "create:turntable"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["6F9AF24E06600707"]
+			id: "5F687D27651AE166"
+			tasks: [
+				{
+					id: "49674EC8BB07B371"
+					type: "item"
+					item: "create:gearbox"
+				}
+				{
+					id: "5C953B78C990F2A8"
+					type: "item"
+					item: "create:vertical_gearbox"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["6F9AF24E06600707"]
+			id: "729B54C136EAF83B"
+			tasks: [{
+				id: "2B5ABE66CABD1B5F"
+				type: "item"
+				item: "create:clutch"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["6F9AF24E06600707"]
+			id: "3538277E454DA67F"
+			tasks: [{
+				id: "4D58D392126EAB7D"
+				type: "item"
+				item: "create:gearshift"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			dependencies: ["3A22BE56B1E3CBDA"]
+			id: "29B4DB2D14F72B75"
+			tasks: [
+				{
+					id: "1EEAAA471E67411D"
+					type: "item"
+					item: "create:encased_chain_drive"
+				}
+				{
+					id: "130E9915707C71B0"
+					type: "item"
+					item: "create:adjustable_chain_gearshift"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			dependencies: ["3045A3DD55265737"]
+			id: "3DADF1CE7B4D9A06"
+			tasks: [{
+				id: "17CE0E38A3092C84"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["3045A3DD55265737"]
+			id: "7BC47C71E95CC330"
+			tasks: [
+				{
+					id: "385F8CF10F83E2F0"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "0963FFB5243B117E"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+				{
+					id: "0E6A63BA8376E8EB"
+					type: "item"
+					item: "create:smart_fluid_pipe"
+				}
+				{
+					id: "1266EBE59DA505CE"
+					type: "item"
+					item: "create:fluid_valve"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["29039481EF4BB2EF"]
+			id: "07BAC67F8C8D8A2A"
+			tasks: [
+				{
+					id: "67A25396298B72EB"
+					type: "item"
+					item: "create:empty_blaze_burner"
+				}
+				{
+					id: "130760E4539C4813"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			dependencies: ["07BAC67F8C8D8A2A"]
+			id: "62D1BFB9177CF557"
+			tasks: [{
+				id: "4FC388ABDB9D0140"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			dependencies: ["365E33230CE0071A"]
+			id: "0739BAD2D663225B"
+			tasks: [{
+				id: "1F530F368BD05CA1"
+				type: "item"
+				item: "create:wand_of_symmetry"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["31B0B795411A5508"]
+			id: "2CD44FAE0380EB2A"
+			tasks: [{
+				id: "2B31D89769CA0FE9"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["6F9AF24E06600707"]
+			id: "172139899912A0CF"
+			tasks: [
+				{
+					id: "1F3B05249A4E84E5"
+					type: "item"
+					item: "create:speedometer"
+				}
+				{
+					id: "29F032BF81736F7C"
+					type: "item"
+					item: "create:stressometer"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			dependencies: ["7BC47C71E95CC330"]
+			id: "6901D58B59D2B140"
+			tasks: [{
+				id: "513BD0A943369143"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			dependencies: ["3045A3DD55265737"]
+			id: "39F1810E0C220168"
+			tasks: [{
+				id: "1C15E43F5D7A569D"
+				type: "item"
+				item: "create:item_drain"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["3DADF1CE7B4D9A06"]
+			id: "6D9CE4A3BF12A8A8"
+			tasks: [{
+				id: "10099CFAC7BC6335"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["1618941433039F79"]
+			id: "59C3D5A38C113EC0"
+			tasks: [{
+				id: "3FA3DCA3A62E8202"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["59C3D5A38C113EC0"]
+			id: "1A9ECC807033BB33"
+			tasks: [{
+				id: "5B3B7229DECE5EF5"
+				type: "item"
+				item: "create:portable_fluid_interface"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["3A22BE56B1E3CBDA"]
+			id: "07A85A1D8B926BAD"
+			tasks: [{
+				id: "6D447B068236C112"
+				type: "item"
+				item: "create:nixie_tube"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			dependencies: ["3A22BE56B1E3CBDA"]
+			id: "076A19A797B74435"
+			tasks: [
+				{
+					id: "4CCFEEC76011D143"
+					type: "item"
+					item: "create:chute"
+				}
+				{
+					id: "0446296EBE95617E"
+					type: "item"
+					item: "create:smart_chute"
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			dependencies: ["3FB4B3A128FF3B65"]
+			id: "48E28ED91BA9ED80"
+			tasks: [{
+				id: "6C7BBD1F28F5D50C"
+				type: "item"
+				item: "create:refined_radiance"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 2.5d
+			dependencies: ["3FB4B3A128FF3B65"]
+			id: "65C33752A9CFA7D1"
+			tasks: [{
+				id: "099E707CDF71E764"
+				type: "item"
+				item: "create:shadow_steel"
+			}]
+		}
+		{
+			title: "Плавильня!"
+			x: 4.0d
+			y: -3.5d
+			description: ["Чтобы построить эту плавильню нужно поставить контроллер плавильни и жидкостный резервуар(самые главные блоки плавильни). Также нужно поставить обожённые кирпичи 3х3, 5х5(смотря сколько у вас кирпичей). С помощью этой плавильне можно переплавлять руды, тем самым их удваивать, и не только!"]
+			dependencies: ["562B29B6639F36A9"]
+			id: "093501F9725A0851"
+			tasks: [
+				{
+					id: "5F32918DDCA96E73"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 27L
+				}
+				{
+					id: "3BDACF3D4A43F179"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "6104B5D165B74FC0"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "0A7E74278F410C56"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "437AF32783C6B542"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "76631B519E28664A"
+					type: "item"
+					item: "tconstruct:seared_drain"
+					count: 2L
+				}
+				{
+					id: "4005D60C051245EF"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Лучшие инструменты"
+			x: 4.0d
+			y: -5.0d
+			description: ["С помощью этих форм можно создавать хорошие инструменты, вливая в эти формы жидкий металл."]
+			dependencies: ["093501F9725A0851"]
+			id: "787E9D342C3CC0FE"
+			tasks: [
+				{
+					id: "4789427467C44BFC"
+					type: "item"
+					item: "tconstruct:pickaxe_head_cast"
+				}
+				{
+					id: "75D4E8875CACAAD1"
+					type: "item"
+					item: "tconstruct:small_axe_head_cast"
+				}
+				{
+					id: "581C6BAA0DDED077"
+					type: "item"
+					item: "tconstruct:hammer_head_cast"
+				}
+				{
+					id: "4DE8300E8657ACDA"
+					type: "item"
+					item: "tconstruct:broad_axe_head_cast"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			dependencies: ["309F4243634A2888"]
+			id: "06F2D10687A0DB8B"
+			tasks: [{
+				id: "01813965D213E26C"
+				type: "item"
+				item: "chickenchunks:chunk_loader"
+			}]
+		}
+	]
+}

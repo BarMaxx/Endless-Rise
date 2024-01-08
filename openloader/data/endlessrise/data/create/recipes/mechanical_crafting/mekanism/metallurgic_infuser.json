@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " SPS ",
+    "SDADS",
+    "APFPA",
+    "SDADS",
+    " SPS "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "S": {
+      "item": "pneumaticcraft:plastic"
+    },
+    "A": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+	 "D": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+	 "F": {
+      "item": "immersiveengineering:sheetmetal_electrum"
+    }
+  },
+  "result": {
+    "item": "mekanism:metallurgic_infuser",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

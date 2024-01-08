@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " USD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSU "
+  ],
+  "key": {
+    "P": {
+      "item": "pneumaticcraft:capacitor"
+    },
+    "S": {
+      "item": "pneumaticcraft:transistor"
+    },
+    "A": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+	"B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+	"D": {
+      "item": "atum:nebu_ingot"
+    },
+    "W": {
+      "item": "pneumaticcraft:plastic"
+    },
+	"U": {
+      "item": "powah:crystal_nitro"
+    },
+	"F": {
+      "item": "mekanism:personal_chest"
+    }
+  },
+  "result": {
+    "item": "mekanism:robit",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

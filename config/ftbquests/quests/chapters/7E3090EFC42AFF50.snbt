@@ -1,0 +1,866 @@
+{
+	id: "7E3090EFC42AFF50"
+	group: "4F34514062F979C6"
+	order_index: 0
+	filename: "7E3090EFC42AFF50"
+	title: "Эпоха Цифровых технологий"
+	icon: "mekanism:metallurgic_infuser"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Осмиевые слитки"
+			x: -5.0d
+			y: 0.0d
+			id: "42D01428F4C01306"
+			tasks: [{
+				id: "7FF3BA686FD9C1E5"
+				type: "item"
+				item: "mekanism:ingot_osmium"
+				count: 8L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			description: ["С помощью металлургического наполнителя можно создавать различные компоненты, путём наполнения их различными веществами, например редстоуном."]
+			hide_dependency_lines: false
+			dependencies: ["11CB890B7A51546F"]
+			id: "6EDBA2148672DAB0"
+			tasks: [{
+				id: "3FC2627D1508C7D5"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			title: "Базовые предметы"
+			x: 2.0d
+			y: 0.0d
+			shape: "pentagon"
+			description: ["Базовые компоненты из этого мода. Они вам понадобятся для создания различных механизмов."]
+			dependencies: ["6EDBA2148672DAB0"]
+			size: 1.2d
+			id: "62856F299F843C2A"
+			tasks: [
+				{
+					id: "281F67CDE12B3417"
+					type: "item"
+					item: "mekanism:alloy_infused"
+					count: 8L
+				}
+				{
+					id: "7A9237E00DF9989C"
+					type: "item"
+					item: "mekanism:basic_control_circuit"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			description: ["С помощью энергетической плавильне можно довольно быстро переплавлять руду и другие предметы."]
+			dependencies: ["62856F299F843C2A"]
+			id: "503E435E7C535666"
+			tasks: [{
+				id: "0B1A8DA8578EA779"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["503E435E7C535666"]
+			id: "7F8CF3FD15F15B09"
+			tasks: [{
+				id: "0E10C776EAFF494C"
+				type: "item"
+				item: "mekanism:basic_smelting_factory"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			description: ["С помощью камеры обогощения можно обогащять руды в их аналоги и не только."]
+			dependencies: ["62856F299F843C2A"]
+			id: "3F32DC3C39248E2D"
+			tasks: [{
+				id: "4B10431960996696"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["3F32DC3C39248E2D"]
+			id: "375CDE7E8E58F594"
+			tasks: [{
+				id: "5D455AE5D1E30FD7"
+				type: "item"
+				item: "mekanism:basic_enriching_factory"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["С помощью дробителя можно передрабливать слитки в пыль, создавать биотопливо из растений и не только."]
+			dependencies: ["62856F299F843C2A"]
+			id: "0C4A82F954C2A3CA"
+			tasks: [{
+				id: "423CEBBD258FFA2B"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["0C4A82F954C2A3CA"]
+			id: "4B4E2B0C9A683E59"
+			tasks: [{
+				id: "105F264070AE8795"
+				type: "item"
+				item: "mekanism:basic_crushing_factory"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: ["С помощью осмиевого компрессора можно создавать различные газ из предметов и не только."]
+			dependencies: ["62856F299F843C2A"]
+			id: "2D5061979FCFC54F"
+			tasks: [{
+				id: "085E8DD206667509"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["2D5061979FCFC54F"]
+			id: "0EE4CDDB14ED7DD6"
+			tasks: [{
+				id: "01A0809F7E3178D5"
+				type: "item"
+				item: "mekanism:basic_compressing_factory"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			description: [
+				"С помощью объединителя можно, например, из пыли и булыжника создать руду."
+				"Улучшенная версия предыдущего механизма."
+			]
+			dependencies: ["62856F299F843C2A"]
+			id: "2289980729F93539"
+			tasks: [{
+				id: "2FAD6F375610F263"
+				type: "item"
+				item: "mekanism:combiner"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["2289980729F93539"]
+			id: "7FDC648BF4E0D44E"
+			tasks: [{
+				id: "651BAD59369B66CA"
+				type: "item"
+				item: "mekanism:basic_combining_factory"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			description: ["С помощью камеры очистки можно создавать глыбы из руды для дальнейшей ёё переработки."]
+			dependencies: ["62856F299F843C2A"]
+			id: "33322337C2DC41D8"
+			tasks: [{
+				id: "44E8E03FA229A2B3"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["33322337C2DC41D8"]
+			id: "09F287BC1BB5D7BF"
+			tasks: [{
+				id: "5E43DDFABCA5D815"
+				type: "item"
+				item: "mekanism:basic_purifying_factory"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			description: ["С помощью химической инъекционой камеры можно создавать осколки из руды для их дальнейшей обработки и не только."]
+			dependencies: ["33322337C2DC41D8"]
+			id: "38D63AB28ED4AADF"
+			tasks: [{
+				id: "4ECE56D27AE900C9"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["38D63AB28ED4AADF"]
+			id: "394CF810847DA605"
+			tasks: [{
+				id: "6667BA5CBE1520A7"
+				type: "item"
+				item: "mekanism:basic_injecting_factory"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			description: [
+				""
+				"С помощью металлургического наполнителя можно создавать различные компоненты, путём наполнения их различными веществами, например редстоуном."
+			]
+			dependencies: ["62856F299F843C2A"]
+			id: "3AAA0C7B246482C6"
+			tasks: [{
+				id: "39AB1969A6E3CA70"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["3AAA0C7B246482C6"]
+			id: "5B606D7ACA3AC32A"
+			tasks: [{
+				id: "6CB6F4A3975DDB75"
+				type: "item"
+				item: "mekanism:basic_infusing_factory"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: ["С помощью лесопилки можно получать доски из различных деревянных предметов, наример люк или плита."]
+			dependencies: ["62856F299F843C2A"]
+			id: "554CF85C82723CA6"
+			tasks: [{
+				id: "04B9A79F61FCA76B"
+				type: "item"
+				item: "mekanism:precision_sawmill"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["554CF85C82723CA6"]
+			id: "7197967E7E122CF8"
+			tasks: [{
+				id: "2F2E6E1543F940C2"
+				type: "item"
+				item: "mekanism:basic_sawing_factory"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			description: ["С помощью теплогенератора можно вырабатывать энергию, путём сжигания топлива."]
+			dependencies: ["42D01428F4C01306"]
+			id: "2CC491CC1D846E32"
+			tasks: [{
+				id: "5AF0C5CB4C3D3819"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+		}
+		{
+			title: "Базовые универсальные провода"
+			x: -2.0d
+			y: 0.0d
+			description: ["С помощью проводов можно передавать энергию по миру."]
+			dependencies: ["2CC491CC1D846E32"]
+			id: "11CB890B7A51546F"
+			tasks: [{
+				id: "271A088C078957B0"
+				type: "item"
+				item: "mekanism:basic_universal_cable"
+				count: 10L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			description: ["С помощью солнечной панели можно вырабатывать энергию для механизмов."]
+			dependencies: ["62856F299F843C2A"]
+			id: "468C4625B2717D3F"
+			tasks: [{
+				id: "5B1B46DF638A83AE"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			description: ["Продвинутая версия солнечной панели."]
+			dependencies: ["468C4625B2717D3F"]
+			id: "67D0E8CE6812F777"
+			tasks: [{
+				id: "060310B0B2FF6BF8"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			description: ["С помощью ветрогенератора можно вырабатывать энергию для механизмов."]
+			dependencies: ["62856F299F843C2A"]
+			id: "31EB22539EB09CF9"
+			tasks: [{
+				id: "46FF8176868C92FB"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			description: ["С помощью биогенератора можно вырабатывать энергию, путём сжигания органических материалов."]
+			dependencies: ["62856F299F843C2A"]
+			id: "6A131264979711C3"
+			tasks: [{
+				id: "15498871C5872A97"
+				type: "item"
+				item: "mekanismgenerators:bio_generator"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			description: ["С помощью газового генератора можно вырабатывать энергию, путём использованию различных молекулярных газов."]
+			dependencies: ["62856F299F843C2A"]
+			id: "7B554705C78F624E"
+			tasks: [{
+				id: "21BA0ECAFEA3B3A6"
+				type: "item"
+				item: "mekanismgenerators:gas_burning_generator"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["7F8CF3FD15F15B09"]
+			id: "73FA97C6C5053E2E"
+			tasks: [{
+				id: "1A8FF064223700F0"
+				type: "item"
+				item: "mekanism:advanced_smelting_factory"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["73FA97C6C5053E2E"]
+			id: "2C728E7EB4FCB2E2"
+			tasks: [{
+				id: "6B9938BCAEBACADA"
+				type: "item"
+				item: "mekanism:elite_smelting_factory"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["2C728E7EB4FCB2E2"]
+			id: "64BD104C30269288"
+			tasks: [{
+				id: "73C7DC5C4BCFA85E"
+				type: "item"
+				item: "mekanism:ultimate_smelting_factory"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["375CDE7E8E58F594"]
+			id: "7E3A98691A4F60F2"
+			tasks: [{
+				id: "654581C650283F42"
+				type: "item"
+				item: "mekanism:advanced_enriching_factory"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["7E3A98691A4F60F2"]
+			id: "602966B62B305D20"
+			tasks: [{
+				id: "42DF97F5A57630AC"
+				type: "item"
+				item: "mekanism:elite_enriching_factory"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["602966B62B305D20"]
+			id: "2C5A3B2A81A4D14D"
+			tasks: [{
+				id: "6AEB2828EF6E5604"
+				type: "item"
+				item: "mekanism:ultimate_enriching_factory"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["4B4E2B0C9A683E59"]
+			id: "5C7D0E822714E99C"
+			tasks: [{
+				id: "2ECFDB115BB4DA9B"
+				type: "item"
+				item: "mekanism:advanced_crushing_factory"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["5C7D0E822714E99C"]
+			id: "2355F2027D2806E4"
+			tasks: [{
+				id: "6FA1C8469F99CEBF"
+				type: "item"
+				item: "mekanism:elite_crushing_factory"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["2355F2027D2806E4"]
+			id: "7EF20A271D055586"
+			tasks: [{
+				id: "5FFB8E5109CCC260"
+				type: "item"
+				item: "mekanism:ultimate_crushing_factory"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["0EE4CDDB14ED7DD6"]
+			id: "0FF755C549AB49AE"
+			tasks: [{
+				id: "42CF34C1FAD9EA1A"
+				type: "item"
+				item: "mekanism:advanced_compressing_factory"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["0FF755C549AB49AE"]
+			id: "1DE41FDB3D9D4907"
+			tasks: [{
+				id: "6A139F9BE6A25A23"
+				type: "item"
+				item: "mekanism:elite_compressing_factory"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["1DE41FDB3D9D4907"]
+			id: "6381551414008E29"
+			tasks: [{
+				id: "579C0E09F1E5587E"
+				type: "item"
+				item: "mekanism:ultimate_compressing_factory"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["7FDC648BF4E0D44E"]
+			id: "5BEF27C9B66210D7"
+			tasks: [{
+				id: "29F0E69CA3CEB480"
+				type: "item"
+				item: "mekanism:advanced_combining_factory"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["5BEF27C9B66210D7"]
+			id: "221534821196EC29"
+			tasks: [{
+				id: "50F38FAB34D55F5C"
+				type: "item"
+				item: "mekanism:elite_combining_factory"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["221534821196EC29"]
+			id: "7ADAA639F50D8396"
+			tasks: [{
+				id: "3A161945309F9F0A"
+				type: "item"
+				item: "mekanism:ultimate_combining_factory"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["09F287BC1BB5D7BF"]
+			id: "57B03D511EC81BDA"
+			tasks: [{
+				id: "480AF61EAC050F6C"
+				type: "item"
+				item: "mekanism:advanced_purifying_factory"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["57B03D511EC81BDA"]
+			id: "51239D5FD44FF05A"
+			tasks: [{
+				id: "7B342FBBBDEF733D"
+				type: "item"
+				item: "mekanism:elite_purifying_factory"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.5d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["51239D5FD44FF05A"]
+			id: "60B96610836F5C0F"
+			tasks: [{
+				id: "102FBDE96CC96D9D"
+				type: "item"
+				item: "mekanism:ultimate_purifying_factory"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["394CF810847DA605"]
+			id: "4A193DC022B1B955"
+			tasks: [{
+				id: "58F7646C27F9AF5A"
+				type: "item"
+				item: "mekanism:advanced_injecting_factory"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["4A193DC022B1B955"]
+			id: "00E29DA1ED9F14FD"
+			tasks: [{
+				id: "326937DA8801AE22"
+				type: "item"
+				item: "mekanism:elite_injecting_factory"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.5d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["00E29DA1ED9F14FD"]
+			id: "11301B6701561D45"
+			tasks: [{
+				id: "4B9726EEF757A81E"
+				type: "item"
+				item: "mekanism:ultimate_injecting_factory"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["5B606D7ACA3AC32A"]
+			id: "235DF1389452B882"
+			tasks: [{
+				id: "7D0F2FBA79FFC641"
+				type: "item"
+				item: "mekanism:advanced_infusing_factory"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["235DF1389452B882"]
+			id: "5F54333312FDD86E"
+			tasks: [{
+				id: "622C6E54776C958C"
+				type: "item"
+				item: "mekanism:elite_infusing_factory"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.5d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["5F54333312FDD86E"]
+			id: "12BA658647C1846E"
+			tasks: [{
+				id: "2C04128382F65E89"
+				type: "item"
+				item: "mekanism:ultimate_infusing_factory"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["7197967E7E122CF8"]
+			id: "22B99F621B5F8037"
+			tasks: [{
+				id: "1A600286117E8AC4"
+				type: "item"
+				item: "mekanism:advanced_sawing_factory"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["22B99F621B5F8037"]
+			id: "464F41746C14B2C2"
+			tasks: [{
+				id: "638599F278209286"
+				type: "item"
+				item: "mekanism:elite_sawing_factory"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			description: ["Улучшенная версия предыдущего механизма."]
+			dependencies: ["464F41746C14B2C2"]
+			id: "4DA76BFE501B0727"
+			tasks: [{
+				id: "2947A273293C9C70"
+				type: "item"
+				item: "mekanism:ultimate_sawing_factory"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: ["Личный сундук это сундук, который можно открывать везде, даже из инвентаря игрока."]
+			dependencies: ["62856F299F843C2A"]
+			id: "44E26D6A4B7A4E43"
+			tasks: [{
+				id: "51F241980A612C7D"
+				type: "item"
+				item: "mekanism:personal_chest"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			description: ["Просто прикольной робот, который нужен для друго, более крутого робота."]
+			dependencies: ["44E26D6A4B7A4E43"]
+			id: "2840A60CEEEFAEE6"
+			tasks: [{
+				id: "390C8672966DFBD4"
+				type: "item"
+				item: "mekanism:robit"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			description: ["С помощью цифрового шахтера можно добывать все блоки, в пределах 32-х блоков."]
+			dependencies: ["2840A60CEEEFAEE6"]
+			id: "7506B61ECB963FC8"
+			tasks: [{
+				id: "1A9937CBC1B67E34"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			description: ["Кирка, которая работает на энергии и не имеет прочности. Также достаточно быстро копает."]
+			dependencies: ["62856F299F843C2A"]
+			id: "463C26E2FB1F6B63"
+			tasks: [{
+				id: "230128ABE8C52C66"
+				type: "item"
+				item: {
+					id: "mekanism:atomic_disassembler"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			description: ["С помощью огнемёта можно выжигать различные блоки или убивать монстров."]
+			dependencies: ["463C26E2FB1F6B63"]
+			id: "35213A92364227E4"
+			tasks: [{
+				id: "14BCB08B8985F1B4"
+				type: "item"
+				item: "mekanism:flamethrower"
+			}]
+		}
+		{
+			title: "Полезности"
+			x: 1.5d
+			y: -2.0d
+			description: ["Просто довольно интересные и полезные вещи."]
+			dependencies: ["62856F299F843C2A"]
+			id: "3FC452A0F78F6D65"
+			tasks: [
+				{
+					id: "38FAD214216737CB"
+					type: "item"
+					item: "mekanism:free_runners"
+				}
+				{
+					id: "6461082A37624758"
+					type: "item"
+					item: {
+						id: "mekanism:scuba_tank"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "5D73C9F0CB87574F"
+					type: "item"
+					item: {
+						id: "mekanism:jetpack"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			description: ["Лучшая броня на этой сборке."]
+			dependencies: ["35213A92364227E4"]
+			id: "38B6CD285874E7FE"
+			tasks: [
+				{
+					id: "2FF7AA4EE3880B7F"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_helmet"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "21D98716E81CCB02"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_bodyarmor"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "388609905F2A4DF9"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "1E993A6062B83056"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["3FC452A0F78F6D65"]
+			id: "2DEC231AB45277C4"
+			tasks: [{
+				id: "2F4FFA082C88478B"
+				type: "item"
+				item: {
+					id: "magicalwings:netherite_wings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

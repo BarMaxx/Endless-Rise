@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BSB ",
+    "BDPDB",
+    "SAFAS",
+    "BDPDB",
+    " BSB "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "S": {
+      "item": "immersiveengineering:sheetmetal_electrum"
+    },
+    "A": {
+      "item": "mekanism:alloy_infused"
+    },
+	 "D": {
+      "item": "tconstruct:manyullyn_ingot"
+    },
+	"B": {
+      "item": "powah:crystal_niotic"
+    },
+	 "F": {
+      "item": "mekanism:basic_injecting_factory"
+    }
+  },
+  "result": {
+    "item": "mekanism:advanced_injecting_factory",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

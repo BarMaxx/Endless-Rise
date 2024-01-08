@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " USD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSU "
+  ],
+  "key": {
+    "P": {
+      "item": "pneumaticcraft:memory_essence_bucket"
+    },
+    "S": {
+      "item": "scalinghealth:power_crystal"
+    },
+    "A": {
+      "item": "minecraft:netherite_block"
+    },
+	"B": {
+      "item": "powah:crystal_nitro"
+    },
+	"D": {
+      "item": "atum:nebu_ingot"
+    },
+    "W": {
+      "item": "magicalwings:netherite_sheating"
+    },
+	"U": {
+      "item": "betterendforge:aeternium_ingot"
+    },
+	"F": {
+      "item": "scalinghealth:heart_dust"
+    }
+  },
+  "result": {
+    "item": "scalinghealth:enchanted_heart",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

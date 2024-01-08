@@ -1,0 +1,549 @@
+{
+	id: "6A357A7586F39D25"
+	group: "4F34514062F979C6"
+	order_index: 2
+	filename: "6A357A7586F39D25"
+	title: "Эпоха Космоса"
+	icon: {
+		id: "boss_tools:tier_3_rocket"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Верстак НАСА"
+			x: 1.5d
+			y: 0.5d
+			shape: "pentagon"
+			description: ["На верстаке НАСА создаётся самая главная вещь этой сборки - РАКЕТА!"]
+			dependencies: ["756376AFE30D2029"]
+			size: 1.3d
+			id: "1C3B604A3C71EA61"
+			tasks: [{
+				id: "787198FE1B8CC753"
+				type: "item"
+				item: "boss_tools:nasa_workbench"
+			}]
+		}
+		{
+			title: "Молот"
+			x: -3.0d
+			y: 0.5d
+			shape: "hexagon"
+			description: ["Молот - это один из самых важных предметов в этом моде. Он нужен при создании основных механизмов из этого мода."]
+			dependencies: [
+				"1864C5BF06205F25"
+				"491435ED023469B3"
+			]
+			size: 1.1d
+			id: "718D674A4C22515B"
+			tasks: [{
+				id: "63DDA37109728D94"
+				type: "item"
+				item: {
+					id: "boss_tools:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Компресор"
+			x: -1.5d
+			y: 0.5d
+			description: ["С помощью компрессора создаются скомпрессированые слитки. Они нужно в создании целой РАКЕТЫ!"]
+			dependencies: ["718D674A4C22515B"]
+			id: "724672A66EADBAE6"
+			tasks: [{
+				id: "5E086D58602767A2"
+				type: "item"
+				item: "boss_tools:compressor"
+			}]
+		}
+		{
+			title: "Батарейки"
+			x: -3.0d
+			y: -1.0d
+			description: ["Батарейки пригодятся во-многих крафтах из этого мода."]
+			dependencies: ["718D674A4C22515B"]
+			id: "0E856074721049C6"
+			tasks: [{
+				id: "26C3E8D732D163D4"
+				type: "item"
+				item: "boss_tools:battery"
+				count: 10L
+			}]
+		}
+		{
+			title: "Солнечная панель"
+			x: -2.0d
+			y: -2.0d
+			description: ["С помощью солнечной панели можно вырабатывать энергию для механизмов."]
+			dependencies: ["0E856074721049C6"]
+			id: "54F4546E50F3BD0C"
+			tasks: [{
+				id: "318DB910C0E4495B"
+				type: "item"
+				item: "boss_tools:solar_panel"
+			}]
+		}
+		{
+			title: "Угольный генератор"
+			x: -4.0d
+			y: -2.0d
+			description: ["С помощью угольного генератора можно вырабатывать энергию для механизмов."]
+			dependencies: ["0E856074721049C6"]
+			id: "4E57B1A2B4482B2D"
+			tasks: [{
+				id: "043F38D5BD3CF9A8"
+				type: "item"
+				item: "boss_tools:coal_generator"
+			}]
+		}
+		{
+			title: "Доменная печь"
+			x: -1.5d
+			y: 2.0d
+			description: ["С помощью доменной печи можно создать сталь из этого мода(она особенная). А она нужна уже в компрессоре, и не только."]
+			dependencies: ["724672A66EADBAE6"]
+			id: "61AD68E66142CAAC"
+			tasks: [{
+				id: "7EC685CCFAB176DD"
+				type: "item"
+				item: "boss_tools:blast_furnace"
+			}]
+		}
+		{
+			title: "Сжатая Сталь"
+			x: 0.0d
+			y: 0.5d
+			description: ["Важный ингридиент в этом моде."]
+			dependencies: ["724672A66EADBAE6"]
+			id: "756376AFE30D2029"
+			tasks: [{
+				id: "2B44F1C9788CD89B"
+				type: "item"
+				item: "boss_tools:compressed_steel"
+				count: 10L
+			}]
+		}
+		{
+			title: "Ингридиенты ракеты 1 уровня"
+			x: 3.0d
+			y: -1.0d
+			description: ["Эти ингридиенты нужны для создания ракеты 1 уровня на верстаке НАСА."]
+			dependencies: ["1C3B604A3C71EA61"]
+			id: "16338752AFCBC09E"
+			tasks: [
+				{
+					id: "25D95526FF40CB63"
+					type: "item"
+					item: "boss_tools:nose_cone"
+				}
+				{
+					id: "516DE539122AE1D7"
+					type: "item"
+					item: "boss_tools:compressed_steel"
+					count: 6L
+				}
+				{
+					id: "76B73D70DB10B046"
+					type: "item"
+					item: "boss_tools:iron_tank"
+					count: 2L
+				}
+				{
+					id: "334F2C612C966C2B"
+					type: "item"
+					item: "boss_tools:iron_engine"
+				}
+				{
+					id: "3AA1F9AC6EF3EE52"
+					type: "item"
+					item: "boss_tools:rocket_fin"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			description: ["Ракета 1 уровня, ура!"]
+			dependencies: ["5326710021E37B03"]
+			size: 1.1d
+			id: "316AB192E34650FA"
+			tasks: [{
+				id: "10EF7A7B04974910"
+				type: "item"
+				item: {
+					id: "boss_tools:tier_1_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Нефтеперерабатывающий завод"
+			x: 0.0d
+			y: 2.0d
+			description: ["С помощью нефтеперерабатывающего завода можно создать топливо для ракеты."]
+			dependencies: ["756376AFE30D2029"]
+			id: "5469B4886D2B7209"
+			tasks: [{
+				id: "43297AD7A6383D0F"
+				type: "item"
+				item: "boss_tools:fuel_refinery"
+			}]
+		}
+		{
+			title: "Кислородный загрузчик"
+			x: 0.0d
+			y: -1.0d
+			description: ["С помощью кислородного загрузчика можно заполнить кислородом свой костюм."]
+			dependencies: ["756376AFE30D2029"]
+			id: "14779353BBD8B279"
+			tasks: [{
+				id: "2D9676F89838EE56"
+				type: "item"
+				item: "boss_tools:oxygen_loader"
+			}]
+		}
+		{
+			title: "Генератор кислородного шара"
+			x: 0.0d
+			y: -2.5d
+			description: ["С помощью генератора кислородного шара можно создать кислородный шар, например, на другой планете!"]
+			dependencies: ["14779353BBD8B279"]
+			id: "51EC55FEAFB9A8E6"
+			tasks: [{
+				id: "2C22AD73D76F3735"
+				type: "item"
+				item: "boss_tools:oxygen_bullet_generator"
+			}]
+		}
+		{
+			title: "Костюм астронавта"
+			x: 3.0d
+			y: 0.5d
+			description: ["Без этого костюма в космосе вам делать нечего."]
+			dependencies: ["1C3B604A3C71EA61"]
+			id: "36A52042091E4E33"
+			tasks: [
+				{
+					id: "301460DB608AABFB"
+					type: "item"
+					item: {
+						id: "boss_tools:space_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3836C04A918B25A9"
+					type: "item"
+					item: {
+						id: "boss_tools:space_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "521CD1C1179F0904"
+					type: "item"
+					item: {
+						id: "boss_tools:space_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BC7C3B7429A5085"
+					type: "item"
+					item: {
+						id: "boss_tools:space_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Вездеход"
+			x: 3.0d
+			y: 2.0d
+			description: ["Вездеход, на котором можно рассекать просторы других планет."]
+			dependencies: ["1C3B604A3C71EA61"]
+			id: "24C03F7F9D15C2FF"
+			tasks: [{
+				id: "6C2BB13508E277E5"
+				type: "item"
+				item: {
+					id: "boss_tools:rover_item"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Слиток деш"
+			x: 7.5d
+			y: -1.0d
+			description: ["Слитки деш можно найти ТОЛЬКО на Луне. С помощью них можно создать скомпрессированые деш."]
+			dependencies: ["316AB192E34650FA"]
+			id: "143DCF41180D79EA"
+			tasks: [{
+				id: "7475336E20A4A0A7"
+				type: "item"
+				item: "boss_tools:desh_ingot"
+				count: 10L
+			}]
+		}
+		{
+			title: "Ингридиенты ракеты 2 уровня"
+			x: 7.5d
+			y: 0.5d
+			description: ["Эти ингридиенты нужны для создания ракеты 2 уровня на верстаке НАСА."]
+			dependencies: ["143DCF41180D79EA"]
+			id: "0B2E36B282D8BC69"
+			tasks: [
+				{
+					id: "28B8694874E53763"
+					type: "item"
+					item: "boss_tools:nose_cone"
+				}
+				{
+					id: "4C0CDC192089396C"
+					type: "item"
+					item: "boss_tools:compressed_desh"
+					count: 6L
+				}
+				{
+					id: "23184EFAE6FF695E"
+					type: "item"
+					item: "boss_tools:golden_tank"
+					count: 2L
+				}
+				{
+					id: "2687D8EF76E067EA"
+					type: "item"
+					item: "boss_tools:oxygen_tank"
+					count: 2L
+				}
+				{
+					id: "4047886EB181B98B"
+					type: "item"
+					item: "boss_tools:rocket_fin"
+					count: 2L
+				}
+				{
+					id: "25049BF5269CC8D2"
+					type: "item"
+					item: "boss_tools:golden_engine"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			description: ["Ракета 2 уровня, ура!"]
+			dependencies: ["0B2E36B282D8BC69"]
+			size: 1.1d
+			id: "1B59AE41FFE36798"
+			tasks: [{
+				id: "041A21198CB7073A"
+				type: "item"
+				item: {
+					id: "boss_tools:tier_2_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Кремниевый Слиток"
+			x: 9.0d
+			y: 2.0d
+			description: ["Слитки силикона можно найти ТОЛЬКО на Марсе! С помощью них можно создать скомпрессированый силикон"]
+			dependencies: ["1B59AE41FFE36798"]
+			id: "1028C24F95877032"
+			tasks: [{
+				id: "51B8C27659E50263"
+				type: "item"
+				item: "boss_tools:silicon_ingot"
+			}]
+		}
+		{
+			title: "Ингридиенты ракеты 3 уровня"
+			x: 10.5d
+			y: 2.0d
+			description: ["Эти ингридиенты нужны для создания ракеты 3 уровная на верстаке НАСА."]
+			dependencies: ["1028C24F95877032"]
+			id: "50C322A8676D2C22"
+			tasks: [
+				{
+					id: "4519D1F39F40F6B2"
+					type: "item"
+					item: "boss_tools:nose_cone"
+				}
+				{
+					id: "7DCE92DF46DFF709"
+					type: "item"
+					item: "boss_tools:compressed_silicon"
+					count: 6L
+				}
+				{
+					id: "1B50EF3BC6601A03"
+					type: "item"
+					item: "boss_tools:diamond_tank"
+					count: 2L
+				}
+				{
+					id: "3FCED0ABE5C090A3"
+					type: "item"
+					item: "boss_tools:oxygen_tank"
+					count: 2L
+				}
+				{
+					id: "232B2AF4F48D55A3"
+					type: "item"
+					item: "boss_tools:rocket_fin"
+					count: 2L
+				}
+				{
+					id: "3DDFCB8C6C982DAB"
+					type: "item"
+					item: "boss_tools:diamond_engine"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			description: ["Ракета 3 и последнего уровня!"]
+			dependencies: ["50C322A8676D2C22"]
+			size: 1.1d
+			id: "4B22C2E1D0D516E4"
+			tasks: [{
+				id: "423DB7EEFEFB5913"
+				type: "item"
+				item: {
+					id: "boss_tools:tier_3_rocket"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Бочка топлива"
+			x: 0.5d
+			y: 3.0d
+			description: ["Просто бочка топлива, нужная для полёта в космос!"]
+			dependencies: ["5469B4886D2B7209"]
+			id: "1CF18F82801A06E6"
+			tasks: [{
+				id: "0C8A85C87ED499AF"
+				type: "item"
+				item: "boss_tools:barrel_of_fuel"
+			}]
+		}
+		{
+			title: "Стартовая площадка"
+			x: 4.5d
+			y: -1.0d
+			description: ["На стартовой площадке осуществляется взлёт ракеты в космос!"]
+			dependencies: ["16338752AFCBC09E"]
+			id: "5326710021E37B03"
+			tasks: [{
+				id: "1484C93D881E4268"
+				type: "item"
+				item: "boss_tools:rocket_launch_pad"
+				count: 9L
+			}]
+		}
+		{
+			title: "Сжатый Деш"
+			x: 9.0d
+			y: -1.0d
+			description: ["С помощью скомпресированых деш создаётся ракета 2 уровня."]
+			dependencies: ["143DCF41180D79EA"]
+			id: "7D9C57C7DDBAD6A3"
+			tasks: [{
+				id: "630EDF407333C801"
+				type: "item"
+				item: "boss_tools:compressed_desh"
+				count: 5L
+			}]
+		}
+		{
+			title: "Сжатый Кремний"
+			x: 9.0d
+			y: 3.5d
+			description: ["Скомпресированый силикон нужен для создания ракеты 3 уровня!"]
+			dependencies: ["1028C24F95877032"]
+			id: "4AE34957E7FA3DD5"
+			tasks: [{
+				id: "7C3A120CF65119AB"
+				type: "item"
+				item: "boss_tools:compressed_silicon"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["5469B4886D2B7209"]
+			id: "7530248224E4BFC1"
+			tasks: [{
+				id: "2E5B4B2F62BB391A"
+				type: "item"
+				item: "boss_tools:fuel_bucket"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.5999999999999996d
+			shape: "hexagon"
+			description: ["Первый человек, который смог пройти эту сборку - anay!"]
+			dependencies: ["4B22C2E1D0D516E4"]
+			hide: true
+			size: 1.2d
+			id: "1BE6421FDA7DE7B4"
+			tasks: [{
+				id: "76C157BF5AB956A2"
+				type: "checkmark"
+				title: "Спидранер!"
+			}]
+		}
+		{
+			title: "Это конец..."
+			x: 13.65d
+			y: 1.9500000000000002d
+			shape: "gear"
+			description: ["Видимо, Ты всё же смог дойти до конца... Надеюсь, тебе эта сборка понравилась и ты смог отвлечься от реального мира и отлично провёл время! Единственное, что я могу сказать тебе - обязательно жди новых сборок, ведь с каждым разом они становятся все интереснее! И, спасибо, что уделил моей работе время и, раз ты дошёл до конца, она тебе понравилась! А наша команда желает тебе - удачи!"]
+			dependencies: ["4B22C2E1D0D516E4"]
+			hide: true
+			size: 1.3d
+			id: "56A33AB1B4AE13FF"
+			tasks: [{
+				id: "6BEA0AEC72555A53"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "57D76BABBA5E8EE0"
+				type: "item"
+				item: "create:handheld_worldshaper"
+			}]
+		}
+	]
+}

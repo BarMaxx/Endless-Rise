@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BBB",
+    "CD D",
+    " BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "pneumaticcraft:reinforced_bricks"
+    },
+    "C": {
+      "item": "pneumaticcraft:small_tank"
+    },
+	"D": {
+      "item": "pneumaticcraft:pressure_tube"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:etching_tank"
+  },
+  "acceptMirrored": true
+}

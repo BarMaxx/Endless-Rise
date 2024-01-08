@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BSB ",
+    "BDPDB",
+    "SAFAS",
+    "BDPDB",
+    " BSB "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:elite_control_circuit"
+    },
+    "S": {
+      "item": "immersiveengineering:sheetmetal_electrum"
+    },
+    "A": {
+      "item": "mekanism:alloy_reinforced"
+    },
+	 "D": {
+      "item": "betterendforge:aeternium_ingot"
+    },
+	"B": {
+      "item": "powah:crystal_spirited"
+    },
+	 "F": {
+      "item": "mekanism:advanced_enriching_factory"
+    }
+  },
+  "result": {
+    "item": "mekanism:elite_enriching_factory",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

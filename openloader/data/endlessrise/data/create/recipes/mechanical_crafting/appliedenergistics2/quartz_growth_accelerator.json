@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "PBP",
+    "DCD",
+    "PBP"
+  ],
+  "key": {
+    "B": {
+      "item": "appliedenergistics2:quartz_vibrant_glass"
+    },
+    "P": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+    "C": {
+      "item": "appliedenergistics2:fluix_block"
+    },
+	"D": {
+      "item": "appliedenergistics2:fluix_glass_cable"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:quartz_growth_accelerator"
+  },
+  "acceptMirrored": true
+}

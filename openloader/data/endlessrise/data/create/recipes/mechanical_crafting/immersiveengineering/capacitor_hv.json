@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BAC ",
+    "AZPAN",
+    "DPSPD",
+    "NAPZA",
+    " CAB "
+  ],
+  "key": {
+    "P": {
+      "item": "immersiveengineering:plate_steel"
+    },
+    "S": {
+      "item": "immersiveengineering:capacitor_mv"
+    },
+	"B": {
+      "item": "tconstruct:hepatizon_ingot"
+    },
+	"C": {
+      "item": "create:precision_mechanism"
+    },
+	"D": {
+      "item": "atum:nebu_ingot"
+    },
+	"Z": {
+      "item": "create:polished_rose_quartz"
+    },
+	"N": {
+      "item": "create:super_glue"
+    },
+    "A": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:capacitor_hv",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

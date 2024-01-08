@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:energy_tablet"
+    },
+    "S": {
+      "item": "appliedenergistics2:engineering_processor"
+    },
+    "A": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+	"B": {
+      "item": "mekanism:basic_control_circuit"
+    },
+	"D": {
+      "item": "create:precision_mechanism"
+    },
+    "W": {
+      "item": "betterendforge:terminite_ingot"
+    },
+	"F": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "result": {
+    "item": "mekanism:crusher",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

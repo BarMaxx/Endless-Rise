@@ -1,0 +1,316 @@
+{
+	id: "658F9D3063C9C47B"
+	group: "11EC8770AFEB5B52"
+	order_index: 2
+	filename: "658F9D3063C9C47B"
+	title: "Край"
+	icon: "betterendforge:guidebook"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Молот и наковальня"
+			x: -1.5d
+			y: -0.5d
+			description: ["С помощью молота на наковальне можно создавать различные предметы. Например, эндер-пыль, которая поможет вам в изучении Края!"]
+			size: 1.1d
+			id: "0AFB9AA501D3E79D"
+			tasks: [
+				{
+					id: "7AE933DB11772A68"
+					type: "item"
+					item: "minecraft:anvil"
+				}
+				{
+					id: "666CA02A092721EF"
+					type: "item"
+					title: "Any #betterendforge:hammers"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "betterendforge:hammers"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Эндер-пыль"
+			x: 0.0d
+			y: -0.5d
+			description: ["С помощью эндер-пыли можно создать книгу, которая поможет вам в изучении Края. А также, эта пыль прегодиться вам в переплавке слитков."]
+			dependencies: ["0AFB9AA501D3E79D"]
+			id: "663A8BA5E2A51AED"
+			tasks: [{
+				id: "26E3D3326C02BB9E"
+				type: "item"
+				item: "betterendforge:ender_dust"
+				count: 16L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			shape: "pentagon"
+			description: ["С помощью этой книги вы можете начать своё развитие в измерении Края!"]
+			dependencies: ["663A8BA5E2A51AED"]
+			size: 1.2d
+			id: "009BD95FE26F4917"
+			tasks: [{
+				id: "0AB28D6FD60AF50E"
+				type: "item"
+				item: "betterendforge:guidebook"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: ["Печь из флаволита работает также, как и обычная печь, но она вам пригодится для создания эндер-плавильни."]
+			dependencies: ["3130CCB62755EC06"]
+			id: "73233E0F878A57D4"
+			tasks: [{
+				id: "5193CD8C63690B55"
+				type: "item"
+				item: "betterendforge:flavolite_furnace"
+			}]
+		}
+		{
+			title: "Слитки талласия"
+			x: 3.0d
+			y: 0.0d
+			description: ["С помощью талласиевых слитков можно сделать броню и инструменты. Но самое главное - это эндер-плавильня."]
+			dependencies: ["48D9C89EB406FAAC"]
+			id: "3130CCB62755EC06"
+			tasks: [{
+				id: "7DC60BB2CC447608"
+				type: "item"
+				item: "betterendforge:thallasium_ingot"
+				count: 16L
+			}]
+		}
+		{
+			title: "Талласиевая руда"
+			x: 3.0d
+			y: -1.5d
+			description: ["С помощью талласиевой руды можно получить талласиевые слитки, которые очень нужны в этом моде."]
+			dependencies: ["009BD95FE26F4917"]
+			id: "48D9C89EB406FAAC"
+			tasks: [{
+				id: "5965B408061BAD8D"
+				type: "item"
+				item: "betterendforge:thallasium_ore"
+				count: 8L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: ["С помощью эндер-плавильни можно получать новые, более сильные слитки."]
+			dependencies: [
+				"3130CCB62755EC06"
+				"73233E0F878A57D4"
+			]
+			id: "623011190C09C083"
+			tasks: [{
+				id: "4C9A1758D64223BA"
+				type: "item"
+				item: "betterendforge:end_stone_smelter"
+			}]
+		}
+		{
+			title: "Слитки терминита"
+			x: 4.0d
+			y: 3.0d
+			description: ["С помощью слитков из терминита можно создавать новые, более мощные инструменты и броню."]
+			dependencies: ["623011190C09C083"]
+			id: "72977A4E8BD56D0A"
+			tasks: [{
+				id: "005370C9D21CA17C"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+				count: 16L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			description: ["Просто наковальня из терминита."]
+			dependencies: ["72977A4E8BD56D0A"]
+			id: "6489AFAF888AA9BA"
+			tasks: [{
+				id: "10B4E8976E927E8E"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_anvil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["Просто наковальня, но другого, более красивого цвета."]
+			dependencies: ["3130CCB62755EC06"]
+			id: "527F948DE8F953B8"
+			tasks: [{
+				id: "5DBFC544B9E26D80"
+				type: "item"
+				item: {
+					id: "betterendforge:thallasium_anvil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Броня из терминита"
+			x: 5.5d
+			y: 4.0d
+			description: ["Та самая броня из терминита."]
+			dependencies: ["72977A4E8BD56D0A"]
+			id: "0C5016DCD082544E"
+			tasks: [
+				{
+					id: "310BE2989E6F8EB1"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "3ACDCF3024329A05"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69D929F894255015"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6AAB236ECCD93DFA"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Слитки аэтерниума"
+			x: 4.0d
+			y: 5.0d
+			description: ["Самые дорогие, но самые мощные слитки в этом моде."]
+			dependencies: ["72977A4E8BD56D0A"]
+			id: "4C8AB3D36971AD1F"
+			tasks: [{
+				id: "0ABEFA041AEEC0A4"
+				type: "item"
+				item: "betterendforge:aeternium_ingot"
+				count: 8L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			description: ["Просто аэтерниевая наковальня."]
+			dependencies: ["4C8AB3D36971AD1F"]
+			id: "7982DC0D8A8458AC"
+			tasks: [{
+				id: "784D61FFC46AE71C"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_anvil"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Броня из аэтерниума"
+			x: 5.0d
+			y: 6.0d
+			description: ["Просто броня из аэтерниума."]
+			dependencies: ["4C8AB3D36971AD1F"]
+			id: "461DFCB7E2524105"
+			tasks: [
+				{
+					id: "6934B83EC7A927CC"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"agricraft:gene_inspector": {
+								agri_flag: 0b
+							}
+						}
+					}
+				}
+				{
+					id: "3220CA45D74BC870"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A37F8D4B28C5FE0"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4EC908179D9CE1D1"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+}

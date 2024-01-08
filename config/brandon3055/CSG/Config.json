@@ -1,0 +1,8 @@
+{
+  "inventory": {
+    "0:8": "{id:\"theoneprobe:probenote\",Count:1b}",
+    "0:1": "{id:\"tconstruct:materials_and_you\",Count:1b}",
+    "0:0": "{id:\"ftbquests:book\",Count:1b}"
+  },
+  "wipeBlacklist": []
+}

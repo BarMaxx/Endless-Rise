@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " USD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSU "
+  ],
+  "key": {
+    "P": {
+      "item": "scalinghealth:heart_crystal_shard"
+    },
+    "S": {
+      "item": "scalinghealth:power_crystal_shard"
+    },
+    "A": {
+      "item": "minecraft:netherite_ingot"
+    },
+	"B": {
+      "item": "savageandravage:blast_proof_plating"
+    },
+	"D": {
+      "item": "atum:nebu_ingot"
+    },
+    "W": {
+      "item": "magicalwings:netherite_sheating"
+    },
+	"U": {
+      "item": "create:electron_tube"
+    },
+	"F": {
+      "item": "scalinghealth:heart_dust"
+    }
+  },
+  "result": {
+    "item": "scalinghealth:heart_crystal",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

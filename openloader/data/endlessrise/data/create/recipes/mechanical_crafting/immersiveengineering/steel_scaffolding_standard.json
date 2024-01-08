@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " ASA ",
+    "SDPDS",
+    "APBPA",
+    "SDPDS",
+    " ASA "
+  ],
+  "key": {
+    "P": {
+      "item": "create:zinc_ingot"
+    },
+    "S": {
+      "item": "tconstruct:tinkers_bronze_ingot"
+    },
+    "A": {
+      "item": "engineersdecor:metal_bar"
+    },
+	"B": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+	 "D": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:steel_scaffolding_standard",
+    "count": 2
+  },
+  "acceptMirrored": false
+}

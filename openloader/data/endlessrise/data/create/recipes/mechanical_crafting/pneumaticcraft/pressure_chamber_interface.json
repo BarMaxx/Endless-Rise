@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "PBP",
+    "BCB",
+    "PBP"
+  ],
+  "key": {
+    "B": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "P": {
+      "item": "pneumaticcraft:pressure_chamber_wall"
+      },
+    "C": {
+      "item": "minecraft:hopper"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:pressure_chamber_interface"
+  },
+  "acceptMirrored": true
+}

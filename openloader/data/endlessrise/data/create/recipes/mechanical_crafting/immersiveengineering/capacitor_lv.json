@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " BAC ",
+    "NZPZA",
+    "DPSPD",
+    "AZPZN",
+    " CAB "
+  ],
+  "key": {
+    "P": {
+      "item": "immersiveengineering:plate_steel"
+    },
+    "S": {
+      "item": "create:powdered_obsidian"
+    },
+	"B": {
+      "item": "tconstruct:tinkers_bronze_ingot"
+    },
+	"C": {
+      "item": "create:electron_tube"
+    },
+	"D": {
+      "item": "create:brass_sheet"
+    },
+	"Z": {
+      "item": "immersiveengineering:plate_electrum"
+    },
+	"N": {
+      "item": "immersiveengineering:component_steel"
+    },
+    "A": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:capacitor_lv",
+    "count": 1
+  },
+  "acceptMirrored": false
+}
