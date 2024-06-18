@@ -1,0 +1,10 @@
+{
+	id: "0CA6CB51F14E31E2"
+	group: "10B45D010455F6C2"
+	order_index: 1
+	filename: "0CA6CB51F14E31E2"
+	title: "Бронзовый век"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

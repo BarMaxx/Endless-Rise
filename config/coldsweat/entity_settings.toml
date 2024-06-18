@@ -1,0 +1,18 @@
+
+["Entity Settings"]
+	#List of entities that will insulate the player when riding them
+	#The rate at which the player's temperature changes is divided by the resistance value
+	#Format: [["entity_id", coldResistance, hotResistance], ["entity_id", coldResistance, hotResistance], etc...]
+	"Insulated Mounts" = []
+	#Defines how often a llama will try to grow its fur, the growth cooldown after shearing, and the chance of it succeeding
+	#Format: [ticks, cooldown, chance]
+	"Llama Fur Growth Timings" = [1200, 2400, 0.2]
+
+["Mob Spawning"]
+	#Defines the biomes that Chameleons can spawn in
+	#Format: [["biome_id", weight], ["biome_id", weight], etc...]
+	"Chameleon Spawn Biomes" = [["minecraft:bamboo_jungle", 80], ["minecraft:jungle", 80], ["minecraft:sparse_jungle", 35], ["minecraft:desert", 1]]
+	#Defines additional biomes that llamas can spawn in
+	#Format: [["biome_id", weight], ["biome_id", weight], etc...]
+	"Llama Spawn Biomes" = [["minecraft:mountains", 10], ["minecraft:mountains_edge", 5], ["minecraft:wooded_mountains", 12], ["minecraft:snowy_taiga_mountains", 12], ["minecraft:taiga_mountains", 10], ["minecraft:gravelly_mountains", 8]]
+

@@ -1,0 +1,142 @@
+{
+	id: "3BABAFEA5113D259"
+	group: "10B45D010455F6C2"
+	order_index: 0
+	filename: "3BABAFEA5113D259"
+	title: "Примитив"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["4015F9A5ADB11078"]
+			id: "09AE5170DF020857"
+			tasks: [
+				{
+					id: "4A33BE5C8EAEB2A1"
+					type: "item"
+					item: "notreepunching:stone_loose_rock"
+					count: 4L
+				}
+				{
+					id: "77AE8CA850392043"
+					type: "item"
+					item: "minecraft:cobblestone"
+				}
+				{
+					id: "471BA42DFC50D10B"
+					type: "item"
+					item: "minecraft:stick"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["09AE5170DF020857"]
+			id: "6CEC29216FD90B3B"
+			tasks: [{
+				id: "104F978F3708ECD7"
+				type: "checkmark"
+				title: "Примитивный молот"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["6CEC29216FD90B3B"]
+			id: "3FB69D5D85D56A77"
+			tasks: [
+				{
+					id: "6F49CBC7B141295A"
+					type: "item"
+					item: "minecraft:flint"
+				}
+				{
+					id: "62124422AAE96F84"
+					type: "item"
+					item: "notreepunching:flint_shard"
+				}
+			]
+		}
+		{
+			title: "Добыча верёвки"
+			x: 4.5d
+			y: 0.0d
+			description: ["Верёвка вам понадобится для создания примитивных инструментов."]
+			dependencies: ["3FB69D5D85D56A77"]
+			id: "5FC3EB3CCCFF0F05"
+			tasks: [
+				{
+					id: "019BF4C23C9EDCFC"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6BAA7EF15E62EC27"
+					type: "item"
+					item: "notreepunching:plant_fiber"
+					count: 6L
+				}
+				{
+					id: "58D6B1E5D0A5AD5E"
+					type: "item"
+					item: "notreepunching:plant_string"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Примитивный топор"
+			x: 6.0d
+			y: 0.0d
+			description: ["С примитивным топором можно быстрее рубить деревья."]
+			dependencies: ["5FC3EB3CCCFF0F05"]
+			id: "3A6840BC06F09951"
+			tasks: [
+				{
+					id: "26735D401C842263"
+					type: "item"
+					item: {
+						id: "notreepunching:flint_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2EBAE1B35660B6E3"
+					type: "item"
+					item: "minecraft:oak_log"
+				}
+			]
+		}
+		{
+			title: "Огниво"
+			x: 4.5d
+			y: 1.5d
+			description: ["Используется для разжигания огня."]
+			dependencies: ["5FC3EB3CCCFF0F05"]
+			id: "069BDFDAE5930675"
+			tasks: [{
+				id: "6F23942737E391A8"
+				type: "item"
+				item: {
+					id: "notreepunching:fire_starter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	id: "622F77B7F9E12FB6"
+	group: "10B45D010455F6C2"
+	order_index: 2
+	filename: "622F77B7F9E12FB6"
+	title: "Железный век"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

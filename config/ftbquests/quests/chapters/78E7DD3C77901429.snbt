@@ -1,0 +1,86 @@
+{
+	id: "78E7DD3C77901429"
+	group: ""
+	order_index: 0
+	filename: "78E7DD3C77901429"
+	title: "Вступление"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["Приветствуем вас на сборке Endless Rise. В этой сборке вам предстоит изучить множество модов, от примитивных технологий до полёта в Космос. Это будет сложный путь, но мы обещаем - он вам понравится.       P.s. Эта сборка сделана командой LGame, и мы желаем вам удачи в прохождении. "]
+			id: "4015F9A5ADB11078"
+			tasks: [{
+				id: "60365BB57572B491"
+				type: "checkmark"
+				title: "Начало сборки"
+			}]
+			rewards: [{
+				id: "5DFB8AD4407E5E8A"
+				type: "item"
+				item: "antiqueatlas:empty_antique_atlas"
+			}]
+		}
+		{
+			title: "Главный разработчик"
+			x: -1.5d
+			y: -0.5d
+			shape: "gear"
+			description: ["Над Endless Rise трудилось много креативных ребят из майнкрафт студии - LGame, о них вы можете почитать в группе вк. Но главным разработчиком сборки является - _BarMaxx_ (Максим)."]
+			dependencies: ["4015F9A5ADB11078"]
+			id: "0201F0A201EAC913"
+			tasks: [{
+				id: "28B25FC1FD8EAF50"
+				type: "checkmark"
+				title: "Главный разработчик"
+			}]
+			rewards: [{
+				id: "257F7BAC250C1B27"
+				type: "command"
+				command: "/say Привет, ссылка на вконаткте главного разработчика сборки - https://vk.com/barahtanovm . Можете написать мне, если возникли трудности при игре или появились идеи, как улучшить сборку."
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			shape: "gear"
+			description: ["Данная сборка была сделана LGame Studio. У нас есть множество сборок, в которые вы можете поиграть(после этой естественно). Также мы занимаемся переводом англоязычных сборок, чтобы вам было комфортнее играть. У нас очень ламповая атмосфера, заходите, не стесняйтесь!"]
+			dependencies: ["4015F9A5ADB11078"]
+			id: "241F9AF7B1E9356C"
+			tasks: [{
+				id: "76537730FA97BCCC"
+				type: "checkmark"
+				title: "LGame Studio"
+			}]
+			rewards: [{
+				id: "267C67AC23BD8ABB"
+				type: "command"
+				command: "/say вк - https://vk.com/liberator_games Discord - https://discord.gg/U3g8e4nq"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			shape: "octagon"
+			description: ["Если вы что-то не понимаете, можете зайти на видео по этой сборки и посмотреть."]
+			dependencies: ["4015F9A5ADB11078"]
+			id: "1A32C47EC29F6720"
+			tasks: [{
+				id: "3A8175E6E7662E49"
+				type: "checkmark"
+				title: "ЛП по сборке"
+			}]
+			rewards: [{
+				id: "1DCC717400A7C342"
+				type: "command"
+				command: "/say YT - https://www.youtube.com/watch?v=JYLN1OExi98"
+				player_command: false
+			}]
+		}
+	]
+}
