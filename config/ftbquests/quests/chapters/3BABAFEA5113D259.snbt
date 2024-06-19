@@ -4,6 +4,13 @@
 	order_index: 0
 	filename: "3BABAFEA5113D259"
 	title: "Примитив"
+	icon: {
+		id: "notreepunching:fire_starter"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -121,8 +128,8 @@
 		}
 		{
 			title: "Огниво"
-			x: 4.5d
-			y: 1.5d
+			x: 4.0d
+			y: -1.5d
 			description: ["Используется для разжигания огня."]
 			dependencies: ["5FC3EB3CCCFF0F05"]
 			id: "069BDFDAE5930675"
@@ -136,6 +143,61 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			title: "Шаблоны"
+			x: 7.5d
+			y: 0.0d
+			description: ["С помощью шаблонов можно создавать части инструментов на формирователе частей, а с помощью этих частей можно создавать инструменты на Литейной станции!"]
+			dependencies: ["3A6840BC06F09951"]
+			id: "14890981853C622D"
+			tasks: [{
+				id: "4163ACFB338D3737"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 16L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			description: ["Довольно простой способ добычи еды на ранних этапах игры."]
+			dependencies: ["5FC3EB3CCCFF0F05"]
+			id: "1623F52695BB1A56"
+			tasks: [{
+				id: "5A095D884FA72716"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			description: ["С помощью костра можно легко жарить еду."]
+			dependencies: ["3A6840BC06F09951"]
+			id: "0ABFF94FA1462431"
+			tasks: [{
+				id: "1A9093D042E85EF8"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			dependencies: ["14890981853C622D"]
+			id: "3919F0C8CF7FBE50"
+			tasks: [{
+				id: "2BAA56362FC1138C"
+				type: "item"
+				item: "minecraft:crafting_table"
 			}]
 		}
 	]
