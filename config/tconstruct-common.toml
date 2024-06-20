@@ -86,7 +86,7 @@
 			#Range: 10 ~ 500
 			separation = 30
 			#If true, this island generates
-			generate = true
+			generate = false
 
 		#Options related to earth slime islands spawning in the oceans
 		[worldgen.slime_islands.earth]
@@ -94,7 +94,7 @@
 			#Range: 10 ~ 500
 			separation = 25
 			#If true, this island generates
-			generate = true
+			generate = false
 
 		#Settings for end slime islands in the outer end islands
 		[worldgen.slime_islands.end]
@@ -102,7 +102,7 @@
 			#Range: 10 ~ 500
 			separation = 25
 			#If true, this island generates
-			generate = true
+			generate = false
 
 		#Settings for blood islands in the nether lava ocean
 		[worldgen.slime_islands.blood]
@@ -110,7 +110,7 @@
 			#Range: 10 ~ 500
 			separation = 13
 			#If true, this island generates
-			generate = true
+			generate = false
 
 		#Settings for clay islands in the overworld sky
 		[worldgen.slime_islands.clay]
@@ -118,7 +118,7 @@
 			#Range: 10 ~ 500
 			separation = 100
 			#If true, this island generates
-			generate = true
+			generate = false
 
 #Features to use in debugging gameplay and mechanics, generally should not be enabled in packs
 [debug]

@@ -31,37 +31,6 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: -1.5d
-			description: ["С помощью любой ванильной мотыги можно получить сено, а из него волокна, которые нужны для создания верёвки."]
-			dependencies: ["40F68DE6AA5E6427"]
-			id: "55592F4BB319F39F"
-			tasks: [{
-				id: "580C81DE54238A94"
-				type: "item"
-				item: {
-					id: "minecraft:wooden_hoe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			title: "Сено"
-			x: 2.0d
-			y: -3.0d
-			description: ["Выпадает с любой травы, используя ванильную мотыгу."]
-			dependencies: ["55592F4BB319F39F"]
-			id: "0F5335A370C7C1BF"
-			tasks: [{
-				id: "47815D72B12A00B1"
-				type: "item"
-				item: "charcoal_pit:straw"
-			}]
-		}
-		{
 			title: "Примитивная кирка"
 			x: 8.0d
 			y: -2.0d
