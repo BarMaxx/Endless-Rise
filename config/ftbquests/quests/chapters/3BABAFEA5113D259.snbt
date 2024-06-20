@@ -39,20 +39,9 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 0.0d
-			dependencies: ["09AE5170DF020857"]
-			id: "6CEC29216FD90B3B"
-			tasks: [{
-				id: "104F978F3708ECD7"
-				type: "checkmark"
-				title: "Примитивный молот"
-			}]
-		}
-		{
 			x: 3.0d
 			y: 0.0d
-			dependencies: ["6CEC29216FD90B3B"]
+			dependencies: ["0987D269FAE2FFBF"]
 			id: "3FB69D5D85D56A77"
 			tasks: [
 				{
@@ -147,10 +136,10 @@
 		}
 		{
 			title: "Шаблоны"
-			x: 7.5d
+			x: 9.0d
 			y: 0.0d
 			description: ["С помощью шаблонов можно создавать части инструментов на формирователе частей, а с помощью этих частей можно создавать инструменты на Литейной станции!"]
-			dependencies: ["3A6840BC06F09951"]
+			dependencies: ["0B7A4DBB98650828"]
 			id: "14890981853C622D"
 			tasks: [{
 				id: "4163ACFB338D3737"
@@ -190,17 +179,6 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 0.0d
-			dependencies: ["14890981853C622D"]
-			id: "3919F0C8CF7FBE50"
-			tasks: [{
-				id: "2BAA56362FC1138C"
-				type: "item"
-				item: "minecraft:crafting_table"
-			}]
-		}
-		{
 			x: 4.5d
 			y: -1.5d
 			description: ["С помощью любой ванильной мотыги можно получить сено, а из него волокна, которые нужны для создания верёвки."]
@@ -229,6 +207,35 @@
 				id: "47815D72B12A00B1"
 				type: "item"
 				item: "charcoal_pit:straw"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["3A6840BC06F09951"]
+			id: "0B7A4DBB98650828"
+			tasks: [
+				{
+					id: "727FAAEE3D8FF3FA"
+					type: "item"
+					item: "primutils:chopping_block"
+				}
+				{
+					id: "3527392C4B92BB1D"
+					type: "item"
+					item: "minecraft:oak_planks"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["09AE5170DF020857"]
+			id: "0987D269FAE2FFBF"
+			tasks: [{
+				id: "05F84E2D89F55D89"
+				type: "item"
+				item: "primutils:millstone"
 			}]
 		}
 	]
