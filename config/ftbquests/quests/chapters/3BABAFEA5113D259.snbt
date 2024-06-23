@@ -238,5 +238,60 @@
 				item: "primutils:millstone"
 			}]
 		}
+		{
+			x: 10.5d
+			y: 0.0d
+			dependencies: ["14890981853C622D"]
+			id: "1C2E68FD4BA8AEE6"
+			tasks: [{
+				id: "133FF28B6A704C35"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			dependencies: ["1C2E68FD4BA8AEE6"]
+			id: "5F9D75E2A5CA52BA"
+			tasks: [{
+				id: "72FC1B8C0A079353"
+				type: "item"
+				item: "primutils:basin"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.0d
+			dependencies: ["5F9D75E2A5CA52BA"]
+			id: "2465B5D2ABB39957"
+			tasks: [{
+				id: "06F7E40F7023B304"
+				type: "checkmark"
+				title: "Пропитанная кожа"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.0d
+			dependencies: ["2465B5D2ABB39957"]
+			id: "1FFADB3F02E8DB52"
+			tasks: [{
+				id: "6AC4FBDC4B029E7B"
+				type: "checkmark"
+				title: "Промышленная кожа"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			dependencies: ["1FFADB3F02E8DB52"]
+			id: "38F2EC292D7D4098"
+			tasks: [{
+				id: "47AB2A463A514700"
+				type: "item"
+				item: "artisanworktables:worktable_basic"
+			}]
+		}
 	]
 }

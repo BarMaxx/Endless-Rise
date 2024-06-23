@@ -1,0 +1,717 @@
+
+["Ore Generation"]
+
+	#Ore Generation Configuration - START
+	["Ore Generation".cassiterite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 5
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 10
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 8
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 8000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".hematite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 10
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".unobtania]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 3
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 6
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 60
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 4
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 5000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".chalcopyrite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 5
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 10
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 255
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 16
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 8000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "nether"
+
+	["Ore Generation".scheelite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 10
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".ullmannite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 5
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 10
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 255
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 16
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 8000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "nether"
+
+	["Ore Generation".hubnerite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 4
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 8
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 90
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 6
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 6000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "end"
+
+	["Ore Generation".chalcocite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 255
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 20
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "nether"
+
+	["Ore Generation".monazite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 10
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "end"
+
+	["Ore Generation".cobaltite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 5
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 10
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 255
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 16
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 8000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "nether"
+
+	["Ore Generation".chromite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 10
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".galena]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 255
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 20
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "nether"
+
+	["Ore Generation".alumina]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 5
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 10
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 8
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 8000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "end"
+
+	["Ore Generation".fluorite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 5
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 10
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 8
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 8000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".vanadinite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 10
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".ilmenite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 4
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 8
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 90
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 6
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 6000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".pyrolusite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 4
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 8
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 90
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 6
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 6000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".ferberite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 4
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 8
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 90
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 6
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 6000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "end"
+
+	["Ore Generation".pyrite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 255
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 20
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "nether"
+
+	["Ore Generation".platinum]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 10
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".sphalerite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 255
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 20
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "nether"
+
+	["Ore Generation".smithsonite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 10
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".anatase]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 10
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "end"
+
+	["Ore Generation".cuprite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 10
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".cryolite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 3
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 6
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 60
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 4
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 5000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "end"
+
+	["Ore Generation".bauxite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 10
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".saltpeter]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 10
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".uraninite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 5
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 10
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 8
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 8000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".rocksalt]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 6
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 12
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 140
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 10
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 9000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "overworld"
+
+	["Ore Generation".gypsum]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 5
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 10
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 255
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 16
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 8000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "nether"
+
+	["Ore Generation".acanthite]
+		#The maximum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_min = 5
+		#The minimum size of a vein. set to 0 to disable generation
+		#Range: > 0
+		vein_size_max = 10
+		#The minimum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 1
+		#The maximum Y Coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 255
+		#The average number of veins per chunk
+		#Range: > 0
+		avg_veins_per_chunk = 16
+		#How likely it is to spawn per attempt (chance / 10000) Chance is normally set to between 50-100
+		#Range: 0 ~ 9999
+		spawn_chance = 8000
+		#The Dimension this Ore will attempt to spawn in
+		#Allowed Values: overworld, nether, end
+		allowed_dimension = "nether"
+

@@ -1,0 +1,23 @@
+{
+  "language": "English",
+  "language.region": "United States",
+  "language.code": "en_us",
+  "author": "KrykiZZ",
+
+  "item.magicalwings.leather_wings": "Leather wings",
+  "item.magicalwings.iron_wings": "Iron wings",
+  "item.magicalwings.gold_wings": "Gold wings",
+  "item.magicalwings.diamond_wings": "Diamond wings",
+  "item.magicalwings.netherite_wings": "Netherite wings",
+
+  "item.magicalwings.fairy_dust": "Fairy dust",
+  "item.magicalwings.ender_dust": "Ender dust",
+  "item.magicalwings.floating_feather": "Phoenix feather",
+  "item.magicalwings.floating_leather": "Infernal leather",
+
+  "item.magicalwings.netherite_sheating": "Netherite sheating",
+  "item.magicalwings.diamond_sheating": "Diamond sheating",
+  "item.magicalwings.iron_sheating": "Iron sheating",
+  "item.magicalwings.gold_sheating": "Gold sheating",
+  "item.magicalwings.leather_sheating": "Leather sheating"
+}
