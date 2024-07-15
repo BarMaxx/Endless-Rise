@@ -88,24 +88,24 @@ craftingTable.addShaped("ct_mekanism_06", <item:mekanism:energy_tablet>, [
 	[<item:create:polished_rose_quartz>, <item:pneumaticcraft:printed_circuit_board>, <item:create:polished_rose_quartz>]], null);
 craftingTable.removeRecipe(<item:mekanism:qio_drive_base>);
 craftingTable.addShaped("ct_mekanism_07", <item:mekanism:qio_drive_base>, [
-    [<item:upgradednetherite:wither_upgraded_netherite_ingot>, <item:mekanism:ultimate_control_circuit>, <item:upgradednetherite:wither_upgraded_netherite_ingot>],
+    [<item:minecraft:netherite_ingot>, <item:mekanism:ultimate_control_circuit>, <item:minecraft:netherite_ingot>],
 	[<item:mekanism:ultimate_control_circuit>, <item:mekanism:pellet_polonium>, <item:mekanism:ultimate_control_circuit>],
-	[<item:upgradednetherite:wither_upgraded_netherite_ingot>, <item:mekanism:ultimate_control_circuit>, <item:upgradednetherite:wither_upgraded_netherite_ingot>]], null);
+	[<item:minecraft:netherite_ingot>, <item:mekanism:ultimate_control_circuit>, <item:minecraft:netherite_ingot>]], null);
 craftingTable.removeRecipe(<item:mekanism:qio_drive_hyper_dense>);
 craftingTable.addShaped("ct_mekanism_08", <item:mekanism:qio_drive_hyper_dense>, [
-    [<item:upgradednetherite:wither_upgraded_netherite_ingot>, <item:mekanism:qio_drive_base>, <item:upgradednetherite:wither_upgraded_netherite_ingot>],
+    [<item:minecraft:netherite_ingot>, <item:mekanism:qio_drive_base>, <item:minecraft:netherite_ingot>],
 	[<item:mekanism:qio_drive_base>, <item:powah:crystal_niotic>, <item:mekanism:qio_drive_base>],
-	[<item:upgradednetherite:wither_upgraded_netherite_ingot>, <item:mekanism:qio_drive_base>, <item:upgradednetherite:wither_upgraded_netherite_ingot>]], null);
+	[<item:minecraft:netherite_ingot>, <item:mekanism:qio_drive_base>, <item:minecraft:netherite_ingot>]], null);
 craftingTable.removeRecipe(<item:mekanism:qio_drive_time_dilating>);
 craftingTable.addShaped("ct_mekanism_09", <item:mekanism:qio_drive_time_dilating>, [
-    [<item:upgradednetherite:wither_upgraded_netherite_ingot>, <item:mekanism:qio_drive_hyper_dense>, <item:upgradednetherite:wither_upgraded_netherite_ingot>],
+    [<item:minecraft:netherite_ingot>, <item:mekanism:qio_drive_hyper_dense>, <item:minecraft:netherite_ingot>],
 	[<item:mekanism:qio_drive_hyper_dense>, <item:powah:crystal_spirited>, <item:mekanism:qio_drive_hyper_dense>],
-	[<item:upgradednetherite:wither_upgraded_netherite_ingot>, <item:mekanism:qio_drive_hyper_dense>, <item:upgradednetherite:wither_upgraded_netherite_ingot>]], null); 
+	[<item:minecraft:netherite_ingot>, <item:mekanism:qio_drive_hyper_dense>, <item:minecraft:netherite_ingot>]], null); 
 craftingTable.removeRecipe(<item:mekanism:qio_drive_supermassive>);
 craftingTable.addShaped("ct_mekanism_10", <item:mekanism:qio_drive_supermassive>, [
-    [<item:upgradednetherite:wither_upgraded_netherite_ingot>, <item:mekanism:qio_drive_time_dilating>, <item:upgradednetherite:wither_upgraded_netherite_ingot>],
+    [<item:minecraft:netherite_ingot>, <item:mekanism:qio_drive_time_dilating>, <item:minecraft:netherite_ingot>],
 	[<item:mekanism:qio_drive_time_dilating>, <item:powah:crystal_nitro>, <item:mekanism:qio_drive_time_dilating>],
-	[<item:upgradednetherite:wither_upgraded_netherite_ingot>, <item:mekanism:qio_drive_time_dilating>, <item:upgradednetherite:wither_upgraded_netherite_ingot>]], null);
+	[<item:minecraft:netherite_ingot>, <item:mekanism:qio_drive_time_dilating>, <item:minecraft:netherite_ingot>]], null);
 craftingTable.removeRecipe(<item:mekanism:basic_induction_cell>);
 craftingTable.addShaped("ct_mekanism_11", <item:mekanism:basic_induction_cell>, [
     [<item:tconstruct:hepatizon_ingot>, <item:mekanism:energy_tablet>, <item:tconstruct:hepatizon_ingot>],
