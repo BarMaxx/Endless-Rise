@@ -1,11 +1,11 @@
 {
 	id: "6A357A7586F39D25"
 	group: "4F34514062F979C6"
-	order_index: 2
+	order_index: 3
 	filename: "6A357A7586F39D25"
 	title: "Эпоха Космоса"
 	icon: {
-		id: "boss_tools:tier_3_rocket"
+		id: "boss_tools:rocket_t3"
 		Count: 1b
 		tag: { }
 	}
@@ -33,10 +33,8 @@
 			y: 0.5d
 			shape: "hexagon"
 			description: ["Молот - это один из самых важных предметов в этом моде. Он нужен при создании основных механизмов из этого мода."]
-			dependencies: [
-				"1864C5BF06205F25"
-				"491435ED023469B3"
-			]
+			dependencies: ["4222E4C3CB12466C"]
+			hide: true
 			size: 1.1d
 			id: "718D674A4C22515B"
 			tasks: [{
@@ -65,25 +63,11 @@
 			}]
 		}
 		{
-			title: "Батарейки"
-			x: -3.0d
-			y: -1.0d
-			description: ["Батарейки пригодятся во-многих крафтах из этого мода."]
-			dependencies: ["718D674A4C22515B"]
-			id: "0E856074721049C6"
-			tasks: [{
-				id: "26C3E8D732D163D4"
-				type: "item"
-				item: "boss_tools:battery"
-				count: 10L
-			}]
-		}
-		{
 			title: "Солнечная панель"
-			x: -2.0d
-			y: -2.0d
+			x: -3.5d
+			y: -1.0d
 			description: ["С помощью солнечной панели можно вырабатывать энергию для механизмов."]
-			dependencies: ["0E856074721049C6"]
+			dependencies: ["718D674A4C22515B"]
 			id: "54F4546E50F3BD0C"
 			tasks: [{
 				id: "318DB910C0E4495B"
@@ -93,10 +77,10 @@
 		}
 		{
 			title: "Угольный генератор"
-			x: -4.0d
-			y: -2.0d
+			x: -3.5d
+			y: 2.0d
 			description: ["С помощью угольного генератора можно вырабатывать энергию для механизмов."]
-			dependencies: ["0E856074721049C6"]
+			dependencies: ["718D674A4C22515B"]
 			id: "4E57B1A2B4482B2D"
 			tasks: [{
 				id: "043F38D5BD3CF9A8"
@@ -139,11 +123,6 @@
 			dependencies: ["1C3B604A3C71EA61"]
 			id: "16338752AFCBC09E"
 			tasks: [
-				{
-					id: "25D95526FF40CB63"
-					type: "item"
-					item: "boss_tools:nose_cone"
-				}
 				{
 					id: "516DE539122AE1D7"
 					type: "item"
@@ -188,7 +167,7 @@
 		}
 		{
 			title: "Нефтеперерабатывающий завод"
-			x: 0.0d
+			x: 0.5d
 			y: 2.0d
 			description: ["С помощью нефтеперерабатывающего завода можно создать топливо для ракеты."]
 			dependencies: ["756376AFE30D2029"]
@@ -201,7 +180,7 @@
 		}
 		{
 			title: "Кислородный загрузчик"
-			x: 0.0d
+			x: 0.5d
 			y: -1.0d
 			description: ["С помощью кислородного загрузчика можно заполнить кислородом свой костюм."]
 			dependencies: ["756376AFE30D2029"]
@@ -210,90 +189,6 @@
 				id: "2D9676F89838EE56"
 				type: "item"
 				item: "boss_tools:oxygen_loader"
-			}]
-		}
-		{
-			title: "Генератор кислородного шара"
-			x: 0.0d
-			y: -2.5d
-			description: ["С помощью генератора кислородного шара можно создать кислородный шар, например, на другой планете!"]
-			dependencies: ["14779353BBD8B279"]
-			id: "51EC55FEAFB9A8E6"
-			tasks: [{
-				id: "2C22AD73D76F3735"
-				type: "item"
-				item: "boss_tools:oxygen_bullet_generator"
-			}]
-		}
-		{
-			title: "Костюм астронавта"
-			x: 3.0d
-			y: 0.5d
-			description: ["Без этого костюма в космосе вам делать нечего."]
-			dependencies: ["1C3B604A3C71EA61"]
-			id: "36A52042091E4E33"
-			tasks: [
-				{
-					id: "301460DB608AABFB"
-					type: "item"
-					item: {
-						id: "boss_tools:space_armor_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3836C04A918B25A9"
-					type: "item"
-					item: {
-						id: "boss_tools:space_armor_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "521CD1C1179F0904"
-					type: "item"
-					item: {
-						id: "boss_tools:space_armor_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0BC7C3B7429A5085"
-					type: "item"
-					item: {
-						id: "boss_tools:space_armor_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Вездеход"
-			x: 3.0d
-			y: 2.0d
-			description: ["Вездеход, на котором можно рассекать просторы других планет."]
-			dependencies: ["1C3B604A3C71EA61"]
-			id: "24C03F7F9D15C2FF"
-			tasks: [{
-				id: "6C2BB13508E277E5"
-				type: "item"
-				item: {
-					id: "boss_tools:rover_item"
-					Count: 1b
-					tag: { }
-				}
 			}]
 		}
 		{
@@ -446,19 +341,6 @@
 			}]
 		}
 		{
-			title: "Бочка топлива"
-			x: 0.5d
-			y: 3.0d
-			description: ["Просто бочка топлива, нужная для полёта в космос!"]
-			dependencies: ["5469B4886D2B7209"]
-			id: "1CF18F82801A06E6"
-			tasks: [{
-				id: "0C8A85C87ED499AF"
-				type: "item"
-				item: "boss_tools:barrel_of_fuel"
-			}]
-		}
-		{
 			title: "Стартовая площадка"
 			x: 4.5d
 			y: -1.0d
@@ -500,8 +382,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 3.0d
+			x: 0.5d
+			y: 3.5d
 			dependencies: ["5469B4886D2B7209"]
 			id: "7530248224E4BFC1"
 			tasks: [{

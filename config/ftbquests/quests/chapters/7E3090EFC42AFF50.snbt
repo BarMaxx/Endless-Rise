@@ -1,7 +1,7 @@
 {
 	id: "7E3090EFC42AFF50"
 	group: "4F34514062F979C6"
-	order_index: 0
+	order_index: 1
 	filename: "7E3090EFC42AFF50"
 	title: "Эпоха Цифровых технологий"
 	icon: "mekanism:metallurgic_infuser"
@@ -9,23 +9,12 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Осмиевые слитки"
-			x: -5.0d
-			y: 0.0d
-			id: "42D01428F4C01306"
-			tasks: [{
-				id: "7FF3BA686FD9C1E5"
-				type: "item"
-				item: "mekanism:ingot_osmium"
-				count: 8L
-			}]
-		}
-		{
-			x: -0.5d
+			x: 0.0d
 			y: 0.0d
 			description: ["С помощью металлургического наполнителя можно создавать различные компоненты, путём наполнения их различными веществами, например редстоуном."]
 			hide_dependency_lines: false
-			dependencies: ["11CB890B7A51546F"]
+			dependencies: ["58A6DAC2644D7A3E"]
+			hide: true
 			id: "6EDBA2148672DAB0"
 			tasks: [{
 				id: "3FC2627D1508C7D5"
@@ -277,32 +266,6 @@
 				id: "2F2E6E1543F940C2"
 				type: "item"
 				item: "mekanism:basic_sawing_factory"
-			}]
-		}
-		{
-			x: -3.5d
-			y: 0.0d
-			description: ["С помощью теплогенератора можно вырабатывать энергию, путём сжигания топлива."]
-			dependencies: ["42D01428F4C01306"]
-			id: "2CC491CC1D846E32"
-			tasks: [{
-				id: "5AF0C5CB4C3D3819"
-				type: "item"
-				item: "mekanismgenerators:heat_generator"
-			}]
-		}
-		{
-			title: "Базовые универсальные провода"
-			x: -2.0d
-			y: 0.0d
-			description: ["С помощью проводов можно передавать энергию по миру."]
-			dependencies: ["2CC491CC1D846E32"]
-			id: "11CB890B7A51546F"
-			tasks: [{
-				id: "271A088C078957B0"
-				type: "item"
-				item: "mekanism:basic_universal_cable"
-				count: 10L
 			}]
 		}
 		{

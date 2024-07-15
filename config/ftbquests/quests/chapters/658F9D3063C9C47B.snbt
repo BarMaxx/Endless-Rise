@@ -9,61 +9,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Молот и наковальня"
-			x: -1.5d
-			y: -0.5d
-			description: ["С помощью молота на наковальне можно создавать различные предметы. Например, эндер-пыль, которая поможет вам в изучении Края!"]
-			size: 1.1d
-			id: "0AFB9AA501D3E79D"
-			tasks: [
-				{
-					id: "7AE933DB11772A68"
-					type: "item"
-					item: "minecraft:anvil"
-				}
-				{
-					id: "666CA02A092721EF"
-					type: "item"
-					title: "Any #betterendforge:hammers"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "betterendforge:hammers"
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "Эндер-пыль"
-			x: 0.0d
-			y: -0.5d
-			description: ["С помощью эндер-пыли можно создать книгу, которая поможет вам в изучении Края. А также, эта пыль прегодиться вам в переплавке слитков."]
-			dependencies: ["0AFB9AA501D3E79D"]
-			id: "663A8BA5E2A51AED"
-			tasks: [{
-				id: "26E3D3326C02BB9E"
-				type: "item"
-				item: "betterendforge:ender_dust"
-				count: 16L
-			}]
-		}
-		{
-			x: 1.5d
-			y: -0.5d
-			shape: "pentagon"
-			description: ["С помощью этой книги вы можете начать своё развитие в измерении Края!"]
-			dependencies: ["663A8BA5E2A51AED"]
-			size: 1.2d
-			id: "009BD95FE26F4917"
-			tasks: [{
-				id: "0AB28D6FD60AF50E"
-				type: "item"
-				item: "betterendforge:guidebook"
-			}]
-		}
-		{
 			x: 5.0d
 			y: 0.0d
 			description: ["Печь из флаволита работает также, как и обычная печь, но она вам пригодится для создания эндер-плавильни."]
@@ -91,10 +36,10 @@
 		}
 		{
 			title: "Талласиевая руда"
-			x: 3.0d
-			y: -1.5d
+			x: 1.5d
+			y: 0.0d
 			description: ["С помощью талласиевой руды можно получить талласиевые слитки, которые очень нужны в этом моде."]
-			dependencies: ["009BD95FE26F4917"]
+			dependencies: ["33AAFE2BEDD62EF3"]
 			id: "48D9C89EB406FAAC"
 			tasks: [{
 				id: "5965B408061BAD8D"
@@ -133,8 +78,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 2.0d
+			x: 2.5d
+			y: 3.0d
 			description: ["Просто наковальня из терминита."]
 			dependencies: ["72977A4E8BD56D0A"]
 			id: "6489AFAF888AA9BA"
@@ -149,8 +94,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.5d
+			x: 3.0d
+			y: -1.5d
 			description: ["Просто наковальня, но другого, более красивого цвета."]
 			dependencies: ["3130CCB62755EC06"]
 			id: "527F948DE8F953B8"
@@ -167,7 +112,7 @@
 		{
 			title: "Броня из терминита"
 			x: 5.5d
-			y: 4.0d
+			y: 3.0d
 			description: ["Та самая броня из терминита."]
 			dependencies: ["72977A4E8BD56D0A"]
 			id: "0C5016DCD082544E"
@@ -226,7 +171,7 @@
 		{
 			title: "Слитки аэтерниума"
 			x: 4.0d
-			y: 5.0d
+			y: 4.5d
 			description: ["Самые дорогие, но самые мощные слитки в этом моде."]
 			dependencies: ["72977A4E8BD56D0A"]
 			id: "4C8AB3D36971AD1F"
@@ -239,7 +184,7 @@
 		}
 		{
 			x: 3.0d
-			y: 6.0d
+			y: 5.5d
 			description: ["Просто аэтерниевая наковальня."]
 			dependencies: ["4C8AB3D36971AD1F"]
 			id: "7982DC0D8A8458AC"
@@ -256,7 +201,7 @@
 		{
 			title: "Броня из аэтерниума"
 			x: 5.0d
-			y: 6.0d
+			y: 5.5d
 			description: ["Просто броня из аэтерниума."]
 			dependencies: ["4C8AB3D36971AD1F"]
 			id: "461DFCB7E2524105"
@@ -311,6 +256,18 @@
 					}
 				}
 			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["5A4E2FDAE9E6BDB5"]
+			hide: true
+			id: "33AAFE2BEDD62EF3"
+			tasks: [{
+				id: "2E69AE2AD4532B8E"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
 		}
 	]
 }

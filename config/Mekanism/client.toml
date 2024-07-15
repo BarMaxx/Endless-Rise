@@ -62,15 +62,11 @@
 		#Last Window Positions. In general these values should not be modified manually.
 		[client.gui.window]
 
+			[client.gui.window.mekaSuitHelmet]
+				x = 2147483647
+				y = 2147483647
+
 			[client.gui.window.color]
-				x = 2147483647
-				y = 2147483647
-
-			[client.gui.window.confirmation]
-				x = 2147483647
-				y = 2147483647
-
-			[client.gui.window.crafting0]
 				x = 2147483647
 				y = 2147483647
 
@@ -78,11 +74,11 @@
 				x = 2147483647
 				y = 2147483647
 
-			[client.gui.window.crafting2]
+			[client.gui.window.upgrade]
 				x = 2147483647
 				y = 2147483647
 
-			[client.gui.window.mekaSuitHelmet]
+			[client.gui.window.crafting0]
 				x = 2147483647
 				y = 2147483647
 
@@ -90,11 +86,15 @@
 				x = 2147483647
 				y = 2147483647
 
-			[client.gui.window.skinSelect]
+			[client.gui.window.sideConfig]
 				x = 2147483647
 				y = 2147483647
 
-			[client.gui.window.sideConfig]
+			[client.gui.window.confirmation]
+				x = 2147483647
+				y = 2147483647
+
+			[client.gui.window.crafting2]
 				x = 2147483647
 				y = 2147483647
 
@@ -102,7 +102,7 @@
 				x = 2147483647
 				y = 2147483647
 
-			[client.gui.window.upgrade]
+			[client.gui.window.skinSelect]
 				x = 2147483647
 				y = 2147483647
 
@@ -110,14 +110,14 @@
 	[client.particle]
 		#Set to false to prevent particle spam when loading multiblocks (notification message will display instead).
 		enableMultiblockFormationParticles = true
-		#Show particles when machines active.
-		machineEffects = true
+		#Show bolts for various AOE tool behaviors such as tilling, debarking, and vein mining.
+		toolAOE = true
 		#How far (in blocks) from the player radiation particles can spawn.
 		radiationParticleRadius = 30
 		#How many particles spawn when rendering radiation effects (scaled by radiation level).
 		radiationParticleCount = 100
+		#Show particles when machines active.
+		machineEffects = true
 		#Show bolts when the Magnetic Attraction Unit is pulling items.
 		magneticAttraction = true
-		#Show bolts for various AOE tool behaviors such as tilling, debarking, and vein mining.
-		toolAOE = true
 

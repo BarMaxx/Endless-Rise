@@ -59,12 +59,12 @@
 	barter_blazing_blood = 20
 	#Adds slimy saplings and seeds into various loot chests. Helps for worlds without slime islands
 	slimy_loot = true
+	#If true, ender dragons will drop scales when damaged by explosions
+	drop_dragon_Scales = true
 	#Weight of tinker tools in the vanilla spawn bonus chest, randomly replacing the vanilla axe or shovel. Tool will have a random tier 1 head and binding, plus a wooden handle. Set to 0 to disable.
 	#For comparison, vanilla wooden axes and pickaxes have a weight of 3, and stone axes/pickaxes have a weight of 1
 	#Range: 0 ~ 25
 	tinker_tool_bonus_chest = 2
-	#If true, ender dragons will drop scales when damaged by explosions
-	drop_dragon_Scales = true
 
 #Everything to do with world generation
 [worldgen]
@@ -86,7 +86,7 @@
 			#Range: 10 ~ 500
 			separation = 30
 			#If true, this island generates
-			generate = false
+			generate = true
 
 		#Options related to earth slime islands spawning in the oceans
 		[worldgen.slime_islands.earth]
@@ -94,7 +94,7 @@
 			#Range: 10 ~ 500
 			separation = 25
 			#If true, this island generates
-			generate = false
+			generate = true
 
 		#Settings for end slime islands in the outer end islands
 		[worldgen.slime_islands.end]
@@ -102,7 +102,7 @@
 			#Range: 10 ~ 500
 			separation = 25
 			#If true, this island generates
-			generate = false
+			generate = true
 
 		#Settings for blood islands in the nether lava ocean
 		[worldgen.slime_islands.blood]
@@ -110,7 +110,7 @@
 			#Range: 10 ~ 500
 			separation = 13
 			#If true, this island generates
-			generate = false
+			generate = true
 
 		#Settings for clay islands in the overworld sky
 		[worldgen.slime_islands.clay]
@@ -118,7 +118,7 @@
 			#Range: 10 ~ 500
 			separation = 100
 			#If true, this island generates
-			generate = false
+			generate = true
 
 #Features to use in debugging gameplay and mechanics, generally should not be enabled in packs
 [debug]

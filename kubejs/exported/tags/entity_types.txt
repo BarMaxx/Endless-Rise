@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jun 18, 2024, 5:14:37 PM
+To refresh this file, delete it and run /reload command again! Last updated: Jul 15, 2024, 12:53:39 PM
 
 #supplementaries:cage_baby_catchable
 - minecraft:cow
@@ -40,35 +40,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:evoker
 - minecraft:player
 
-#blue_skies:poison_allies
-- blue_skies:arachnarch
-- blue_skies:nested_spider
-- blue_skies:venom_spit
-- blue_skies:venom_spider
-- minecraft:spider
-- minecraft:cave_spider
-
 #alexsmobs:scatters_crows
 - #alexsmobs:neutral_land_animals
-
-#carryon:stacking_blacklist
-
-#undergarden:rotspawn
-- undergarden:rotling
-- undergarden:rotwalker
-- undergarden:rotbeast
 
 #alexsmobs:fly_annoy_targets
 - #alexsmobs:villagers
 - minecraft:player
 
-#forge:endermen
-- minecraft:enderman
-- mekanismadditions:baby_enderman
-
 #the_bumblezone:pollen_puff_can_pollinate
 - minecraft:bee
-- #productivebees:solitary_bees
 
 #tconstruct:melting/show_in_default
 - minecraft:iron_golem
@@ -130,11 +110,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #per-viam-invenire:replace_vanilla_navigator
 - mekanism:robit
-- mekanismadditions:baby_creeper
-- mekanismadditions:baby_enderman
-- mekanismadditions:baby_skeleton
-- mekanismadditions:baby_stray
-- mekanismadditions:baby_wither_skeleton
 
 #minecraft:impact_projectiles
 - #minecraft:arrows
@@ -150,66 +125,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - supplementaries:brick_projectile
 - the_bumblezone:pollen_puff
 - mekanism:flame
-- undergarden:blisterbomb
-- undergarden:rotten_blisterberry
-- undergarden:goo_ball
-- undergarden:slingshot_ammo
-- undergarden:minion_projectile
 - savageandravage:spore_cloud
 - savageandravage:confusion_bolt
 
 #minecraft:beehive_inhabitors
 - minecraft:bee
-- productivebees:configurable_bee
-- productivebees:dye_bee
-- productivebees:lumber_bee
-- productivebees:quarry_bee
-- productivebees:rancher_bee
-- productivebees:collector_bee
-- productivebees:hoarder_bee
-- productivebees:farmer_bee
-- productivebees:cupid_bee
-- productivebees:creeper_bee
-- productivebees:ashy_mining_bee
-- productivebees:blue_banded_bee
-- productivebees:green_carpenter_bee
-- productivebees:yellow_black_carpenter_bee
-- productivebees:chocolate_mining_bee
-- productivebees:digger_bee
-- productivebees:leafcutter_bee
-- productivebees:mason_bee
-- productivebees:neon_cuckoo_bee
-- productivebees:nomad_bee
-- productivebees:reed_bee
-- productivebees:resin_bee
-- productivebees:sweaty_bee
-- productivebees:bumble_bee
 
 #forge:creepers
-- minecraft:creeper
-- mekanismadditions:baby_creeper
 - minecraft:creeper
 
 #minecraft:skeletons
 - minecraft:skeleton
 - minecraft:stray
 - minecraft:wither_skeleton
-- mekanismadditions:baby_skeleton
-- mekanismadditions:baby_stray
-- mekanismadditions:baby_wither_skeleton
 - savageandravage:skeleton_villager
 
 #boss_tools:entities/venus_rain
 - boss_tools:pygro
 - boss_tools:mogler
-
-#productivebees:ranchables
-- minecraft:cow
-- minecraft:donkey
-- minecraft:horse
-- minecraft:llama
-- minecraft:sheep
-- dyenamics:sheep?
 
 #minecraft:arrows
 - minecraft:arrow
@@ -226,21 +159,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #scalinghealth:difficulty_exempt
 - minecraft:villager
 - minecraft:wandering_trader
-
-#blue_skies:nature_allies
-- blue_skies:starlit_crusher
-- blue_skies:spewter
-- blue_skies:snow_owl
-- blue_skies:ent_wall
-- blue_skies:ent_root
-- blue_skies:ent_leaf
-- blue_skies:stonelet
-
-#blue_skies:bosses
-- blue_skies:summoner
-- blue_skies:alchemist
-- blue_skies:starlit_crusher
-- blue_skies:arachnarch
 
 #cataclysm:trap_block_not_detected
 - cataclysm:ender_golem
@@ -339,26 +257,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - mowziesmobs:barakoana
 - mowziesmobs:barakoaya
 
-#carryon:stacking_whitelist
-
-#productivebees:animals
-- #productivebees:ranchables
-- minecraft:cat
-- minecraft:chicken
-- minecraft:dolphin
-- minecraft:fox
-- minecraft:hoglin
-- minecraft:mule
-- minecraft:mooshroom
-- minecraft:ocelot
-- minecraft:panda
-- minecraft:parrot
-- minecraft:pig
-- minecraft:polar_bear
-- minecraft:rabbit
-- minecraft:turtle
-- minecraft:wolf
-
 #alexsmobs:sunbird_scorch_targets
 - #minecraft:skeletons
 - minecraft:zombie
@@ -403,11 +301,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - minecraft:vindicator
 - minecraft:illusioner
 - minecraft:witch
-- blue_skies:summoner
-- blue_skies:alchemist
-- takesapillage:archer
-- takesapillage:skirmisher
-- takesapillage:legioner
 - cataclysm:nameless_sorcerer
 - savageandravage:griefer
 - savageandravage:executioner
@@ -418,24 +311,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #tconstruct:melting/hide_in_default
 - minecraft:giant
-
-#carryon:entity_whitelist
-
-#productivebees:solitary_bees
-- productivebees:ashy_mining_bee
-- productivebees:blue_banded_bee
-- productivebees:green_carpenter_bee
-- productivebees:yellow_black_carpenter_bee
-- productivebees:chocolate_mining_bee
-- productivebees:digger_bee
-- productivebees:leafcutter_bee
-- productivebees:mason_bee
-- productivebees:neon_cuckoo_bee
-- productivebees:nomad_bee
-- productivebees:reed_bee
-- productivebees:resin_bee
-- productivebees:sweaty_bee
-- productivebees:bumble_bee
 
 #supplementaries:eats_fodder
 - minecraft:pig
@@ -577,13 +452,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - alexsmobs:warped_mosco
 - alexsmobs:leafcutter_ant
 - alexsmobs:tarantula_hawk
-
-#carryon:entity_blacklist
-
-#blue_skies:frost_spirits
-- blue_skies:frost_spirit
-- blue_skies:armored_frost_spirit
-- blue_skies:crynocerous
 
 #pneumaticcraft:omnihopper_blacklisted
 - minecraft:villager
@@ -746,12 +614,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - fins:siderol_whiskered_snail?
 - fins:red_bull_crab?
 - fins:white_bull_crab?
-
-#undergarden:cavern_creature
-- undergarden:nargoyle
-- undergarden:scintling
-- undergarden:muncher
-- undergarden:sploogie
 
 #cataclysm:ignis_cant_poke
 - minecraft:slime

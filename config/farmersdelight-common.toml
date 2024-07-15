@@ -37,10 +37,10 @@
 
 #World generation
 [world]
-	#Generate Compost Heaps across all village biomes
-	genVillageCompostHeaps = true
 	#Should this mod add some of its items (ropes, seeds, knives, meals etc.) as extra chest loot across Minecraft?
 	generateFDChestLoot = true
+	#Generate Compost Heaps across all village biomes
+	genVillageCompostHeaps = true
 
 	#Sea Beet generation
 	[world.wild_beetroots]

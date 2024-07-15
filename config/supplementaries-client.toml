@@ -52,6 +52,10 @@
 		#Range: 0.0 ~ 1.0
 		spawn_chance = 0.3
 
+	[blocks.turn_table]
+		#Display visual particles when a block is rotated
+		turn_particles = true
+
 	[blocks.globe]
 		#Enable a random globe texture for each world
 		random_world = true
@@ -125,10 +129,6 @@
 		#Translate down displayed 3d blocks so that they are touching the shelf.
 		#Note that they will not be centered vertically this way
 		supported_blocks = true
-
-	[blocks.turn_table]
-		#Display visual particles when a block is rotated
-		turn_particles = true
 
 #Particle parameters
 [particles]

@@ -2,7 +2,7 @@
   "quality": {
     "cloud_quality": "FAST",
     "weather_quality": "FAST",
-    "leaves_quality": "DEFAULT",
+    "leaves_quality": "FAST",
     "enable_vignette": true,
     "enable_clouds": true,
     "smooth_lighting": "OFF"
@@ -26,6 +26,6 @@
     "always_defer_chunk_updates": true
   },
   "notifications": {
-    "hide_donation_button": true
+    "hide_donation_button": false
   }
 }

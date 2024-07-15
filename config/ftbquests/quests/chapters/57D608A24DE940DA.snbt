@@ -15,31 +15,22 @@
 			shape: "pentagon"
 			description: ["С помощью обсидиана можно построить портал в ад."]
 			dependencies: ["31BD23CD6DFA60B1"]
+			hide: true
 			size: 1.2d
 			id: "462BD8A3987B8465"
-			tasks: [{
-				id: "45985AE217B5C27D"
-				type: "item"
-				item: "minecraft:obsidian"
-				count: 10L
-			}]
-		}
-		{
-			x: -2.0d
-			y: -0.5d
-			description: ["С помощью алмазной кирки можно добыть обсидиан."]
-			id: "31BD23CD6DFA60B1"
-			tasks: [{
-				id: "20BB3C13423F8C8C"
-				type: "item"
-				item: {
-					id: "minecraft:diamond_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
+			tasks: [
+				{
+					id: "45985AE217B5C27D"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 10L
 				}
-			}]
+				{
+					id: "27612DBCC2BDD356"
+					type: "dimension"
+					dimension: "minecraft:the_nether"
+				}
+			]
 		}
 		{
 			title: "Босс"
@@ -105,8 +96,8 @@
 		}
 		{
 			title: "Древние обломки"
-			x: 0.0d
-			y: 1.0d
+			x: -2.5d
+			y: -1.5d
 			description: ["Древние обломки очень редкая руда в Нижнем мире, но с помощью неё можно получить сильное снаряжение."]
 			dependencies: ["462BD8A3987B8465"]
 			id: "67061367401ADFFB"
@@ -119,8 +110,8 @@
 		}
 		{
 			title: "Незеритовый лом"
-			x: 0.5d
-			y: 2.5d
+			x: -4.0d
+			y: -1.5d
 			description: ["С помощью незеритового лома можно создать незеритовые слитки для улучшения своего снаряжения."]
 			dependencies: ["67061367401ADFFB"]
 			id: "2472ED4B88B44529"
@@ -133,8 +124,8 @@
 		}
 		{
 			title: "Незеритовые слитки"
-			x: 0.5d
-			y: 4.0d
+			x: -5.5d
+			y: -1.5d
 			description: ["С помощью незеритовых слитков можно улучшить своё снаряжение и не только. Эти слитки понадобятся вам во многих крафтах."]
 			dependencies: ["2472ED4B88B44529"]
 			id: "7C6F8290B3E50949"
@@ -147,8 +138,8 @@
 		}
 		{
 			title: "Огненные стержни"
-			x: -1.0d
-			y: 1.0d
+			x: -2.5d
+			y: 0.5d
 			description: ["С помощью огненных стержней можно создать Око Эндера, которые в свою очередь помогут вам попасть в Край!"]
 			dependencies: ["462BD8A3987B8465"]
 			id: "5807AA78E1578DDF"
@@ -161,8 +152,8 @@
 		}
 		{
 			title: "Око эндера"
-			x: -1.0d
-			y: 2.5d
+			x: -4.4d
+			y: 0.55d
 			description: ["С помощью Око Эндера можно попасть в новое измерение - Край!"]
 			dependencies: ["5807AA78E1578DDF"]
 			size: 1.1d
@@ -176,7 +167,7 @@
 		}
 		{
 			x: -2.5d
-			y: 1.0d
+			y: 2.0d
 			description: ["С помощью зельеварки можно варить зелья, которые могут понадобиться вам в дальнейшем."]
 			dependencies: ["5807AA78E1578DDF"]
 			id: "054786CC970C41B3"

@@ -9,24 +9,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Потрескавшийся известняк"
 			x: 0.0d
 			y: 0.0d
-			shape: "pentagon"
-			description: ["Чтобы попасть в мир Атум нужно бросить Скоробея в специальную конструкцию из песчаника. Нужно построить 5х5 конструкцию(из песчаника) и залить 3х3 водой, добавить по бокам 2 блока в высоту и кинуть скоробея."]
-			dependencies: ["7C8A764A4A0F003E"]
-			size: 1.1d
-			id: "4969DAD337FCABE1"
-			tasks: [{
-				id: "0CB26D49333F93C8"
-				type: "item"
-				item: "atum:scarab"
-			}]
-		}
-		{
-			title: "Потрескавшийся известняк"
-			x: 2.5d
-			y: 0.0d
-			dependencies: ["4969DAD337FCABE1"]
+			dependencies: ["6DCDEBE91E280D59"]
+			hide: true
 			id: "7A6D61FA5C10CC91"
 			tasks: [{
 				id: "7391E0C80E36791F"
@@ -37,11 +24,10 @@
 		}
 		{
 			title: "Слитки Небу"
-			x: 4.0d
+			x: 1.5d
 			y: 0.0d
 			description: ["Слитки Небу можно получить созданием из осколков Небу, а их, в свою очередь, переплавкой руды Небу."]
 			dependencies: ["7A6D61FA5C10CC91"]
-			size: 1.1d
 			id: "632D858FA5AEF2CB"
 			tasks: [{
 				id: "32D8AC81BE7F0884"
@@ -51,7 +37,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: -0.5d
 			y: 1.5d
 			description: ["Печь для обжига можно использовать как обычную печь."]
 			dependencies: ["7A6D61FA5C10CC91"]
@@ -63,7 +49,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 0.5d
 			y: 1.5d
 			description: ["С помощью прялки можно получить льняную нить или обычные нитки."]
 			dependencies: ["7A6D61FA5C10CC91"]
@@ -76,7 +62,7 @@
 		}
 		{
 			title: "Молот Небу"
-			x: 5.5d
+			x: 3.0d
 			y: 0.0d
 			description: ["С помощью молота Небу можно ломать GodForged Block, а из этого блока падают различные реликвии!"]
 			dependencies: ["632D858FA5AEF2CB"]
@@ -89,10 +75,11 @@
 		}
 		{
 			title: "Броня Атума"
-			x: -1.0d
-			y: 1.5d
+			x: -4.0d
+			y: 1.0d
 			description: ["Очень крутая и стильная броня, но броня Ра всё равно лучше!"]
-			dependencies: ["4969DAD337FCABE1"]
+			dependencies: ["6DCDEBE91E280D59"]
+			hide: true
 			id: "0B47526986E9ACE0"
 			tasks: [
 				{
@@ -143,10 +130,11 @@
 		}
 		{
 			title: "Броня Ра"
-			x: 1.0d
-			y: 1.5d
+			x: -2.0d
+			y: 1.0d
 			description: ["Очень крутая и стильная броня."]
-			dependencies: ["4969DAD337FCABE1"]
+			dependencies: ["6DCDEBE91E280D59"]
+			hide: true
 			id: "06288659F7984AAD"
 			tasks: [
 				{
@@ -197,10 +185,11 @@
 		}
 		{
 			title: "Луки"
-			x: 0.0d
-			y: -1.5d
+			x: -3.0d
+			y: -0.5d
 			description: ["В этом моде есть довольно много луков, выбирай самый крутой."]
-			dependencies: ["4969DAD337FCABE1"]
+			dependencies: ["6DCDEBE91E280D59"]
+			hide: true
 			id: "5994C2B43C20B396"
 			tasks: [
 				{
@@ -239,12 +228,11 @@
 			]
 		}
 		{
-			x: 7.0d
+			x: 4.5d
 			y: 0.0d
 			shape: "octagon"
 			description: ["Милосердие Анубиса можно получить, ломая Godforged Block молотом Небу. Эта реликвия сохраняет ваши вещи после смерти!"]
 			dependencies: ["67FDC152546EFFF7"]
-			size: 1.2d
 			id: "12C3B76EC2D1D263"
 			tasks: [{
 				id: "332B773C0300B2A4"
@@ -259,7 +247,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 3.5d
 			y: 1.5d
 			description: ["Жало Сета можно получить ломая GodForged Block молотом Небу. Это оружие отравляет врага, если его полность зарядить."]
 			dependencies: ["67FDC152546EFFF7"]
@@ -277,7 +265,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 3.5d
 			y: -1.5d
 			description: ["Гнев Анубиса можно получить ломая GodForged Block молотом Небу. Это оружие становится сильнее, путём поглащение душ убитых вами врагов!"]
 			dependencies: ["67FDC152546EFFF7"]
@@ -295,7 +283,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 1.5d
 			y: 1.5d
 			description: ["Просто прикольная декорация."]
 			dependencies: ["632D858FA5AEF2CB"]
@@ -308,10 +296,9 @@
 		}
 		{
 			title: "Известняк"
-			x: 2.5d
+			x: 0.0d
 			y: -1.5d
 			dependencies: ["7A6D61FA5C10CC91"]
-			size: 1.1d
 			id: "10680882FA67673F"
 			tasks: [{
 				id: "2B83CDC334480A4D"
@@ -321,8 +308,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.0d
+			x: -1.5d
+			y: -1.5d
 			dependencies: ["10680882FA67673F"]
 			id: "62C30D504664D20E"
 			tasks: [{
@@ -332,8 +319,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -3.0d
+			x: -1.0d
+			y: -2.5d
 			dependencies: ["10680882FA67673F"]
 			id: "30D873C1A4EBDF47"
 			tasks: [{
@@ -343,8 +330,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -3.0d
+			x: 1.0d
+			y: -2.5d
 			dependencies: ["10680882FA67673F"]
 			id: "106568EEFDE3BB16"
 			tasks: [{
@@ -354,7 +341,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 0.0d
 			y: -3.0d
 			dependencies: ["10680882FA67673F"]
 			id: "465C4EFFDEB2A231"
@@ -365,8 +352,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -2.0d
+			x: 1.5d
+			y: -1.5d
 			dependencies: ["10680882FA67673F"]
 			id: "355CE38C9AD4BF67"
 			tasks: [{

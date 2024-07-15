@@ -56,7 +56,7 @@ craftingTable.removeRecipe(<item:create:mechanical_crafter>);
 craftingTable.addShaped("ct_create_12", <item:create:mechanical_crafter>, [
     [<item:minecraft:air>, <item:create:electron_tube>, <item:minecraft:air>],
 	[<item:create:cogwheel>, <item:create:brass_casing>, <item:create:cogwheel>],
-	[<item:minecraft:air>, <item:craftingstation:crafting_station>, <item:minecraft:air>]], null);
+	[<item:minecraft:air>, <item:minecraft:crafting_table>, <item:minecraft:air>]], null);
 craftingTable.removeRecipe(<item:create:sand_paper>);
 craftingTable.addShaped("ct_create_13", <item:create:sand_paper>, [
     [<item:atum:limestone_cracked>, <item:atum:limestone_cracked>, <item:atum:limestone_cracked>],

@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Jun 18, 2024, 5:14:37 PM
+To refresh this file, delete it and run /reload command again! Last updated: Jul 15, 2024, 12:53:39 PM
 
 #boss_tools:molten_silicon
 - boss_tools:molten_silicon?
@@ -29,12 +29,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - boss_tools:flowing_fuel
 - boss_tools:oil
 - boss_tools:flowing_oil
-- undergarden:virulent_mix_source
-- undergarden:virulent_mix_flowing
 - create:flowing_honey
 - create:honey
 - create:flowing_chocolate
 - create:chocolate
+- experienceobelisk:raw_experience
+- experienceobelisk:raw_experience_flowing
 - createaddition:flowing_seed_oil
 - createaddition:seed_oil
 
@@ -67,8 +67,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - tconstruct:flowing_blazing_blood
 
 #tconstruct:molten_platinum
-- alltheores:molten_platinum
-- alltheores:flowing_molten_platinum
 - tconstruct:molten_platinum
 - tconstruct:flowing_molten_platinum
 
@@ -87,10 +85,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #tconstruct:molten_refined_obsidian
 - tconstruct:molten_refined_obsidian
 - tconstruct:flowing_molten_refined_obsidian
-
-#allthemodium:molten_unobtainium
-- allthemodium:molten_unobtainium
-- allthemodium:flowing_molten_unobtainium
 
 #boss_tools:molten_desh
 - boss_tools:molten_desh?
@@ -159,8 +153,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #tconstruct:magma
 
 #forge:drill_fuel
-- #forge:diesel
-- #forge:diesel_sulfur
 - #forge:biodiesel
 
 #pneumaticcraft:plastic
@@ -168,9 +160,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #forge:molten_silicon_bronze
 - #tconstruct:molten_tinkers_bronze
-
-#forge:molten_utherium
-- jaopca:molten.utherium
 
 #forge:molten_manyullyn
 - #tconstruct:molten_manyullyn
@@ -192,15 +181,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #forge:molten_platinum
 - #tconstruct:molten_platinum
 
-#forge:molten_lapis
-- jaopca:molten.lapis
-
-#forge:molten_certus_quartz
-- jaopca:molten.certus_quartz
-
 #tconstruct:molten_silver
-- alltheores:molten_silver
-- alltheores:flowing_molten_silver
 - tconstruct:molten_silver
 - tconstruct:flowing_molten_silver
 
@@ -210,7 +191,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #forge:crude_oil
 - pneumaticcraft:oil
-- immersivepetroleum:oil
 
 #forge:molten_enderium
 - #tconstruct:molten_enderium
@@ -230,8 +210,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - #tconstruct:molten_steel
 
 #tconstruct:molten_aluminum
-- alltheores:molten_aluminum
-- alltheores:flowing_molten_aluminum
 - tconstruct:molten_aluminum
 - tconstruct:flowing_molten_aluminum
 
@@ -254,9 +232,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - mekanism:uranium_oxide
 - mekanism:flowing_uranium_oxide
 
-#forge:molten_regalium
-- jaopca:molten.regalium
-
 #tconstruct:seared_stone
 - tconstruct:seared_stone
 - tconstruct:flowing_seared_stone
@@ -266,8 +241,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - tconstruct:flowing_molten_iron
 
 #tconstruct:molten_uranium
-- alltheores:molten_uranium
-- alltheores:flowing_molten_uranium
 - tconstruct:molten_uranium
 - tconstruct:flowing_molten_uranium
 
@@ -289,10 +262,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #forge:concrete
 - immersiveengineering:concrete
 
-#allthemodium:molten_allthemodium
-- allthemodium:molten_allthemodium
-- allthemodium:flowing_molten_allthemodium
-
 #forge:sulfur_trioxide
 - mekanism:sulfur_trioxide
 - mekanism:flowing_sulfur_trioxide
@@ -300,9 +269,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #forge:sulfuric_acid
 - mekanism:sulfuric_acid
 - mekanism:flowing_sulfuric_acid
-
-#forge:molten_thallasium
-- jaopca:molten.thallasium
 
 #forge:molten_nickel
 - #tconstruct:molten_nickel
@@ -340,8 +306,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - mekanism:flowing_hydrofluoric_acid
 
 #tconstruct:molten_nickel
-- alltheores:molten_nickel
-- alltheores:flowing_molten_nickel
 - tconstruct:molten_nickel
 - tconstruct:flowing_molten_nickel
 
@@ -349,15 +313,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - boss_tools:fuel
 - boss_tools:flowing_fuel
 
-#forge:napalm
-- immersivepetroleum:napalm
-
-#forge:molten_biotite
-- jaopca:molten.biotite
-
 #tconstruct:molten_tin
-- alltheores:molten_tin
-- alltheores:flowing_molten_tin
 - tconstruct:molten_tin
 - tconstruct:flowing_molten_tin
 
@@ -372,15 +328,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - mekanism:oxygen
 - mekanism:flowing_oxygen
 
-#forge:diesel_sulfur
-- immersivepetroleum:diesel_sulfur
-
 #forge:molten_cobalt
 - #tconstruct:molten_cobalt
 
 #tconstruct:molten_osmium
-- alltheores:molten_osmium
-- alltheores:flowing_molten_osmium
 - tconstruct:molten_osmium
 - tconstruct:flowing_molten_osmium
 
@@ -397,9 +348,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #forge:molten_tin
 - #tconstruct:molten_tin
-
-#forge:molten_fluorite
-- jaopca:molten.fluorite
 
 #tconstruct:molten_debris
 - tconstruct:molten_debris
@@ -448,8 +396,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - tconstruct:flowing_molten_lumium
 
 #forge:experience
-- pneumaticcraft:memory_essence
 - sophisticatedbackpacks:xp_still
+- pneumaticcraft:memory_essence
 
 #forge:slime
 - #tconstruct:earth_slime
@@ -460,8 +408,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #forge:diesel
 - pneumaticcraft:diesel
-- immersivepetroleum:diesel
-- immersivepetroleum:diesel_sulfur
 
 #the_bumblezone:honey
 - the_bumblezone:honey_fluid_still
@@ -472,8 +418,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - tconstruct:flowing_molten_constantan
 
 #tconstruct:molten_lead
-- alltheores:molten_lead
-- alltheores:flowing_molten_lead
 - tconstruct:molten_lead
 - tconstruct:flowing_molten_lead
 
@@ -533,7 +477,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #forge:lubricant
 - pneumaticcraft:lubricant
-- immersivepetroleum:lubricant
 
 #tconstruct:venom
 - tconstruct:venom
@@ -542,12 +485,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #tconstruct:molten_bronze
 - tconstruct:molten_bronze
 - tconstruct:flowing_molten_bronze
-
-#forge:molten_cloggrum
-- jaopca:molten.cloggrum
-
-#forge:molten_bismuth
-- jaopca:molten.bismuth
 
 #tconstruct:molten_tinkers_bronze
 - tconstruct:molten_tinkers_bronze
@@ -580,13 +517,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - mekanism:flowing_chlorine
 
 #tconstruct:molten_copper
-- alltheores:molten_copper
-- alltheores:flowing_molten_copper
 - tconstruct:molten_copper
 - tconstruct:flowing_molten_copper
-
-#forge:molten_nebu
-- jaopca:molten.nebu
 
 #tconstruct:ender_slime
 - tconstruct:ender_slime
@@ -603,28 +535,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 #forge:molten_signalum
 - #tconstruct:molten_signalum
 
-#forge:molten_froststeel
-- jaopca:molten.froststeel
-
 #tconstruct:molten_diamond
 - tconstruct:molten_diamond
 - tconstruct:flowing_molten_diamond
 
 #forge:potion
 - immersiveengineering:potion
-
-#allthemodium:molten_vibranium
-- allthemodium:molten_vibranium
-- allthemodium:flowing_molten_vibranium
-
-#immersivepetroleum:burnable_in_flarestack
-- #forge:lubricant
-- #forge:diesel
-- #forge:diesel_sulfur
-- #forge:gasoline
-- #forge:plantoil
-- #forge:creosote
-- #forge:ethanol
 
 #tconstruct:metal_like
 - #forge:molten_desh
@@ -678,26 +594,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 
 #forge:gasoline
 - pneumaticcraft:gasoline
-- immersivepetroleum:gasoline
 
 #tconstruct:molten_zinc
-- alltheores:molten_zinc
-- alltheores:flowing_molten_zinc
 - tconstruct:molten_zinc
 - tconstruct:flowing_molten_zinc
-
-#forge:molten
-- jaopca:molten.biotite
-- jaopca:molten.bismuth
-- jaopca:molten.certus_quartz
-- jaopca:molten.cloggrum
-- jaopca:molten.fluorite
-- jaopca:molten.froststeel
-- jaopca:molten.lapis
-- jaopca:molten.nebu
-- jaopca:molten.regalium
-- jaopca:molten.thallasium
-- jaopca:molten.utherium
 
 #forge:molten_electrum
 - #tconstruct:molten_electrum
@@ -735,8 +635,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - the_bumblezone:honey_fluid_flowing
 - inspirations:honey?
 - inspirations:flowing_honey?
-- productivebees:honey
-- productivebees:flowing_honey
 - create:flowing_honey
 - create:honey
 
@@ -745,6 +643,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - tconstruct:flowing_molten_knightslime
 
 #create:no_infinite_draining
+- mekanismgenerators:bioethanol
+- mekanismgenerators:flowing_bioethanol
+- mekanismgenerators:deuterium
+- mekanismgenerators:flowing_deuterium
+- mekanismgenerators:fusion_fuel
+- mekanismgenerators:flowing_fusion_fuel
+- mekanismgenerators:tritium
+- mekanismgenerators:flowing_tritium
 - mekanism:hydrogen
 - mekanism:flowing_hydrogen
 - mekanism:oxygen
@@ -779,14 +685,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Jun
 - mekanism:flowing_steam
 - mekanism:heavy_water
 - mekanism:flowing_heavy_water
-- mekanismgenerators:bioethanol
-- mekanismgenerators:flowing_bioethanol
-- mekanismgenerators:deuterium
-- mekanismgenerators:flowing_deuterium
-- mekanismgenerators:fusion_fuel
-- mekanismgenerators:flowing_fusion_fuel
-- mekanismgenerators:tritium
-- mekanismgenerators:flowing_tritium
 
 #tconstruct:spilling/glass
 - #tconstruct:molten_glass

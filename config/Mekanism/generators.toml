@@ -36,15 +36,15 @@
 
 	#Heat Generator Settings
 	[generators.heat_generator]
+		#The amount of lava in mB that gets consumed to transfer heatGeneration Joules to the Heat Generator.
+		#Range: 1 ~ 24000
+		heatGenerationFluidRate = 10
 		#Add this amount of Joules to the energy produced by a heat generator if it is in an 'ultrawarm' dimension, in vanilla this is just the Nether.
 		heatGenerationNether = "100"
 		#Multiplier of effectiveness of Lava that is adjacent to the Heat Generator.
 		heatGenerationLava = "30"
 		#Amount of energy in Joules the Heat Generator produces per tick. heatGeneration + heatGenerationLava * lavaSides + heatGenerationNether. Note: lavaSides is how many sides are adjacent to lava, this includes the block itself if it is lava logged allowing for a max of 7 "sides".
 		heatGeneration = "200"
-		#The amount of lava in mB that gets consumed to transfer heatGeneration Joules to the Heat Generator.
-		#Range: 1 ~ 24000
-		heatGenerationFluidRate = 10
 
 	#Fission Reactor Settings
 	[generators.fission_reactor]
@@ -53,6 +53,9 @@
 		#The default burn rate of the fission reactor.
 		#Range: 0.001 ~ 1.0
 		defaultBurnRate = 0.1
+		#Damage to reset the reactor to after a meltdown.
+		#Range: 0.0 ~ 100.0
+		postMeltdownDamage = 75.0
 		#The chance of a meltdown occurring once damage passes 100%. Will linearly scale as damage continues increasing.
 		#Range: 0.0 ~ 1.0
 		meltdownChance = 0.001
@@ -68,9 +71,6 @@
 		surfaceAreaTarget = 4.0
 		#Amount of energy created (in heat) from each whole mB of fission fuel.
 		energyPerFissionFuel = "1000000"
-		#Damage to reset the reactor to after a meltdown.
-		#Range: 0.0 ~ 100.0
-		postMeltdownDamage = 75.0
 
 	#Fusion Settings
 	[generators.fusion_reactor]

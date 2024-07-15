@@ -1,32 +1,29 @@
 
 [health]
-	# Show vanilla hearts
-	healthVanilla = true
 	# Colors for every 10 hearts (not counting the default red)
 	# All values are written as hexadecimal RGB color in '#RRGGBB' format
 	healthColors = ["#F06E14", "#F5DC23", "#2DB928", "#1EAFBE", "#7346E1", "#FA7DEB", "#EB375A", "#FF8278", "#AAFFFA", "#EBEBFF"]
+	# Show vanilla hearts
+	healthVanilla = true
 	# Two alternating colors when poisoned
 	healthPoisonColors = ["#739B00", "#96CD00"]
 	# Two alternating colors when withered
 	healthWitherColors = ["#0F0F0F", "#2D2D2D"]
 
 [absorption]
-	# Show vanilla hearts
-	absorptionVanilla = true
 	# Colors for every 10 hearts (not counting the default yellow)
 	# All values are written as hexadecimal RGB color in '#RRGGBB' format
 	absorptionColors = ["#E1FA9B", "#A0FFAF", "#AAFFFA", "#AACDFF", "#D7B4FF", "#FAA5FF", "#FFB4B4", "#FFAA7D", "#D7F0FF", "#EBFFFA"]
 	# Two alternating colors when poisoned
 	# Can be empty in case of vanilla behaviour where heart background is rendered without hearts
 	absorptionPoisonColors = []
+	# Show vanilla hearts
+	absorptionVanilla = true
 	# Two alternating colors when withered
 	# Can be empty in case of vanilla behaviour where heart background is rendered without hearts
 	absorptionWitherColors = []
 
 	[absorption.advanced]
-		# Display absorption in the same row as health
-		# Absorption is rendered after and over health depending on the mode
-		absorptionOverHealth = false
 		# Display mode for absorption
 		# absorption.advanced.absorptionOverHealth must to be true
 		# Modes: 
@@ -53,4 +50,7 @@
 		#     Absorption is rendered as health, making all colors and values same as health.
 		#Allowed Values: BEGINNING, AFTER_HEALTH, AFTER_HEALTH_ADVANCED, AS_HEALTH
 		absorptionOverHealthMode = "AFTER_HEALTH_ADVANCED"
+		# Display absorption in the same row as health
+		# Absorption is rendered after and over health depending on the mode
+		absorptionOverHealth = false
 
