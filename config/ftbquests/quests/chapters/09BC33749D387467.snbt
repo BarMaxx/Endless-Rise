@@ -174,12 +174,6 @@
 			id: "7EBB21849EC41175"
 			tasks: [
 				{
-					id: "056E0C8B9457D3C0"
-					type: "item"
-					item: "minecraft:clay"
-					count: 10L
-				}
-				{
 					id: "3A57B475116FF8AD"
 					type: "item"
 					item: {
@@ -189,6 +183,12 @@
 							Damage: 0
 						}
 					}
+				}
+				{
+					id: "3FCD1E61A8D03DA4"
+					type: "item"
+					item: "minecraft:clay"
+					count: 10L
 				}
 			]
 		}
@@ -498,9 +498,9 @@
 		}
 		{
 			x: 3.5d
-			y: -1.5d
+			y: 3.0d
 			description: ["С помощью костра можно легко жарить еду."]
-			dependencies: ["3A6840BC06F09951"]
+			dependencies: ["41C6AB8863DA77C2"]
 			id: "0ABFF94FA1462431"
 			tasks: [{
 				id: "1A9093D042E85EF8"
@@ -563,15 +563,33 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -4.5d
-			dependencies: ["0F5335A370C7C1BF"]
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["5FC3EB3CCCFF0F05"]
 			id: "3EBA5DFF322FED98"
 			tasks: [{
 				id: "0E0EEF239986A3F2"
 				type: "item"
 				item: "sophisticatedbackpacks:backpack"
 			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["3A6840BC06F09951"]
+			id: "41C6AB8863DA77C2"
+			tasks: [
+				{
+					id: "5E310D00BB93AD38"
+					type: "item"
+					item: "charcoal_pit:log_pile"
+				}
+				{
+					id: "62FCD132E2DCA425"
+					type: "item"
+					item: "minecraft:charcoal"
+				}
+			]
 		}
 	]
 }

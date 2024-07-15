@@ -70,7 +70,7 @@
 			]
 		}
 		{
-			x: 1.5d
+			x: 1.0d
 			y: 1.5d
 			dependencies: ["31B0B795411A5508"]
 			id: "67D2C16A151DAF63"
@@ -78,19 +78,6 @@
 				id: "31A69242441A0BF9"
 				type: "item"
 				item: "create:water_wheel"
-			}]
-		}
-		{
-			title: "Валы в андезитовом корпусе"
-			x: 1.0d
-			y: -1.5d
-			dependencies: ["31B0B795411A5508"]
-			id: "20FDA68842111866"
-			tasks: [{
-				id: "749F9A573C969E3A"
-				type: "item"
-				item: "create:andesite_encased_shaft"
-				count: 6L
 			}]
 		}
 		{
@@ -245,30 +232,17 @@
 			y: -1.0d
 			dependencies: ["2C356C79E12F86BE"]
 			id: "46515BC511B4975E"
-			tasks: [
-				{
-					id: "725B5F2A5FA783A3"
-					type: "item"
-					item: {
-						id: "create:sand_paper"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "725B5F2A5FA783A3"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-				{
-					id: "4C719E333BBC55BF"
-					type: "item"
-					item: {
-						id: "create:red_sand_paper"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			title: "Известняк"
@@ -606,8 +580,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.5d
+			x: 1.0d
+			y: -1.5d
 			dependencies: ["31B0B795411A5508"]
 			id: "2CD44FAE0380EB2A"
 			tasks: [{
@@ -781,6 +755,7 @@
 			tasks: [{
 				id: "597BEC1335551A29"
 				type: "dimension"
+				title: "Посетить измерение Атум"
 				dimension: "atum:atum"
 			}]
 		}

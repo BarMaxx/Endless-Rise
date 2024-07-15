@@ -1,8 +1,3 @@
-craftingTable.removeRecipe(<item:appliedenergistics2:grindstone>);
-craftingTable.addShaped("ct_appliedenergistics2_01", <item:appliedenergistics2:grindstone>, [
-    [<tag:items:forge:stone>, <item:appliedenergistics2:wooden_gear>, <tag:items:forge:stone>],
-	[<tag:items:appliedenergistics2:crystals/quartz>, <tag:items:forge:stone>, <tag:items:appliedenergistics2:crystals/quartz>],
-	[<tag:items:forge:cobblestone>, <item:minecraft:iron_ingot>, <tag:items:forge:cobblestone>]], null);
 craftingTable.removeRecipe(<item:appliedenergistics2:energy_acceptor>);
 craftingTable.removeRecipe(<item:appliedenergistics2:quartz_growth_accelerator>);
 craftingTable.removeRecipe(<item:appliedenergistics2:charger>);

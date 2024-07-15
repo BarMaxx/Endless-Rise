@@ -22,12 +22,20 @@
 			dependencies: ["0CB34097439D4C81"]
 			hide: true
 			id: "45A07D9B8081F2A0"
-			tasks: [{
-				id: "2A51EB140B8F1180"
-				type: "item"
-				item: "pneumaticcraft:reinforced_bricks"
-				count: 10L
-			}]
+			tasks: [
+				{
+					id: "39BDF8E430CC2295"
+					type: "item"
+					item: "pneumaticcraft:reinforced_stone"
+					count: 10L
+				}
+				{
+					id: "6981E956A2111882"
+					type: "item"
+					item: "pneumaticcraft:reinforced_bricks"
+					count: 10L
+				}
+			]
 		}
 		{
 			title: "Барокамера "

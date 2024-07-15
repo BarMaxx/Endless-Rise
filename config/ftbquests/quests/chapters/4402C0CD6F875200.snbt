@@ -17,24 +17,22 @@
 			hide: true
 			size: 1.3d
 			id: "4AA6F5E7D38B0E33"
-			tasks: [
-				{
-					id: "4B7B3B5279AF9B41"
-					type: "item"
-					item: {
-						id: "immersiveengineering:hammer"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "4B7B3B5279AF9B41"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-				{
-					id: "4080965B32271945"
-					type: "item"
-					item: "immersiveengineering:manual"
-				}
-			]
+			}]
+			rewards: [{
+				id: "3E7C772088843DC0"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
 		}
 		{
 			title: "Кирпичи коксовой печи"
