@@ -12,9 +12,11 @@
 			title: "Изменчивые кристаллы"
 			x: -3.5d
 			y: -3.0d
+			shape: "gear"
 			description: ["Изменчивые кристаллы один из основных ресурсов для создания БЕСКОНЕЧНОГО(ну, почти) хранилища! Чтобы их получить, нужно бросить в воду 1 заряженный истинный кварц, 1 кварц нижнего мира и 1 редстоун пыль."]
 			dependencies: ["462BD8A3987B8465"]
 			hide: true
+			size: 1.2d
 			id: "38D25F8137A28EFD"
 			tasks: [{
 				id: "5AECA94727BED8A7"
@@ -26,9 +28,11 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "gear"
 			description: ["С помощью высекателя можно создавать различные компоненты, которые нужны для создания МЭ хранилища. Для создния этих компонентов нужны формы этих компонентов, которые в свою очередь, находятся внутри метеоритов.(Всего форм 4)"]
 			dependencies: ["62856F299F843C2A"]
 			hide: true
+			size: 1.2d
 			id: "116A04DB56AEFF3E"
 			tasks: [{
 				id: "56A0C6C1A7C6BFC2"
@@ -193,6 +197,7 @@
 		{
 			x: 4.0d
 			y: 0.0d
+			shape: "rsquare"
 			description: ["С помощью МЭ накопителя можно хранить почти бесконечное количество ресурсов. Всё что нужно, это положить внутрь МЭ накопителя ячейки хранения."]
 			dependencies: ["6A63DD0C75C4DC73"]
 			id: "601325ECE439EDA4"
@@ -243,6 +248,7 @@
 		{
 			x: 3.0d
 			y: 1.0d
+			shape: "octagon"
 			description: ["Ячейка, которая может вместить 1024 байтов и 63 типа предметов."]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
@@ -260,6 +266,7 @@
 		{
 			x: 3.5d
 			y: 2.0d
+			shape: "octagon"
 			description: ["Ячейка, которая может вместить 4096 байтов и 63 типа предметов."]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
@@ -277,6 +284,7 @@
 		{
 			x: 4.5d
 			y: 2.0d
+			shape: "octagon"
 			description: ["Ячейка, которая может вместить 16384 байтов и 63 типа предметов."]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
@@ -294,6 +302,7 @@
 		{
 			x: 5.0d
 			y: 1.0d
+			shape: "octagon"
 			description: ["Ячейка, которая может вместить 65536 байтов и 63 типа предметов."]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
@@ -311,6 +320,7 @@
 		{
 			x: 3.0d
 			y: -1.0d
+			shape: "octagon"
 			description: ["Ячейка, которая может вместить 1024 байтов и 5 типа жидкостей."]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
@@ -328,6 +338,7 @@
 		{
 			x: 3.5d
 			y: -2.0d
+			shape: "octagon"
 			description: ["Ячейка, которая может вместить 4096 байтов и 5 типа жидкостей."]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
@@ -345,6 +356,7 @@
 		{
 			x: 4.5d
 			y: -2.0d
+			shape: "octagon"
 			description: ["Ячейка, которая может вместить 16384 байтов и 5 типа жидкостей."]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
@@ -362,6 +374,7 @@
 		{
 			x: 5.0d
 			y: -1.0d
+			shape: "octagon"
 			description: ["Ячейка, которая может вместить 65536 байтов и 5 типа жидкостей."]
 			hide_dependency_lines: true
 			dependencies: ["601325ECE439EDA4"]
@@ -391,6 +404,7 @@
 		{
 			x: 7.5d
 			y: 0.0d
+			shape: "rsquare"
 			description: ["С помощью блока обработки крафта можно создавать авто-крафты для автоматизации производства."]
 			dependencies: ["292289FEE7F94D68"]
 			id: "69825D5DFE2FB5F8"
@@ -403,6 +417,7 @@
 		{
 			x: 7.0d
 			y: 1.0d
+			shape: "pentagon"
 			description: ["Хранилище, которое может хранить 1024 байтов крафта."]
 			hide_dependency_lines: true
 			dependencies: ["69825D5DFE2FB5F8"]
@@ -416,6 +431,7 @@
 		{
 			x: 8.0d
 			y: 1.0d
+			shape: "pentagon"
 			description: ["Хранилище, которое может хранить 4096 байтов крафта."]
 			hide_dependency_lines: true
 			dependencies: ["69825D5DFE2FB5F8"]
@@ -429,6 +445,7 @@
 		{
 			x: 7.0d
 			y: -1.0d
+			shape: "pentagon"
 			description: ["Хранилище, которое может хранить 16384 байтов крафта."]
 			hide_dependency_lines: true
 			dependencies: ["69825D5DFE2FB5F8"]
@@ -442,6 +459,7 @@
 		{
 			x: 8.0d
 			y: -1.0d
+			shape: "pentagon"
 			description: ["Хранилище, которое может хранить 65536 байтов крафта."]
 			hide_dependency_lines: true
 			dependencies: ["69825D5DFE2FB5F8"]
@@ -495,6 +513,7 @@
 			shape: "pentagon"
 			description: ["Чтобы сделать квантовую запутанную сингулярность, нужно бросить на землю сингулярность и эндер-пыль, после взорвав рядом с ними что-нибудь."]
 			dependencies: ["48FABDCCAEA50360"]
+			size: 1.2d
 			id: "0CC765D2CCFCA86B"
 			tasks: [{
 				id: "4C32C3834402F31F"
@@ -505,7 +524,9 @@
 		{
 			x: -2.0d
 			y: 0.0d
+			shape: "gear"
 			dependencies: ["116A04DB56AEFF3E"]
+			size: 1.2d
 			id: "4BC27B8F8CBF12A3"
 			tasks: [{
 				id: "419F9F59CF4FA7F8"

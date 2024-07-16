@@ -12,7 +12,7 @@
 			title: "Портал"
 			x: -0.5d
 			y: -0.5d
-			shape: "pentagon"
+			shape: "gear"
 			description: ["С помощью обсидиана можно построить портал в ад."]
 			dependencies: ["31BD23CD6DFA60B1"]
 			hide: true
@@ -126,6 +126,7 @@
 			title: "Незеритовые слитки"
 			x: -5.5d
 			y: -1.5d
+			shape: "rsquare"
 			description: ["С помощью незеритовых слитков можно улучшить своё снаряжение и не только. Эти слитки понадобятся вам во многих крафтах."]
 			dependencies: ["2472ED4B88B44529"]
 			id: "7C6F8290B3E50949"
@@ -163,6 +164,13 @@
 				type: "item"
 				item: "minecraft:ender_eye"
 				count: 12L
+			}]
+			rewards: [{
+				id: "22A2A7D9450DF959"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a end false"
+				player_command: false
 			}]
 		}
 		{

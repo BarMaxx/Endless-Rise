@@ -64,7 +64,7 @@
 			]
 		}
 		{
-			x: -1.0d
+			x: -0.5d
 			y: -1.5d
 			description: ["С помощью любой ванильной мотыги можно получить сено, а из него волокна, которые нужны для создания верёвки."]
 			dependencies: ["40F68DE6AA5E6427"]
@@ -83,8 +83,9 @@
 		}
 		{
 			title: "Сено"
-			x: -1.0d
+			x: -0.5d
 			y: -3.0d
+			shape: "rsquare"
 			description: ["Выпадает с любой травы, используя ванильную мотыгу."]
 			dependencies: ["55592F4BB319F39F"]
 			id: "0F5335A370C7C1BF"
@@ -126,7 +127,7 @@
 			title: "Примитивная кирка"
 			x: 4.5d
 			y: -1.5d
-			description: ["Поможет вам в добыче руды для дальнейшей её оброботке. Эту кирку можно создать на специальных столах."]
+			description: ["Поможет вам в добыче руды для дальнейшей её оброботке."]
 			dependencies: ["3A6840BC06F09951"]
 			id: "6264DD1A5265CA11"
 			tasks: [{
@@ -145,7 +146,7 @@
 			title: "Примитивный меч"
 			x: 5.5d
 			y: 0.0d
-			description: ["Простой способ убийства враждебных мобов на ранних этапах игры. Этот меч можно создать на специальных столах."]
+			description: ["Простой способ убийства враждебных мобов на ранних этапах игры."]
 			dependencies: ["3A6840BC06F09951"]
 			id: "0A92EA23D2322807"
 			tasks: [{
@@ -199,6 +200,7 @@
 			shape: "hexagon"
 			description: ["Нужен чтобы плавить металлы(в основном). Для этого нужно положить его в яму(Шифт + ПКМ) закрыть со всех сторон землей, поверх сосуда положить сено(ПКМ) и дерево(ПКМ), а дальше поджечь."]
 			dependencies: ["08D541875A03DFFD"]
+			size: 1.1d
 			id: "42FE908F1D88CAE9"
 			tasks: [{
 				id: "17235380861E02CA"
@@ -270,6 +272,16 @@
 					item: "charcoal_pit:bellows"
 					count: 2L
 				}
+				{
+					id: "459CFFDA2FD1CAF1"
+					type: "questsadditions:structure"
+					title: "Домна"
+					name: "bloomery_new"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
 			]
 		}
 		{
@@ -300,6 +312,7 @@
 			shape: "gear"
 			description: ["Это главный металл, чтобы перейти в новую эпоху - Эпоху Механики!"]
 			dependencies: ["0D1E69925DD2C3CE"]
+			size: 1.2d
 			id: "544D867E9E65F95E"
 			tasks: [{
 				id: "67925F061791895F"
@@ -307,11 +320,19 @@
 				item: "minecraft:iron_ingot"
 				count: 8L
 			}]
+			rewards: [{
+				id: "21B05AE2B4E6E82C"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a primitive false"
+				player_command: false
+			}]
 		}
 		{
 			title: "Блок коксового угля"
 			x: 8.5d
 			y: 3.0d
+			shape: "rsquare"
 			description: ["Чтобы получить блок коксового угля, нужно зажечь и герметично застроить кирпичами блок обычного угля."]
 			dependencies: ["7A0E4BDCE0CFCEEF"]
 			id: "17DABC5FC1A79596"
@@ -383,9 +404,11 @@
 			title: "Добыча кремния"
 			x: -2.0d
 			y: 0.0d
+			shape: "gear"
 			description: ["С помощью ручной мельницы вы можете получить кремень, который понадобится вам для создания примитивных инструментов."]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
+			size: 1.2d
 			id: "4F79D63210D7FE5D"
 			tasks: [
 				{
@@ -420,6 +443,7 @@
 			shape: "gear"
 			description: ["Чтобы попасть в улей, нужно кинуть эндер-жемчуг в сам улей. А чтобы выйти из него, вам нужно спуститься в самый низ.(выпасть из улья)"]
 			dependencies: ["0A92EA23D2322807"]
+			size: 1.2d
 			id: "18B3AC82C7E152D5"
 			tasks: [{
 				id: "5C617C63E0E9D69C"
@@ -478,7 +502,7 @@
 				{
 					id: "152A6146364CE110"
 					type: "item"
-					title: "Any #minecraft:logs"
+					title: "Брёвна"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -499,6 +523,7 @@
 		{
 			x: 3.5d
 			y: 3.0d
+			shape: "rsquare"
 			description: ["С помощью костра можно легко жарить еду."]
 			dependencies: ["41C6AB8863DA77C2"]
 			id: "0ABFF94FA1462431"
@@ -553,6 +578,7 @@
 		{
 			x: 13.0d
 			y: 4.5d
+			shape: "pentagon"
 			description: ["С помощью путеводного обелиска можно телепортироваться на большие расстояния. Для этого нужно как минимум 2 точки (2 обелиска) или камень перемещения."]
 			dependencies: ["12AE8B72E160FB72"]
 			id: "7364D564BF495130"
@@ -576,6 +602,7 @@
 		{
 			x: 3.5d
 			y: 1.5d
+			description: ["Для получение древесного угля необходимо поставить кучу бревён в замкнутное пространство (поставить с каждой стороны по блоку земли, кроме одной). Далее поджечь кучу и закрыть блоком земли, а после просто ждать."]
 			dependencies: ["3A6840BC06F09951"]
 			id: "41C6AB8863DA77C2"
 			tasks: [

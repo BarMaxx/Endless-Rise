@@ -12,8 +12,10 @@
 			title: "Потрескавшийся известняк"
 			x: 0.0d
 			y: 0.0d
+			shape: "gear"
 			dependencies: ["6DCDEBE91E280D59"]
 			hide: true
+			size: 1.2d
 			id: "7A6D61FA5C10CC91"
 			tasks: [{
 				id: "7391E0C80E36791F"
@@ -26,6 +28,7 @@
 			title: "Слитки Небу"
 			x: 1.5d
 			y: 0.0d
+			shape: "rsquare"
 			description: ["Слитки Небу можно получить созданием из осколков Небу, а их, в свою очередь, переплавкой руды Небу."]
 			dependencies: ["7A6D61FA5C10CC91"]
 			id: "632D858FA5AEF2CB"
@@ -77,6 +80,7 @@
 			title: "Броня Атума"
 			x: -4.0d
 			y: 1.0d
+			shape: "octagon"
 			description: ["Очень крутая и стильная броня, но броня Ра всё равно лучше!"]
 			dependencies: ["6DCDEBE91E280D59"]
 			hide: true
@@ -132,6 +136,7 @@
 			title: "Броня Ра"
 			x: -2.0d
 			y: 1.0d
+			shape: "octagon"
 			description: ["Очень крутая и стильная броня."]
 			dependencies: ["6DCDEBE91E280D59"]
 			hide: true
@@ -187,6 +192,7 @@
 			title: "Луки"
 			x: -3.0d
 			y: -0.5d
+			shape: "octagon"
 			description: ["В этом моде есть довольно много луков, выбирай самый крутой."]
 			dependencies: ["6DCDEBE91E280D59"]
 			hide: true
@@ -298,6 +304,7 @@
 			title: "Известняк"
 			x: 0.0d
 			y: -1.5d
+			shape: "rsquare"
 			dependencies: ["7A6D61FA5C10CC91"]
 			id: "10680882FA67673F"
 			tasks: [{

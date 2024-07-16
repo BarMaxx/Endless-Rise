@@ -20,15 +20,17 @@
 				id: "7B783C3BBF00F3EA"
 				type: "item"
 				item: "create:andesite_alloy"
-				count: 10L
+				count: 4L
 			}]
 		}
 		{
 			x: -2.5d
 			y: 0.0d
+			shape: "gear"
 			description: ["Очень полезная вещь, с ёё помощью можно передрабливать руды с помощью своих сил."]
 			dependencies: ["544D867E9E65F95E"]
 			hide: true
+			size: 1.2d
 			id: "7CAEFFF51B924E9A"
 			tasks: [
 				{
@@ -72,6 +74,7 @@
 		{
 			x: 1.0d
 			y: 1.5d
+			shape: "rsquare"
 			dependencies: ["31B0B795411A5508"]
 			id: "67D2C16A151DAF63"
 			tasks: [{
@@ -124,6 +127,7 @@
 			title: "Железные листы"
 			x: 4.0d
 			y: 1.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "759CD5F854301CA1"
@@ -138,6 +142,7 @@
 			title: "Медные листы"
 			x: 4.0d
 			y: 2.5d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "30141E3997BA2ADF"
@@ -152,6 +157,7 @@
 			title: "Золотые листы"
 			x: 6.0d
 			y: 2.5d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "2373D730A820B6FB"
@@ -166,6 +172,7 @@
 			title: "Латунные листы"
 			x: 6.0d
 			y: 1.0d
+			shape: "pentagon"
 			hide_dependency_lines: true
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "29039481EF4BB2EF"
@@ -626,6 +633,7 @@
 		{
 			x: 16.5d
 			y: -1.5d
+			shape: "hexagon"
 			dependencies: ["62D1BFB9177CF557"]
 			id: "48E28ED91BA9ED80"
 			tasks: [{
@@ -637,6 +645,7 @@
 		{
 			x: 16.5d
 			y: 1.5d
+			shape: "hexagon"
 			dependencies: ["62D1BFB9177CF557"]
 			id: "65C33752A9CFA7D1"
 			tasks: [{
@@ -697,6 +706,7 @@
 			title: "Лучшие инструменты"
 			x: 3.0d
 			y: -3.0d
+			shape: "rsquare"
 			description: ["С помощью этих форм можно создавать хорошие инструменты, вливая в эти формы жидкий металл."]
 			dependencies: ["093501F9725A0851"]
 			id: "787E9D342C3CC0FE"
@@ -726,6 +736,7 @@
 		{
 			x: 10.0d
 			y: 1.5d
+			shape: "rsquare"
 			dependencies: ["309F4243634A2888"]
 			id: "06F2D10687A0DB8B"
 			tasks: [{
@@ -746,22 +757,44 @@
 				type: "item"
 				item: "atum:scarab"
 			}]
+			rewards: [{
+				id: "6227EF1B258F65D6"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a atum false"
+				player_command: false
+			}]
 		}
 		{
 			x: 8.0d
 			y: 0.0d
+			shape: "gear"
 			dependencies: ["4969DAD337FCABE1"]
+			size: 1.2d
 			id: "6DCDEBE91E280D59"
-			tasks: [{
-				id: "597BEC1335551A29"
-				type: "dimension"
-				title: "Посетить измерение Атум"
-				dimension: "atum:atum"
-			}]
+			tasks: [
+				{
+					id: "597BEC1335551A29"
+					type: "dimension"
+					title: "Посетить измерение Атум"
+					dimension: "atum:atum"
+				}
+				{
+					id: "07C360D2100DF9BA"
+					type: "questsadditions:structure"
+					title: "Портал в Атум"
+					name: "portal_to_atum"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+			]
 		}
 		{
 			x: 17.5d
 			y: 0.0d
+			shape: "hexagon"
 			dependencies: ["62D1BFB9177CF557"]
 			id: "5DCD21BA0E949787"
 			tasks: [{
@@ -773,8 +806,10 @@
 		{
 			x: 7.0d
 			y: 1.5d
+			shape: "gear"
 			description: ["С помощью алмазной кирки можно добыть обсидиан."]
 			dependencies: ["29039481EF4BB2EF"]
+			size: 1.2d
 			id: "31BD23CD6DFA60B1"
 			tasks: [{
 				id: "20BB3C13423F8C8C"
@@ -786,6 +821,13 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "4A0A0A480F4F333F"
+				type: "command"
+				auto: "invisible"
+				command: "/gamestage add @a nether false"
+				player_command: false
 			}]
 		}
 	]

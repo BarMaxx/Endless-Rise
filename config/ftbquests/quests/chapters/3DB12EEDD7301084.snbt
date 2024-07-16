@@ -12,6 +12,7 @@
 			y: 0.0d
 			shape: "gear"
 			description: ["Приветствуем вас на сборке Endless Rise. В этой сборке вам предстоит изучить множество модов, от примитивных технологий до полёта в Космос. Это будет сложный путь, но мы обещаем - он вам понравится.       P.s. Эта сборка сделана командой LGame, и мы желаем вам удачи в прохождении. "]
+			size: 1.2d
 			id: "4015F9A5ADB11078"
 			tasks: [{
 				id: "60365BB57572B491"
@@ -40,6 +41,7 @@
 			rewards: [{
 				id: "257F7BAC250C1B27"
 				type: "command"
+				auto: "invisible"
 				command: "/say Привет, ссылка на вконаткте главного разработчика сборки - https://vk.com/barahtanovm . Можете написать мне, если возникли трудности при игре или появились идеи, как улучшить сборку."
 				player_command: false
 			}]
@@ -59,6 +61,7 @@
 			rewards: [{
 				id: "267C67AC23BD8ABB"
 				type: "command"
+				auto: "invisible"
 				command: "/say вк - https://vk.com/liberator_games Discord - https://discord.gg/U3g8e4nq"
 				player_command: false
 			}]
@@ -78,6 +81,7 @@
 			rewards: [{
 				id: "1DCC717400A7C342"
 				type: "command"
+				auto: "invisible"
 				command: "/say YT - https://www.youtube.com/watch?v=JYLN1OExi98"
 				player_command: false
 			}]

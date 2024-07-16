@@ -11,11 +11,11 @@
 		{
 			x: -1.0d
 			y: 0.0d
-			shape: "pentagon"
+			shape: "gear"
 			description: ["Молот инженера нужен чтобы сформировать мультиблочные структуры. А руководство, чтобы разобратся в этой моде!"]
 			dependencies: ["29039481EF4BB2EF"]
 			hide: true
-			size: 1.3d
+			size: 1.2d
 			id: "4AA6F5E7D38B0E33"
 			tasks: [{
 				id: "4B7B3B5279AF9B41"
@@ -76,8 +76,10 @@
 		{
 			x: 4.0d
 			y: 1.5d
+			shape: "gear"
 			description: ["Кинетический генератор нужен чтобы получать энергию из энерговыробатываемых структурах, например, ветряная мельница или водяное колесо."]
 			dependencies: ["0CB34097439D4C81"]
+			size: 1.2d
 			id: "386BB10DF97AC311"
 			tasks: [{
 				id: "7A5E81D82D8DACE7"
@@ -106,6 +108,7 @@
 			title: "Стальные слитки"
 			x: 4.0d
 			y: -1.5d
+			shape: "rsquare"
 			description: ["Охх... Приготовьтесь к тому, что этих слитков вам понадобится очень много."]
 			dependencies: ["77E59CDF780113E6"]
 			id: "0CB34097439D4C81"
@@ -143,6 +146,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
+			shape: "rsquare"
 			description: ["С помощью этого вы будете снабжать свои приборы энергией!"]
 			dependencies: [
 				"386BB10DF97AC311"
@@ -779,13 +783,18 @@
 		{
 			x: 0.5d
 			y: -3.0d
-			shape: "pentagon"
+			shape: "gear"
 			description: ["С помощью данной книги можно создавать различный инженерный декор."]
 			dependencies: ["49B663AD2181C26F"]
-			size: 1.1d
+			size: 1.2d
 			id: "32A38DBDC7C1566C"
 			tasks: [{
-				id: "773FB259D1CBE120"
+				id: "67ED535212598800"
+				type: "checkmark"
+				title: "Декор Инженера"
+			}]
+			rewards: [{
+				id: "6D2A1C66E4813E91"
 				type: "item"
 				item: {
 					id: "patchouli:guide_book"
