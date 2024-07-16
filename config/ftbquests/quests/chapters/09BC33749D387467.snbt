@@ -150,10 +150,10 @@
 			dependencies: ["3A6840BC06F09951"]
 			id: "0A92EA23D2322807"
 			tasks: [{
-				id: "774ED3DB26B189E4"
+				id: "5AFE6176B63870FD"
 				type: "item"
 				item: {
-					id: "spartanweaponry:longsword_wood"
+					id: "notreepunching:macuahuitl"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -591,6 +591,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
+			description: ["Удобная вещь для хранения вещей во время путешествия."]
 			dependencies: ["5FC3EB3CCCFF0F05"]
 			id: "3EBA5DFF322FED98"
 			tasks: [{

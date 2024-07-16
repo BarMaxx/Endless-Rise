@@ -38,6 +38,17 @@
 					count: 10L
 				}
 			]
+			rewards: [{
+				id: "7D07612B7D5EE8F2"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+			}]
 		}
 		{
 			title: "Барокамера "

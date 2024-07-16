@@ -13,6 +13,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
+			description: ["Начальный ресурс."]
 			dependencies: ["6DCDEBE91E280D59"]
 			hide: true
 			size: 1.2d
@@ -305,6 +306,7 @@
 			x: 0.0d
 			y: -1.5d
 			shape: "rsquare"
+			description: ["Новый камень!"]
 			dependencies: ["7A6D61FA5C10CC91"]
 			id: "10680882FA67673F"
 			tasks: [{
@@ -317,6 +319,7 @@
 		{
 			x: -1.5d
 			y: -1.5d
+			description: ["Ловушка!"]
 			dependencies: ["10680882FA67673F"]
 			id: "62C30D504664D20E"
 			tasks: [{
@@ -328,6 +331,7 @@
 		{
 			x: -1.0d
 			y: -2.5d
+			description: ["Ловушка!"]
 			dependencies: ["10680882FA67673F"]
 			id: "30D873C1A4EBDF47"
 			tasks: [{
@@ -339,6 +343,7 @@
 		{
 			x: 1.0d
 			y: -2.5d
+			description: ["Ловушка!"]
 			dependencies: ["10680882FA67673F"]
 			id: "106568EEFDE3BB16"
 			tasks: [{
@@ -350,6 +355,7 @@
 		{
 			x: 0.0d
 			y: -3.0d
+			description: ["Ловушка!"]
 			dependencies: ["10680882FA67673F"]
 			id: "465C4EFFDEB2A231"
 			tasks: [{
@@ -361,6 +367,7 @@
 		{
 			x: 1.5d
 			y: -1.5d
+			description: ["Ловушка!"]
 			dependencies: ["10680882FA67673F"]
 			id: "355CE38C9AD4BF67"
 			tasks: [{

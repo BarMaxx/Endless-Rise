@@ -28,6 +28,7 @@
 				{
 					id: "27612DBCC2BDD356"
 					type: "dimension"
+					title: "Посетить измерение Незер"
 					dimension: "minecraft:the_nether"
 				}
 			]
@@ -71,6 +72,7 @@
 		{
 			x: 4.5d
 			y: 0.5d
+			shape: "rsquare"
 			description: ["С помощью Маяка можно получить постоянный положительный эффект, но для этого вам нужно немало потратиться. Для первого уровня вам понадобится 9 драгоценный блоков, например железные. Их нужно поставить под Маяком (3х3), после чего он активируется."]
 			dependencies: ["417082ECCD50CFA0"]
 			id: "7BBC76EDB8528709"
@@ -153,11 +155,12 @@
 		}
 		{
 			title: "Око эндера"
-			x: -4.4d
-			y: 0.55d
+			x: -4.0d
+			y: 0.5d
+			shape: "gear"
 			description: ["С помощью Око Эндера можно попасть в новое измерение - Край!"]
 			dependencies: ["5807AA78E1578DDF"]
-			size: 1.1d
+			size: 1.2d
 			id: "5A4E2FDAE9E6BDB5"
 			tasks: [{
 				id: "6B88D4725A0CA70D"
@@ -197,6 +200,69 @@
 				type: "item"
 				item: "minecraft:glowstone"
 				count: 4L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["Можно найти в адской крепости."]
+			dependencies: ["462BD8A3987B8465"]
+			id: "1ECE8CDDCB4F6F81"
+			tasks: [{
+				id: "7E1CFFA709E89A97"
+				type: "item"
+				item: "minecraft:nether_wart"
+				count: 8L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			description: ["Можно сделать автоферму с ним."]
+			dependencies: ["462BD8A3987B8465"]
+			id: "4C16175C05853D91"
+			tasks: [{
+				id: "6333237D0EAE130D"
+				type: "item"
+				item: "minecraft:magma_block"
+				count: 4L
+			}]
+		}
+		{
+			title: "Новое дерево"
+			x: 0.0d
+			y: -2.0d
+			description: ["Прикольная древесина."]
+			dependencies: ["462BD8A3987B8465"]
+			id: "19FCD15B9A6472C8"
+			tasks: [
+				{
+					id: "06B83C5F1B2117DC"
+					type: "item"
+					item: "minecraft:crimson_stem"
+					count: 4L
+				}
+				{
+					id: "0CE9ADE19AB765CD"
+					type: "item"
+					item: "minecraft:warped_stem"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			shape: "gear"
+			description: ["Просто кварц, часто встречается в Незере."]
+			dependencies: ["462BD8A3987B8465"]
+			size: 1.2d
+			id: "13CCA304B7C69DB3"
+			tasks: [{
+				id: "4A90C4CDDB072707"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 8L
 			}]
 		}
 	]

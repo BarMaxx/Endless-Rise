@@ -19,11 +19,18 @@
 				type: "checkmark"
 				title: "Начало сборки"
 			}]
-			rewards: [{
-				id: "5DFB8AD4407E5E8A"
-				type: "item"
-				item: "antiqueatlas:empty_antique_atlas"
-			}]
+			rewards: [
+				{
+					id: "5DFB8AD4407E5E8A"
+					type: "item"
+					item: "antiqueatlas:empty_antique_atlas"
+				}
+				{
+					id: "3336A753F56CD65C"
+					type: "item"
+					item: "akashictome:tome"
+				}
+			]
 		}
 		{
 			title: "Главный разработчик"

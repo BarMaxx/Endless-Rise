@@ -14,7 +14,7 @@
 			y: -3.0d
 			shape: "gear"
 			description: ["Изменчивые кристаллы один из основных ресурсов для создания БЕСКОНЕЧНОГО(ну, почти) хранилища! Чтобы их получить, нужно бросить в воду 1 заряженный истинный кварц, 1 кварц нижнего мира и 1 редстоун пыль."]
-			dependencies: ["462BD8A3987B8465"]
+			dependencies: ["13CCA304B7C69DB3"]
 			hide: true
 			size: 1.2d
 			id: "38D25F8137A28EFD"
@@ -187,6 +187,7 @@
 				"116A04DB56AEFF3E"
 				"1864C5BF06205F25"
 			]
+			size: 1.2d
 			id: "6A63DD0C75C4DC73"
 			tasks: [{
 				id: "26FC0118846E6FA3"
@@ -533,54 +534,68 @@
 				type: "item"
 				item: "powah:energizing_orb"
 			}]
+			rewards: [{
+				id: "69D08F026ADBDE58"
+				type: "item"
+				item: "powah:book"
+			}]
 		}
 		{
-			x: -2.5d
-			y: 1.0d
+			x: -1.5d
+			y: -1.0d
+			description: ["Новый ресурс!"]
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "4222E4C3CB12466C"
 			tasks: [{
 				id: "3F961B57CF367A8D"
 				type: "item"
 				item: "powah:steel_energized"
+				count: 4L
 			}]
 		}
 		{
 			x: -1.5d
 			y: 1.0d
+			description: ["Новый ресурс!"]
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "55089144A1EAB58D"
 			tasks: [{
 				id: "267C50F26D4EDAA8"
 				type: "item"
 				item: "powah:crystal_blazing"
+				count: 4L
 			}]
 		}
 		{
 			x: -2.5d
-			y: -1.0d
+			y: 1.0d
+			description: ["Новый ресурс!"]
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "297BFFD7B579CB71"
 			tasks: [{
 				id: "726F71DF2A08B309"
 				type: "item"
 				item: "powah:crystal_niotic"
+				count: 2L
 			}]
 		}
 		{
-			x: -1.5d
+			x: -2.5d
 			y: -1.0d
+			description: ["Новый ресурс!"]
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "740DC1D7FBBB85D3"
 			tasks: [{
 				id: "0B63516D112B09F7"
 				type: "item"
 				item: "powah:crystal_spirited"
+				count: 2L
 			}]
 		}
 		{
 			x: -3.5d
 			y: 0.0d
+			description: ["Новый ресурс!"]
 			dependencies: ["4BC27B8F8CBF12A3"]
 			id: "6188EB67616DEC14"
 			tasks: [{

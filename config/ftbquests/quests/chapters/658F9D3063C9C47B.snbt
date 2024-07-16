@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 5.0d
-			y: 0.0d
+			x: 4.0d
+			y: -1.5d
 			description: ["Печь из флаволита работает также, как и обычная печь, но она вам пригодится для создания эндер-плавильни."]
 			dependencies: ["3130CCB62755EC06"]
 			id: "73233E0F878A57D4"
@@ -22,8 +22,8 @@
 		}
 		{
 			title: "Слитки талласия"
-			x: 3.0d
-			y: 0.0d
+			x: 2.0d
+			y: -1.5d
 			shape: "rsquare"
 			description: ["С помощью талласиевых слитков можно сделать броню и инструменты. Но самое главное - это эндер-плавильня."]
 			dependencies: ["48D9C89EB406FAAC"]
@@ -37,8 +37,8 @@
 		}
 		{
 			title: "Талласиевая руда"
-			x: 1.5d
-			y: 0.0d
+			x: 0.5d
+			y: -1.5d
 			description: ["С помощью талласиевой руды можно получить талласиевые слитки, которые очень нужны в этом моде."]
 			dependencies: ["33AAFE2BEDD62EF3"]
 			id: "48D9C89EB406FAAC"
@@ -50,8 +50,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.5d
+			x: 3.0d
+			y: 0.0d
 			description: ["С помощью эндер-плавильни можно получать новые, более сильные слитки."]
 			dependencies: [
 				"3130CCB62755EC06"
@@ -66,8 +66,8 @@
 		}
 		{
 			title: "Слитки терминита"
-			x: 4.0d
-			y: 3.0d
+			x: 4.5d
+			y: 0.0d
 			shape: "rsquare"
 			description: ["С помощью слитков из терминита можно создавать новые, более мощные инструменты и броню."]
 			dependencies: ["623011190C09C083"]
@@ -80,8 +80,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.0d
+			x: 5.0d
+			y: -1.5d
 			description: ["Просто наковальня из терминита."]
 			dependencies: ["72977A4E8BD56D0A"]
 			id: "6489AFAF888AA9BA"
@@ -96,8 +96,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -1.5d
+			x: 2.0d
+			y: -3.0d
 			description: ["Просто наковальня, но другого, более красивого цвета."]
 			dependencies: ["3130CCB62755EC06"]
 			id: "527F948DE8F953B8"
@@ -113,8 +113,8 @@
 		}
 		{
 			title: "Броня из терминита"
-			x: 5.5d
-			y: 3.0d
+			x: 5.0d
+			y: 1.5d
 			description: ["Та самая броня из терминита."]
 			dependencies: ["72977A4E8BD56D0A"]
 			id: "0C5016DCD082544E"
@@ -172,8 +172,8 @@
 		}
 		{
 			title: "Слитки аэтерниума"
-			x: 4.0d
-			y: 4.5d
+			x: 6.0d
+			y: 0.0d
 			shape: "rsquare"
 			description: ["Самые дорогие, но самые мощные слитки в этом моде."]
 			dependencies: ["72977A4E8BD56D0A"]
@@ -186,8 +186,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 5.5d
+			x: 7.5d
+			y: -0.5d
 			description: ["Просто аэтерниевая наковальня."]
 			dependencies: ["4C8AB3D36971AD1F"]
 			id: "7982DC0D8A8458AC"
@@ -203,8 +203,8 @@
 		}
 		{
 			title: "Броня из аэтерниума"
-			x: 5.0d
-			y: 5.5d
+			x: 7.5d
+			y: 0.5d
 			description: ["Просто броня из аэтерниума."]
 			dependencies: ["4C8AB3D36971AD1F"]
 			id: "461DFCB7E2524105"
@@ -264,6 +264,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
+			description: ["Посетить измерение Энд. Просто войдите в портал, ведущий в Энд."]
 			dependencies: ["5A4E2FDAE9E6BDB5"]
 			hide: true
 			size: 1.2d
@@ -271,7 +272,76 @@
 			tasks: [{
 				id: "2E69AE2AD4532B8E"
 				type: "dimension"
+				title: "Посетить измерение Энд"
 				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "17D656E36677DFCD"
+				type: "item"
+				item: "betterendforge:guidebook"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			description: ["Убить босса!"]
+			dependencies: ["33AAFE2BEDD62EF3"]
+			id: "15035E2A4C5B7F3F"
+			tasks: [{
+				id: "4D6FE5A55EA837D1"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			description: ["Полёт!"]
+			dependencies: ["15035E2A4C5B7F3F"]
+			id: "194A9F0936073102"
+			tasks: [{
+				id: "5C1A4B96F7CCCED8"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Шалкер"
+			x: 0.0d
+			y: 3.0d
+			description: ["Новое переносное хранилище."]
+			dependencies: ["15035E2A4C5B7F3F"]
+			id: "32359339BBC29883"
+			tasks: [
+				{
+					id: "4F4B9C63AA8094EC"
+					type: "item"
+					item: "minecraft:shulker_shell"
+				}
+				{
+					id: "0AFAE9D85C2BDE7F"
+					type: "item"
+					item: "minecraft:shulker_box"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			description: ["Защищён!"]
+			dependencies: ["32359339BBC29883"]
+			id: "2CE4B945DE586CED"
+			tasks: [{
+				id: "31047CC287699366"
+				type: "item"
+				item: "supplementaries:safe"
 			}]
 		}
 	]

@@ -88,19 +88,6 @@
 			}]
 		}
 		{
-			title: "Доменная печь"
-			x: -1.5d
-			y: 2.0d
-			description: ["С помощью доменной печи можно создать сталь из этого мода(она особенная). А она нужна уже в компрессоре, и не только."]
-			dependencies: ["724672A66EADBAE6"]
-			id: "61AD68E66142CAAC"
-			tasks: [{
-				id: "7EC685CCFAB176DD"
-				type: "item"
-				item: "boss_tools:blast_furnace"
-			}]
-		}
-		{
 			title: "Сжатая Сталь"
 			x: 0.0d
 			y: 0.5d

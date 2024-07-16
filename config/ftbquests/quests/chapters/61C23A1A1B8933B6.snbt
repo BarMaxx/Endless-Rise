@@ -49,6 +49,7 @@
 			title: "Передача механической энергии"
 			x: 1.0d
 			y: 0.0d
+			description: ["Начальные ресурсы любого Механика!"]
 			dependencies: ["1618941433039F79"]
 			id: "31B0B795411A5508"
 			tasks: [
@@ -75,6 +76,7 @@
 			x: 1.0d
 			y: 1.5d
 			shape: "rsquare"
+			description: ["Начальная выработка энергии с помощью воды."]
 			dependencies: ["31B0B795411A5508"]
 			id: "67D2C16A151DAF63"
 			tasks: [{
@@ -86,6 +88,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
+			description: ["Смешивание компонентов в единое целое за счёт кинетической энергии."]
 			dependencies: ["31B0B795411A5508"]
 			id: "549F858A9EB00499"
 			tasks: [
@@ -104,6 +107,7 @@
 		{
 			x: 5.0d
 			y: 0.0d
+			description: ["Прессование различных ресурсов за счёт кинетической энергии."]
 			dependencies: ["549F858A9EB00499"]
 			id: "7C8A764A4A0F003E"
 			tasks: [{
@@ -115,6 +119,7 @@
 		{
 			x: 4.5d
 			y: -1.5d
+			description: ["Первое дробление некоторых ресурсов."]
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "106E7E7ABAE9B21A"
 			tasks: [{
@@ -128,6 +133,7 @@
 			x: 4.0d
 			y: 1.0d
 			shape: "pentagon"
+			description: ["Пластинки!"]
 			hide_dependency_lines: true
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "759CD5F854301CA1"
@@ -143,6 +149,7 @@
 			x: 4.0d
 			y: 2.5d
 			shape: "pentagon"
+			description: ["Пластинки!"]
 			hide_dependency_lines: true
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "30141E3997BA2ADF"
@@ -158,6 +165,7 @@
 			x: 6.0d
 			y: 2.5d
 			shape: "pentagon"
+			description: ["Пластинки!"]
 			hide_dependency_lines: true
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "2373D730A820B6FB"
@@ -173,6 +181,7 @@
 			x: 6.0d
 			y: 1.0d
 			shape: "pentagon"
+			description: ["Пластинки!"]
 			hide_dependency_lines: true
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "29039481EF4BB2EF"
@@ -186,6 +195,7 @@
 		{
 			x: 5.5d
 			y: -1.5d
+			description: ["Выдувает поток воздуха... С этим явно можно придумать что-то полезное."]
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "562B29B6639F36A9"
 			tasks: [{
@@ -197,6 +207,7 @@
 		{
 			x: -1.0d
 			y: 1.5d
+			description: ["Необходимо для выработки энергии из ветра."]
 			dependencies: ["1618941433039F79"]
 			id: "533FAB3239A6359F"
 			tasks: [
@@ -215,6 +226,7 @@
 		{
 			x: -2.0d
 			y: 2.0d
+			description: ["Главный компонент ветряной мельницы."]
 			dependencies: ["533FAB3239A6359F"]
 			id: "462BBE365EAB472A"
 			tasks: [{
@@ -226,6 +238,7 @@
 		{
 			x: 4.0d
 			y: 4.0d
+			description: ["Снова корпус."]
 			dependencies: ["30141E3997BA2ADF"]
 			id: "3045A3DD55265737"
 			tasks: [{
@@ -237,6 +250,7 @@
 		{
 			x: 9.5d
 			y: -1.0d
+			description: ["Обычная наждачка."]
 			dependencies: ["2C356C79E12F86BE"]
 			id: "46515BC511B4975E"
 			tasks: [{
@@ -276,6 +290,7 @@
 		{
 			x: 10.0d
 			y: 0.0d
+			description: ["Красивый :)"]
 			dependencies: ["46515BC511B4975E"]
 			id: "309F4243634A2888"
 			tasks: [{
@@ -287,6 +302,7 @@
 		{
 			x: 11.5d
 			y: 0.0d
+			description: ["Лампочка!"]
 			dependencies: ["309F4243634A2888"]
 			id: "3A22BE56B1E3CBDA"
 			tasks: [{
@@ -298,6 +314,7 @@
 		{
 			x: 6.5d
 			y: 4.0d
+			description: ["Незаменивая вещь любого Механика."]
 			dependencies: ["2373D730A820B6FB"]
 			id: "746E116CECECCC5F"
 			tasks: [{
@@ -310,6 +327,7 @@
 			title: "Механические крафтеры"
 			x: 13.0d
 			y: 0.0d
+			description: ["Создаёт предметы самостоятельно!"]
 			dependencies: ["3A22BE56B1E3CBDA"]
 			id: "365E33230CE0071A"
 			tasks: [{
@@ -322,6 +340,7 @@
 		{
 			x: 12.5d
 			y: -1.5d
+			description: ["Новый вид получения кинетической энергии."]
 			dependencies: ["365E33230CE0071A"]
 			id: "781C653D37B7AA5B"
 			tasks: [
@@ -345,17 +364,21 @@
 		{
 			x: 14.5d
 			y: 0.0d
+			description: ["Полноценное дробление!"]
 			dependencies: ["365E33230CE0071A"]
 			id: "3FB4B3A128FF3B65"
 			tasks: [{
 				id: "692FD6D4F82BC31E"
 				type: "item"
 				item: "create:crushing_wheel"
+				count: 2L
 			}]
 		}
 		{
+			title: "Прочее"
 			x: 12.0d
 			y: 2.0d
+			description: ["Забавные и полезные вещи!"]
 			dependencies: ["365E33230CE0071A"]
 			id: "19080414E59C38ED"
 			tasks: [
@@ -386,6 +409,7 @@
 		{
 			x: 14.0d
 			y: 2.0d
+			description: ["Новая рука!"]
 			dependencies: ["365E33230CE0071A"]
 			id: "0221FA51E282769A"
 			tasks: [{
@@ -401,8 +425,10 @@
 			}]
 		}
 		{
+			title: "Механика"
 			x: 13.5d
 			y: -1.5d
+			description: ["Удобные штучки."]
 			dependencies: ["365E33230CE0071A"]
 			id: "21231BF299577C9D"
 			tasks: [
@@ -419,19 +445,9 @@
 			]
 		}
 		{
-			x: 5.5d
-			y: 4.0d
-			dependencies: ["2373D730A820B6FB"]
-			id: "749932931AA04C35"
-			tasks: [{
-				id: "4631CD5C82534A5C"
-				type: "item"
-				item: "create:mechanical_arm"
-			}]
-		}
-		{
 			x: -1.5d
 			y: -1.5d
+			description: ["Просто корпус."]
 			dependencies: ["1618941433039F79"]
 			id: "6F9AF24E06600707"
 			tasks: [{
@@ -456,6 +472,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
+			description: ["Склеивает блоки."]
 			dependencies: ["759CD5F854301CA1"]
 			id: "2C26A692DADE6537"
 			tasks: [{
@@ -473,6 +490,7 @@
 		{
 			x: 6.5d
 			y: -2.0d
+			description: ["Удобная вещь."]
 			dependencies: ["562B29B6639F36A9"]
 			id: "5844C43FF8870951"
 			tasks: [{
@@ -484,6 +502,7 @@
 		{
 			x: 11.5d
 			y: -1.5d
+			description: ["Сам нажимает!"]
 			dependencies: ["3A22BE56B1E3CBDA"]
 			id: "339E99FFA9CEE6D2"
 			tasks: [{
@@ -495,6 +514,7 @@
 		{
 			x: -2.5d
 			y: -2.0d
+			description: ["Создана для Вашего удобства!"]
 			dependencies: ["6F9AF24E06600707"]
 			id: "0FC5374A65732986"
 			tasks: [{
@@ -506,6 +526,7 @@
 		{
 			x: 5.0d
 			y: 5.0d
+			description: ["Хранит жидкость."]
 			dependencies: ["3045A3DD55265737"]
 			id: "3DADF1CE7B4D9A06"
 			tasks: [{
@@ -517,6 +538,7 @@
 		{
 			x: 3.0d
 			y: 5.0d
+			description: ["Передача жидкости."]
 			dependencies: ["3045A3DD55265737"]
 			id: "7BC47C71E95CC330"
 			tasks: [
@@ -545,6 +567,7 @@
 		{
 			x: 5.0d
 			y: 1.5d
+			description: ["Чтобы получить горелку Всполоха, необходимо нажать ПКМ по Всполоху, держа в руке пустую горелку. Горелка Всполоха необходима для нагрева ресурсов в чаше, например."]
 			dependencies: ["759CD5F854301CA1"]
 			id: "07BAC67F8C8D8A2A"
 			tasks: [
@@ -563,6 +586,7 @@
 		{
 			x: 16.0d
 			y: 0.0d
+			description: ["Новый ресурс!"]
 			dependencies: ["3FB4B3A128FF3B65"]
 			id: "62D1BFB9177CF557"
 			tasks: [{
@@ -578,6 +602,7 @@
 		{
 			x: 13.0d
 			y: 1.5d
+			description: ["0_0"]
 			dependencies: ["365E33230CE0071A"]
 			id: "0739BAD2D663225B"
 			tasks: [{
@@ -589,6 +614,7 @@
 		{
 			x: 1.0d
 			y: -1.5d
+			description: ["Связывают валы в полноценные конвейерные ленты."]
 			dependencies: ["31B0B795411A5508"]
 			id: "2CD44FAE0380EB2A"
 			tasks: [{
@@ -600,6 +626,7 @@
 		{
 			x: 3.5d
 			y: 6.5d
+			description: ["Заполняет/Осушает большие объемы жидкости."]
 			dependencies: ["7BC47C71E95CC330"]
 			id: "6901D58B59D2B140"
 			tasks: [{
@@ -611,6 +638,7 @@
 		{
 			x: 4.0d
 			y: 5.5d
+			description: ["Извлекает жидкость из предметов."]
 			dependencies: ["3045A3DD55265737"]
 			id: "39F1810E0C220168"
 			tasks: [{
@@ -622,6 +650,7 @@
 		{
 			x: 4.5d
 			y: 6.5d
+			description: ["Заполняет некоторые предметы жидкостью."]
 			dependencies: ["3DADF1CE7B4D9A06"]
 			id: "6D9CE4A3BF12A8A8"
 			tasks: [{
@@ -634,6 +663,7 @@
 			x: 16.5d
 			y: -1.5d
 			shape: "hexagon"
+			description: ["Новый ресурс!"]
 			dependencies: ["62D1BFB9177CF557"]
 			id: "48E28ED91BA9ED80"
 			tasks: [{
@@ -646,6 +676,7 @@
 			x: 16.5d
 			y: 1.5d
 			shape: "hexagon"
+			description: ["Новый ресурс!"]
 			dependencies: ["62D1BFB9177CF557"]
 			id: "65C33752A9CFA7D1"
 			tasks: [{
@@ -737,6 +768,7 @@
 			x: 10.0d
 			y: 1.5d
 			shape: "rsquare"
+			description: ["Грузит чанки, пока Вас нет."]
 			dependencies: ["309F4243634A2888"]
 			id: "06F2D10687A0DB8B"
 			tasks: [{
@@ -769,6 +801,7 @@
 			x: 8.0d
 			y: 0.0d
 			shape: "gear"
+			description: ["Необходимо построить портал (для этого надо нажать по заданию с постройкой и выбрать в мире место, где будет стоять портал, а после нажать - ПКМ. Когда постройка окончена - необходимо снова нажать по заданию с постройкой портала), а после налить воду внутрь области 3х3 (бесконечные источники). После чего необходимо кинуть Скарабея в центр воды."]
 			dependencies: ["4969DAD337FCABE1"]
 			size: 1.2d
 			id: "6DCDEBE91E280D59"
@@ -795,6 +828,7 @@
 			x: 17.5d
 			y: 0.0d
 			shape: "hexagon"
+			description: ["Новый ресурс!"]
 			dependencies: ["62D1BFB9177CF557"]
 			id: "5DCD21BA0E949787"
 			tasks: [{
@@ -828,6 +862,18 @@
 				auto: "invisible"
 				command: "/gamestage add @a nether false"
 				player_command: false
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			description: ["Позволяют видеть больше!"]
+			dependencies: ["2373D730A820B6FB"]
+			id: "30AA80C08138F6F8"
+			tasks: [{
+				id: "3DE45522BACB1F32"
+				type: "item"
+				item: "create:goggles"
 			}]
 		}
 	]
