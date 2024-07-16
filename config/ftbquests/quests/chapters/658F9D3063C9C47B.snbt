@@ -284,8 +284,10 @@
 		{
 			x: 0.5d
 			y: 1.5d
+			shape: "gear"
 			description: ["Убить босса!"]
 			dependencies: ["33AAFE2BEDD62EF3"]
+			size: 1.2d
 			id: "15035E2A4C5B7F3F"
 			tasks: [{
 				id: "4D6FE5A55EA837D1"
@@ -295,8 +297,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 3.0d
+			x: 2.0d
+			y: 1.5d
 			description: ["Полёт!"]
 			dependencies: ["15035E2A4C5B7F3F"]
 			id: "194A9F0936073102"
@@ -314,8 +316,8 @@
 		}
 		{
 			title: "Шалкер"
-			x: 0.0d
-			y: 3.0d
+			x: -1.0d
+			y: 1.5d
 			description: ["Новое переносное хранилище."]
 			dependencies: ["15035E2A4C5B7F3F"]
 			id: "32359339BBC29883"
@@ -333,8 +335,9 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 4.5d
+			x: -1.5d
+			y: 2.5d
+			shape: "hexagon"
 			description: ["Защищён!"]
 			dependencies: ["32359339BBC29883"]
 			id: "2CE4B945DE586CED"
@@ -342,6 +345,77 @@
 				id: "31047CC287699366"
 				type: "item"
 				item: "supplementaries:safe"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			shape: "hexagon"
+			description: ["Просто полезно."]
+			dependencies: ["194A9F0936073102"]
+			id: "5FC800B3BCAD23FD"
+			tasks: [{
+				id: "4D1CC134DFCF2AD3"
+				type: "item"
+				item: {
+					id: "cataclysm:ignitium_elytra_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			description: ["Сложный противник!"]
+			dependencies: ["15035E2A4C5B7F3F"]
+			id: "433CFD0D46C32583"
+			tasks: [{
+				id: "74402322A96DFB02"
+				type: "kill"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			shape: "rsquare"
+			description: ["Мощный предмет."]
+			dependencies: ["433CFD0D46C32583"]
+			id: "27A0FEB395AF26F9"
+			tasks: [{
+				id: "429C7D1FAE746DCB"
+				type: "item"
+				item: "cataclysm:gauntlet_of_guard"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["Сложный противник!"]
+			dependencies: ["15035E2A4C5B7F3F"]
+			id: "467049FB5B6047EC"
+			tasks: [{
+				id: "29F989FE6EC85D9B"
+				type: "kill"
+				entity: "cataclysm:ender_golem"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			shape: "rsquare"
+			description: ["Мощный предмет."]
+			dependencies: ["467049FB5B6047EC"]
+			id: "2B3B813B3C5A531E"
+			tasks: [{
+				id: "766F31FF3DCE0B28"
+				type: "item"
+				item: "cataclysm:void_core"
 			}]
 		}
 	]

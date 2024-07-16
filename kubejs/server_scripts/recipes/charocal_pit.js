@@ -48,4 +48,7 @@ onEvent('recipes', event => {
   })
   
   
+  event.remove({output: 'charcoal_pit:fire_starter'})	
+  
+  
 })

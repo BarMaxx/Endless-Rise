@@ -64,10 +64,10 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: 1.0d
 			y: -1.5d
 			description: ["С помощью любой ванильной мотыги можно получить сено, а из него волокна, которые нужны для создания верёвки."]
-			dependencies: ["40F68DE6AA5E6427"]
+			dependencies: ["5FC3EB3CCCFF0F05"]
 			id: "55592F4BB319F39F"
 			tasks: [{
 				id: "580C81DE54238A94"
@@ -82,8 +82,7 @@
 			}]
 		}
 		{
-			title: "Сено"
-			x: -0.5d
+			x: 1.0d
 			y: -3.0d
 			shape: "rsquare"
 			description: ["Выпадает с любой травы, используя ванильную мотыгу."]
@@ -93,6 +92,7 @@
 				id: "47815D72B12A00B1"
 				type: "item"
 				item: "charcoal_pit:straw"
+				count: 4L
 			}]
 		}
 		{
@@ -186,10 +186,10 @@
 					}
 				}
 				{
-					id: "3FCD1E61A8D03DA4"
+					id: "3C4C5C6D3794E79E"
 					type: "item"
-					item: "minecraft:clay"
-					count: 10L
+					item: "minecraft:clay_ball"
+					count: 16L
 				}
 			]
 		}
@@ -384,7 +384,7 @@
 		}
 		{
 			x: 1.0d
-			y: -1.5d
+			y: 1.5d
 			description: ["Довольно простой способ добычи еды на ранних этапах игры."]
 			dependencies: ["5FC3EB3CCCFF0F05"]
 			id: "1623F52695BB1A56"
@@ -589,7 +589,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 2.0d
 			y: 1.5d
 			description: ["Удобная вещь для хранения вещей во время путешествия."]
 			dependencies: ["5FC3EB3CCCFF0F05"]

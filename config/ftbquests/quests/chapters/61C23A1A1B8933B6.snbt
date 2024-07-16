@@ -663,7 +663,7 @@
 			x: 16.5d
 			y: -1.5d
 			shape: "hexagon"
-			description: ["Новый ресурс!"]
+			description: ["Необходим свет..."]
 			dependencies: ["62D1BFB9177CF557"]
 			id: "48E28ED91BA9ED80"
 			tasks: [{
@@ -676,7 +676,7 @@
 			x: 16.5d
 			y: 1.5d
 			shape: "hexagon"
-			description: ["Новый ресурс!"]
+			description: ["Необходима темнота..."]
 			dependencies: ["62D1BFB9177CF557"]
 			id: "65C33752A9CFA7D1"
 			tasks: [{
@@ -828,7 +828,7 @@
 			x: 17.5d
 			y: 0.0d
 			shape: "hexagon"
-			description: ["Новый ресурс!"]
+			description: ["Необходимо электричество..."]
 			dependencies: ["62D1BFB9177CF557"]
 			id: "5DCD21BA0E949787"
 			tasks: [{
