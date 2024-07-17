@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Портал"
+			title: "Портал в Незер"
 			x: -0.5d
 			y: -0.5d
 			shape: "gear"
@@ -23,13 +23,7 @@
 					id: "45985AE217B5C27D"
 					type: "item"
 					item: "minecraft:obsidian"
-					count: 10L
-				}
-				{
-					id: "27612DBCC2BDD356"
-					type: "dimension"
-					title: "Посетить измерение Незер"
-					dimension: "minecraft:the_nether"
+					count: 14L
 				}
 				{
 					id: "7FCB4EBEC204E0D1"
@@ -40,6 +34,12 @@
 					layer: true
 					ignoreState: false
 					rightclick: false
+				}
+				{
+					id: "30AE021C00511187"
+					type: "dimension"
+					title: "Посетить измерение Незер"
+					dimension: "minecraft:the_nether"
 				}
 			]
 		}
@@ -93,7 +93,6 @@
 			}]
 		}
 		{
-			title: "Светокаменная пыль"
 			x: 1.0d
 			y: -1.0d
 			description: ["Просто светокаменная пыль, которую можно перекрафтить в светокамень!"]
@@ -103,7 +102,7 @@
 				id: "05B0B519602B4D93"
 				type: "item"
 				item: "minecraft:glowstone_dust"
-				count: 16L
+				count: 8L
 			}]
 		}
 		{
@@ -574,6 +573,7 @@
 			x: 3.0d
 			y: 0.5d
 			shape: "rsquare"
+			description: ["Хорошее оружие."]
 			dependencies: ["417082ECCD50CFA0"]
 			id: "1ABE9F47FF3EE573"
 			tasks: [{

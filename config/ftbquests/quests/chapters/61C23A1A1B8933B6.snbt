@@ -105,16 +105,27 @@
 			]
 		}
 		{
+			title: "Прессование"
 			x: 3.5d
 			y: 0.0d
-			description: ["Прессование различных ресурсов за счёт кинетической энергии."]
+			description: [
+				"Прессование различных ресурсов за счёт кинетической энергии."
+				"На депо можно положить слитки, чтобы было удобнее."
+			]
 			dependencies: ["31B0B795411A5508"]
 			id: "7C8A764A4A0F003E"
-			tasks: [{
-				id: "5A9E39371F1DB7AE"
-				type: "item"
-				item: "create:mechanical_press"
-			}]
+			tasks: [
+				{
+					id: "5A9E39371F1DB7AE"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "3931D2C78802AACB"
+					type: "item"
+					item: "create:depot"
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -498,18 +509,6 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -2.0d
-			description: ["Создана для Вашего удобства!"]
-			dependencies: ["6F9AF24E06600707"]
-			id: "0FC5374A65732986"
-			tasks: [{
-				id: "540790BE8EC141F4"
-				type: "item"
-				item: "create:depot"
-			}]
-		}
-		{
 			x: 5.0d
 			y: 4.0d
 			description: ["Хранит жидкость."]
@@ -584,6 +583,7 @@
 					Count: 1b
 					tag: { }
 				}
+				count: 4L
 			}]
 		}
 		{
@@ -657,6 +657,7 @@
 				id: "6C7BBD1F28F5D50C"
 				type: "item"
 				item: "create:refined_radiance"
+				count: 2L
 			}]
 		}
 		{
@@ -670,6 +671,7 @@
 				id: "099E707CDF71E764"
 				type: "item"
 				item: "create:shadow_steel"
+				count: 2L
 			}]
 		}
 		{
@@ -794,12 +796,6 @@
 			id: "6DCDEBE91E280D59"
 			tasks: [
 				{
-					id: "597BEC1335551A29"
-					type: "dimension"
-					title: "Посетить измерение Атум"
-					dimension: "atum:atum"
-				}
-				{
 					id: "07C360D2100DF9BA"
 					type: "questsadditions:structure"
 					title: "Портал в Атум"
@@ -808,6 +804,12 @@
 					layer: true
 					ignoreState: false
 					rightclick: false
+				}
+				{
+					id: "6799E1C1E2932172"
+					type: "dimension"
+					title: "Посетить измерение Атум"
+					dimension: "atum:atum"
 				}
 			]
 		}
@@ -822,6 +824,7 @@
 				id: "6622D87485FD7AB4"
 				type: "item"
 				item: "createaddition:overcharged_alloy"
+				count: 2L
 			}]
 		}
 		{
@@ -907,6 +910,7 @@
 			x: 1.0d
 			y: -4.5d
 			shape: "rsquare"
+			description: ["Основа плавильни."]
 			dependencies: ["549F858A9EB00499"]
 			id: "331FF86414916787"
 			tasks: [
@@ -928,6 +932,7 @@
 			title: "Первая плавильня"
 			x: 0.0d
 			y: -5.0d
+			description: ["Начало великой плавильни."]
 			dependencies: ["331FF86414916787"]
 			id: "1F75B70BE7D3826B"
 			tasks: [
@@ -960,6 +965,7 @@
 			x: 11.5d
 			y: -3.0d
 			shape: "rsquare"
+			description: ["Он точный..."]
 			dependencies: ["339E99FFA9CEE6D2"]
 			id: "27EE9C334876E614"
 			tasks: [{
