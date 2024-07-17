@@ -1,1 +1,1 @@
-{"type":"mekanism:metallurgic_infusing","itemInput":{"ingredient":{"item":"create:chromatic_compound"}},"infusionInput":{"amount":200,"tag":"mekanism:redstone"},"output":{"item":"mekanism:basic_control_circuit"}}
+{"type":"mekanism:metallurgic_infusing","itemInput":{"ingredient":{"item":"tconstruct:queens_slime_ingot"}},"infusionInput":{"amount":20,"tag":"mekanism:redstone"},"output":{"item":"mekanism:basic_control_circuit"}}

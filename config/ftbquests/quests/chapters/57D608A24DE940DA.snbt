@@ -31,6 +31,16 @@
 					title: "Посетить измерение Незер"
 					dimension: "minecraft:the_nether"
 				}
+				{
+					id: "7FCB4EBEC204E0D1"
+					type: "questsadditions:structure"
+					title: "Портал в Незер"
+					name: "nether_portal"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
 			]
 		}
 		{

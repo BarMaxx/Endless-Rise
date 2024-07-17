@@ -1,0 +1,31 @@
+{
+	id: "73970F1ED71AFD1F"
+	order_index: 0
+	title: "Плюшевые игрушки"
+	icon: "plushies:panda_plushie"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "plushies:panda_plushie", weight: 20 }
+		{ item: "plushies:slime_plushie", weight: 20 }
+		{ item: "plushies:red_fox_plushie", weight: 20 }
+		{ item: "plushies:white_fox_plushie", weight: 20 }
+		{ item: "plushies:dragon_plushie" }
+		{ item: "plushies:cow_plushie", weight: 20 }
+		{ item: "plushies:mooshroom_plushie", weight: 20 }
+		{ item: "plushies:bee_plushie", weight: 20 }
+		{ item: "plushies:llama_plushie", weight: 20 }
+		{ item: "plushies:magma_cube_plushie", weight: 20 }
+		{ item: "plushies:axolotl_plushie", weight: 20 }
+		{ item: "plushies:turtle_plushie", weight: 20 }
+		{ item: "plushies:snow_golem_plushie", weight: 20 }
+		{ item: "plushies:dolphin_plushie", weight: 20 }
+		{ item: "plushies:parrot_plushie", weight: 20 }
+		{ item: "plushies:warden_plushie", weight: 5 }
+		{ item: "plushies:frog_plushie", weight: 20 }
+		{ item: "plushies:goat_plushie", weight: 20 }
+		{ item: "plushies:cat_plushie", weight: 20 }
+		{ item: "plushies:enderman_plushie", weight: 20 }
+		{ item: "plushies:sheep_plushie", weight: 20 }
+	]
+}

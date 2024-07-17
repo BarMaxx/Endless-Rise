@@ -1,19 +1,33 @@
 {
+  "enderchests": {
+    "hud": true
+  },
   "minecraft": {
     "crop_progress": true,
     "comparator": true,
-    "hide_infestations": true,
     "display_furnace_contents": true,
+    "hide_infestations": true,
     "jukebox": true,
     "lever": true,
     "spawner_type": true,
     "redstone": true,
     "repeater": true
   },
+  "endertanks": {
+    "hud.basic": true,
+    "hud": true,
+    "hud.status": true,
+    "hud.contents": true
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
   "jade": {
     "horse_inventory": true,
-    "show_entity_armor": true,
     "total_ench_power": true,
+    "show_entity_armor": true,
     "chicken_egg": true,
     "horse_stat": true,
     "brewing_stand": true,
@@ -42,8 +56,8 @@
   },
   "waila": {
     "show_registry": false,
-    "show_entity_hp": true,
     "show_states": false,
+    "show_entity_hp": true,
     "show_entities": true
   },
   "storagedrawers": {

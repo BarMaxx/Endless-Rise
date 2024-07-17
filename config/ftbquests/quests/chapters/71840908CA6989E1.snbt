@@ -1,0 +1,115 @@
+{
+	id: "71840908CA6989E1"
+	group: ""
+	order_index: 1
+	filename: "71840908CA6989E1"
+	title: "Особенности"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["4015F9A5ADB11078"]
+			hide: true
+			id: "069657197FCCDE67"
+			tasks: [{
+				id: "0578A2C6E5DFF80C"
+				type: "checkmark"
+				title: "Здоровье за еду!"
+			}]
+			rewards: [{
+				id: "313B0545F718A9EE"
+				type: "item"
+				item: "solcarrot:food_book"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["4015F9A5ADB11078"]
+			hide: true
+			id: "4646110081F3DA55"
+			tasks: [{
+				id: "7392A2BA1AC41F28"
+				type: "checkmark"
+				title: "Сезоны года"
+			}]
+			rewards: [{
+				id: "6CEAA196E81254E8"
+				type: "item"
+				item: "sereneseasons:calendar"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["4015F9A5ADB11078"]
+			hide: true
+			id: "4B33B0F5DD68C16E"
+			tasks: [{
+				id: "69846935CAB65EDB"
+				type: "checkmark"
+				title: "Жажда"
+			}]
+			rewards: [{
+				id: "3DBB5CDAB87C3FD3"
+				type: "item"
+				item: "toughasnails:purified_water_bottle"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["4015F9A5ADB11078"]
+			hide: true
+			id: "560C6C0A1DF573D5"
+			tasks: [{
+				id: "40B3429CFB2F34EC"
+				type: "checkmark"
+				title: "Рост сложности"
+			}]
+			rewards: [{
+				id: "648434A8A75F2C05"
+				type: "item"
+				item: "scalinghealth:chance_heart"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["4015F9A5ADB11078"]
+			hide: true
+			id: "0D811557B1492FA9"
+			tasks: [{
+				id: "2932487E12151B37"
+				type: "checkmark"
+				title: "Атлас"
+			}]
+			rewards: [{
+				id: "08CD9A76CE2F1398"
+				type: "item"
+				item: "antiqueatlas:empty_antique_atlas"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["4015F9A5ADB11078"]
+			hide: true
+			id: "0AC2DBC17F3860F2"
+			tasks: [{
+				id: "3FABC325E603D640"
+				type: "checkmark"
+				title: "Том Акаши"
+			}]
+			rewards: [{
+				id: "157FB0ADDACC25A6"
+				type: "item"
+				item: "akashictome:tome"
+			}]
+		}
+	]
+}

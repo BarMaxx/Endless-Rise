@@ -9,7 +9,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Андезитовые сплавы"
 			x: -1.0d
 			y: 0.0d
 			description: ["Главный ингридиент в моде Create. Также, если вам не понятно как работает тот или иной механизм из этого моды, зажмите W и вам всё подробно объяснят!"]
@@ -20,7 +19,7 @@
 				id: "7B783C3BBF00F3EA"
 				type: "item"
 				item: "create:andesite_alloy"
-				count: 4L
+				count: 8L
 			}]
 		}
 		{
@@ -86,29 +85,30 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 0.0d
+			title: "Смешивание"
+			x: 2.0d
+			y: -3.5d
 			description: ["Смешивание компонентов в единое целое за счёт кинетической энергии."]
-			dependencies: ["31B0B795411A5508"]
+			dependencies: ["17FC0F3202DCCA6A"]
 			id: "549F858A9EB00499"
 			tasks: [
-				{
-					id: "3CCA7CDE8F70312D"
-					type: "item"
-					item: "create:basin"
-				}
 				{
 					id: "1CAFCF65A6C563F3"
 					type: "item"
 					item: "create:mechanical_mixer"
 				}
+				{
+					id: "59DF5AD35E233D26"
+					type: "item"
+					item: "create:basin"
+				}
 			]
 		}
 		{
-			x: 5.0d
+			x: 3.5d
 			y: 0.0d
 			description: ["Прессование различных ресурсов за счёт кинетической энергии."]
-			dependencies: ["549F858A9EB00499"]
+			dependencies: ["31B0B795411A5508"]
 			id: "7C8A764A4A0F003E"
 			tasks: [{
 				id: "5A9E39371F1DB7AE"
@@ -117,24 +117,10 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 3.5d
 			y: -1.5d
-			description: ["Первое дробление некоторых ресурсов."]
-			dependencies: ["7C8A764A4A0F003E"]
-			id: "106E7E7ABAE9B21A"
-			tasks: [{
-				id: "51F6AE3F80645416"
-				type: "item"
-				item: "create:millstone"
-			}]
-		}
-		{
-			title: "Железные листы"
-			x: 4.0d
-			y: 1.0d
 			shape: "pentagon"
 			description: ["Пластинки!"]
-			hide_dependency_lines: true
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "759CD5F854301CA1"
 			tasks: [{
@@ -145,12 +131,10 @@
 			}]
 		}
 		{
-			title: "Медные листы"
 			x: 4.0d
-			y: 2.5d
+			y: 1.5d
 			shape: "pentagon"
 			description: ["Пластинки!"]
-			hide_dependency_lines: true
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "30141E3997BA2ADF"
 			tasks: [{
@@ -161,12 +145,10 @@
 			}]
 		}
 		{
-			title: "Золотые листы"
-			x: 6.0d
-			y: 2.5d
+			x: 3.0d
+			y: 1.5d
 			shape: "pentagon"
 			description: ["Пластинки!"]
-			hide_dependency_lines: true
 			dependencies: ["7C8A764A4A0F003E"]
 			id: "2373D730A820B6FB"
 			tasks: [{
@@ -177,13 +159,14 @@
 			}]
 		}
 		{
-			title: "Латунные листы"
-			x: 6.0d
-			y: 1.0d
+			x: 5.0d
+			y: 0.0d
 			shape: "pentagon"
 			description: ["Пластинки!"]
-			hide_dependency_lines: true
-			dependencies: ["7C8A764A4A0F003E"]
+			dependencies: [
+				"7C8A764A4A0F003E"
+				"2888C9E7B1571B7C"
+			]
 			id: "29039481EF4BB2EF"
 			tasks: [{
 				id: "58ACB21720A7811D"
@@ -193,41 +176,51 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -1.5d
+			x: 5.0d
+			y: -3.5d
 			description: ["Выдувает поток воздуха... С этим явно можно придумать что-то полезное."]
-			dependencies: ["7C8A764A4A0F003E"]
+			dependencies: ["63B31D2AF4550037"]
 			id: "562B29B6639F36A9"
-			tasks: [{
-				id: "3E1CF5EB8616DF6A"
-				type: "item"
-				item: "create:encased_fan"
-			}]
+			tasks: [
+				{
+					id: "3E1CF5EB8616DF6A"
+					type: "item"
+					item: "create:encased_fan"
+				}
+				{
+					id: "6CAE888EFA3C36B0"
+					type: "item"
+					item: "create:nozzle"
+				}
+			]
 		}
 		{
+			title: "Паруса"
 			x: -1.0d
-			y: 1.5d
+			y: 3.0d
 			description: ["Необходимо для выработки энергии из ветра."]
-			dependencies: ["1618941433039F79"]
+			dependencies: ["462BBE365EAB472A"]
 			id: "533FAB3239A6359F"
 			tasks: [
 				{
 					id: "5CFF819C2C048EEB"
 					type: "item"
 					item: "create:sail_frame"
+					count: 4L
 				}
 				{
 					id: "73EE6FBBDF5A7E99"
 					type: "item"
 					item: "create:white_sail"
+					count: 4L
 				}
 			]
 		}
 		{
-			x: -2.0d
-			y: 2.0d
+			x: -1.0d
+			y: 1.5d
 			description: ["Главный компонент ветряной мельницы."]
-			dependencies: ["533FAB3239A6359F"]
+			dependencies: ["1618941433039F79"]
 			id: "462BBE365EAB472A"
 			tasks: [{
 				id: "08C09F5EE542FA3A"
@@ -237,7 +230,7 @@
 		}
 		{
 			x: 4.0d
-			y: 4.0d
+			y: 3.0d
 			description: ["Снова корпус."]
 			dependencies: ["30141E3997BA2ADF"]
 			id: "3045A3DD55265737"
@@ -245,6 +238,7 @@
 				id: "7724C6BDCAA660EA"
 				type: "item"
 				item: "create:copper_casing"
+				count: 4L
 			}]
 		}
 		{
@@ -312,8 +306,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 4.0d
+			x: 3.0d
+			y: 2.5d
 			description: ["Незаменивая вещь любого Механика."]
 			dependencies: ["2373D730A820B6FB"]
 			id: "746E116CECECCC5F"
@@ -327,8 +321,10 @@
 			title: "Механические крафтеры"
 			x: 13.0d
 			y: 0.0d
+			shape: "gear"
 			description: ["Создаёт предметы самостоятельно!"]
 			dependencies: ["3A22BE56B1E3CBDA"]
+			size: 1.2d
 			id: "365E33230CE0071A"
 			tasks: [{
 				id: "4701F415D04385BB"
@@ -338,7 +334,7 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 13.0d
 			y: -1.5d
 			description: ["Новый вид получения кинетической энергии."]
 			dependencies: ["365E33230CE0071A"]
@@ -364,6 +360,7 @@
 		{
 			x: 14.5d
 			y: 0.0d
+			shape: "rsquare"
 			description: ["Полноценное дробление!"]
 			dependencies: ["365E33230CE0071A"]
 			id: "3FB4B3A128FF3B65"
@@ -376,10 +373,10 @@
 		}
 		{
 			title: "Прочее"
-			x: 12.0d
-			y: 2.0d
+			x: 11.0d
+			y: -4.0d
 			description: ["Забавные и полезные вещи!"]
-			dependencies: ["365E33230CE0071A"]
+			dependencies: ["27EE9C334876E614"]
 			id: "19080414E59C38ED"
 			tasks: [
 				{
@@ -407,10 +404,10 @@
 			]
 		}
 		{
-			x: 14.0d
-			y: 2.0d
+			x: 12.0d
+			y: -4.0d
 			description: ["Новая рука!"]
-			dependencies: ["365E33230CE0071A"]
+			dependencies: ["27EE9C334876E614"]
 			id: "0221FA51E282769A"
 			tasks: [{
 				id: "2FF8F16E32810F31"
@@ -426,8 +423,8 @@
 		}
 		{
 			title: "Механика"
-			x: 13.5d
-			y: -1.5d
+			x: 13.0d
+			y: 1.5d
 			description: ["Удобные штучки."]
 			dependencies: ["365E33230CE0071A"]
 			id: "21231BF299577C9D"
@@ -454,6 +451,7 @@
 				id: "6C30E3831578C22A"
 				type: "item"
 				item: "create:andesite_casing"
+				count: 4L
 			}]
 		}
 		{
@@ -470,8 +468,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.5d
+			x: 2.5d
+			y: -2.0d
 			description: ["Склеивает блоки."]
 			dependencies: ["759CD5F854301CA1"]
 			id: "2C26A692DADE6537"
@@ -485,18 +483,6 @@
 						Damage: 0
 					}
 				}
-			}]
-		}
-		{
-			x: 6.5d
-			y: -2.0d
-			description: ["Удобная вещь."]
-			dependencies: ["562B29B6639F36A9"]
-			id: "5844C43FF8870951"
-			tasks: [{
-				id: "35202A81AAFF6F78"
-				type: "item"
-				item: "create:nozzle"
 			}]
 		}
 		{
@@ -525,7 +511,7 @@
 		}
 		{
 			x: 5.0d
-			y: 5.0d
+			y: 4.0d
 			description: ["Хранит жидкость."]
 			dependencies: ["3045A3DD55265737"]
 			id: "3DADF1CE7B4D9A06"
@@ -537,7 +523,7 @@
 		}
 		{
 			x: 3.0d
-			y: 5.0d
+			y: 4.0d
 			description: ["Передача жидкости."]
 			dependencies: ["3045A3DD55265737"]
 			id: "7BC47C71E95CC330"
@@ -565,8 +551,9 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 1.5d
+			title: "Горелка"
+			x: 4.5d
+			y: -2.0d
 			description: ["Чтобы получить горелку Всполоха, необходимо нажать ПКМ по Всполоху, держа в руке пустую горелку. Горелка Всполоха необходима для нагрева ресурсов в чаше, например."]
 			dependencies: ["759CD5F854301CA1"]
 			id: "07BAC67F8C8D8A2A"
@@ -584,10 +571,10 @@
 			]
 		}
 		{
-			x: 16.0d
+			x: 19.0d
 			y: 0.0d
 			description: ["Новый ресурс!"]
-			dependencies: ["3FB4B3A128FF3B65"]
+			dependencies: ["0F7CFC82FFD07B37"]
 			id: "62D1BFB9177CF557"
 			tasks: [{
 				id: "4FC388ABDB9D0140"
@@ -600,10 +587,10 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 1.5d
+			x: 20.5d
+			y: -2.0d
 			description: ["0_0"]
-			dependencies: ["365E33230CE0071A"]
+			dependencies: ["48E28ED91BA9ED80"]
 			id: "0739BAD2D663225B"
 			tasks: [{
 				id: "1F530F368BD05CA1"
@@ -625,7 +612,7 @@
 		}
 		{
 			x: 3.5d
-			y: 6.5d
+			y: 5.5d
 			description: ["Заполняет/Осушает большие объемы жидкости."]
 			dependencies: ["7BC47C71E95CC330"]
 			id: "6901D58B59D2B140"
@@ -637,7 +624,7 @@
 		}
 		{
 			x: 4.0d
-			y: 5.5d
+			y: 4.5d
 			description: ["Извлекает жидкость из предметов."]
 			dependencies: ["3045A3DD55265737"]
 			id: "39F1810E0C220168"
@@ -649,7 +636,7 @@
 		}
 		{
 			x: 4.5d
-			y: 6.5d
+			y: 5.5d
 			description: ["Заполняет некоторые предметы жидкостью."]
 			dependencies: ["3DADF1CE7B4D9A06"]
 			id: "6D9CE4A3BF12A8A8"
@@ -660,7 +647,7 @@
 			}]
 		}
 		{
-			x: 16.5d
+			x: 19.5d
 			y: -1.5d
 			shape: "hexagon"
 			description: ["Необходим свет..."]
@@ -673,8 +660,8 @@
 			}]
 		}
 		{
-			x: 16.5d
-			y: 1.5d
+			x: 20.5d
+			y: 0.0d
 			shape: "hexagon"
 			description: ["Необходима темнота..."]
 			dependencies: ["62D1BFB9177CF557"]
@@ -687,10 +674,10 @@
 		}
 		{
 			title: "Плавильня!"
-			x: 3.0d
-			y: -1.5d
+			x: 0.0d
+			y: -6.0d
 			description: ["Чтобы построить эту плавильню нужно поставить контроллер плавильни и жидкостный резервуар(самые главные блоки плавильни). Также нужно поставить обожённые кирпичи 3х3, 5х5(смотря сколько у вас кирпичей). С помощью этой плавильне можно переплавлять руды, тем самым их удваивать, и не только!"]
-			dependencies: ["549F858A9EB00499"]
+			dependencies: ["1F75B70BE7D3826B"]
 			id: "093501F9725A0851"
 			tasks: [
 				{
@@ -735,8 +722,8 @@
 		}
 		{
 			title: "Лучшие инструменты"
-			x: 3.0d
-			y: -3.0d
+			x: 1.0d
+			y: -6.5d
 			shape: "rsquare"
 			description: ["С помощью этих форм можно создавать хорошие инструменты, вливая в эти формы жидкий металл."]
 			dependencies: ["093501F9725A0851"]
@@ -782,7 +769,7 @@
 			y: 0.0d
 			shape: "pentagon"
 			description: ["Чтобы попасть в мир Атум нужно бросить Скоробея в специальную конструкцию из песчаника. Нужно построить 5х5 конструкцию(из песчаника) и залить 3х3 водой, добавить по бокам 2 блока в высоту и кинуть скоробея."]
-			dependencies: ["7C8A764A4A0F003E"]
+			dependencies: ["29039481EF4BB2EF"]
 			id: "4969DAD337FCABE1"
 			tasks: [{
 				id: "0CB26D49333F93C8"
@@ -825,8 +812,8 @@
 			]
 		}
 		{
-			x: 17.5d
-			y: 0.0d
+			x: 19.5d
+			y: 1.5d
 			shape: "hexagon"
 			description: ["Необходимо электричество..."]
 			dependencies: ["62D1BFB9177CF557"]
@@ -838,11 +825,11 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 5.5d
 			y: 1.5d
 			shape: "gear"
-			description: ["С помощью алмазной кирки можно добыть обсидиан."]
-			dependencies: ["29039481EF4BB2EF"]
+			description: ["С помощью алмазной кирки можно добыть обсидиан. А после создать из него портал в Незер."]
+			dependencies: ["30141E3997BA2ADF"]
 			size: 1.2d
 			id: "31BD23CD6DFA60B1"
 			tasks: [{
@@ -865,8 +852,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 4.0d
+			x: 2.0d
+			y: 1.5d
 			description: ["Позволяют видеть больше!"]
 			dependencies: ["2373D730A820B6FB"]
 			id: "30AA80C08138F6F8"
@@ -874,6 +861,142 @@
 				id: "3DE45522BACB1F32"
 				type: "item"
 				item: "create:goggles"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 2.0d
+			dependencies: ["5DCD21BA0E949787"]
+			id: "326C0451B1FDCEF3"
+			tasks: [{
+				id: "04ED965EA4F6522D"
+				type: "item"
+				item: {
+					id: "createaddition:overcharged_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["759CD5F854301CA1"]
+			id: "17FC0F3202DCCA6A"
+			tasks: [{
+				id: "04A3C2A064BA2DC0"
+				type: "item"
+				item: "create:whisk"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: ["759CD5F854301CA1"]
+			id: "63B31D2AF4550037"
+			tasks: [{
+				id: "70B542BF670493B1"
+				type: "item"
+				item: "create:propeller"
+			}]
+		}
+		{
+			title: "Цемент и кирпичи"
+			x: 1.0d
+			y: -4.5d
+			shape: "rsquare"
+			dependencies: ["549F858A9EB00499"]
+			id: "331FF86414916787"
+			tasks: [
+				{
+					id: "6435CB9B69042C54"
+					type: "item"
+					item: "tconstruct:grout"
+					count: 8L
+				}
+				{
+					id: "5B2D4F811A7029EB"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 8L
+				}
+			]
+		}
+		{
+			title: "Первая плавильня"
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["331FF86414916787"]
+			id: "1F75B70BE7D3826B"
+			tasks: [
+				{
+					id: "6A1081A6BE2D1794"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "6ADF3773BC6B21FF"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			description: ["Новый сплав!"]
+			dependencies: ["07BAC67F8C8D8A2A"]
+			id: "2888C9E7B1571B7C"
+			tasks: [{
+				id: "04318D9FF6C1164F"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 8L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -3.0d
+			shape: "rsquare"
+			dependencies: ["339E99FFA9CEE6D2"]
+			id: "27EE9C334876E614"
+			tasks: [{
+				id: "685C160C246F58F8"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			title: "Основа торта"
+			x: 16.0d
+			y: 0.0d
+			dependencies: ["3FB4B3A128FF3B65"]
+			id: "050A07013995BE6E"
+			tasks: [
+				{
+					id: "5ADEFFA2A52051CD"
+					type: "item"
+					item: "create:cinder_flour"
+					count: 2L
+				}
+				{
+					id: "43A259F453432924"
+					type: "item"
+					item: "create:blaze_cake_base"
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 0.0d
+			dependencies: ["050A07013995BE6E"]
+			id: "0F7CFC82FFD07B37"
+			tasks: [{
+				id: "478C421FD7577C2C"
+				type: "item"
+				item: "create:blaze_cake"
 			}]
 		}
 	]

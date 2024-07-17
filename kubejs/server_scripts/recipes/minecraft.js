@@ -236,7 +236,7 @@ onEvent('recipes', event => {
   ], {
     D: 'minecraft:diamond',
 	S: '#forge:rods/wooden',
-	B: '#forge:plates/brass'
+	B: '#forge:plates/copper'
   })
   
   

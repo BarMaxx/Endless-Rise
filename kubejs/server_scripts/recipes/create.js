@@ -2,7 +2,7 @@ onEvent('recipes', event => {
 	
 	
   event.remove({output: 'create:andesite_alloy'})	
-  event.shaped('4x create:andesite_alloy', [
+  event.shaped('8x create:andesite_alloy', [
     'APA',
     'PIP',
     'APA'
@@ -22,7 +22,7 @@ onEvent('recipes', event => {
     A: 'create:andesite_alloy',
 	W: 'create:cogwheel',
 	C: 'create:andesite_casing',
-	B: 'tconstruct:tinkers_bronze_block'
+	B: 'minecraft:iron_block'
   })
   
   
@@ -34,6 +34,19 @@ onEvent('recipes', event => {
   ], {
     S: 'atum:sand',
 	P: 'minecraft:paper'
+  })
+  
+  
+  event.remove({output: 'create:windmill_bearing'})	
+  event.shaped('create:windmill_bearing', [
+    'ITI',
+    'SAS',
+    'SSS'
+  ], {
+    S: '#forge:stone',
+	I: 'minecraft:iron_ingot',
+	T: 'create:turntable',
+	A: 'create:shaft'
   })
   
   

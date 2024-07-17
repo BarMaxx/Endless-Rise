@@ -19,18 +19,12 @@
 				type: "checkmark"
 				title: "Начало сборки"
 			}]
-			rewards: [
-				{
-					id: "5DFB8AD4407E5E8A"
-					type: "item"
-					item: "antiqueatlas:empty_antique_atlas"
-				}
-				{
-					id: "3336A753F56CD65C"
-					type: "item"
-					item: "akashictome:tome"
-				}
-			]
+			rewards: [{
+				id: "54E7E4893AA95AFE"
+				type: "random"
+				title: "Плюшевые игрушки"
+				table_id: 8329142660977327391L
+			}]
 		}
 		{
 			title: "Главный разработчик"

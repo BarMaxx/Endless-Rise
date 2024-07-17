@@ -21,7 +21,8 @@
     }
   },
   "result": {
-    "item": "immersiveengineering:steel_fence"
+    "item": "immersiveengineering:steel_fence",
+	"count": 4
   },
   "acceptMirrored": true
 }
