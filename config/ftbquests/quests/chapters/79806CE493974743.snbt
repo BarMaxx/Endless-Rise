@@ -9,7 +9,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Изменчивые кристаллы"
 			x: -3.5d
 			y: -3.0d
 			shape: "gear"
@@ -602,6 +601,53 @@
 				id: "77C4F4D7ABEACD90"
 				type: "item"
 				item: "powah:crystal_nitro"
+			}]
+		}
+		{
+			title: "Начало флакса"
+			x: -1.5d
+			y: 2.5d
+			description: ["Великое начало беспроводной энергии."]
+			dependencies: ["55089144A1EAB58D"]
+			id: "2997A409CF73DC0D"
+			tasks: [
+				{
+					id: "69D7063AD21B5F76"
+					type: "item"
+					item: "fluxnetworks:flux_dust"
+					count: 8L
+				}
+				{
+					id: "686A2E4CB146F90A"
+					type: "item"
+					item: "fluxnetworks:flux_core"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			description: ["Просто блоки."]
+			dependencies: ["2997A409CF73DC0D"]
+			id: "33DBD241362CF43E"
+			tasks: [{
+				id: "0B8B24D0500F823A"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+				count: 2L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			description: ["Беспроводная энергия!"]
+			dependencies: ["33DBD241362CF43E"]
+			id: "4AA3AC2CC41E4F58"
+			tasks: [{
+				id: "68AD323A0392F0A7"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
 			}]
 		}
 	]

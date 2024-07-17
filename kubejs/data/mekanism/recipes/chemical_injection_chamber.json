@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:energy_tablet"
+    },
+    "S": {
+      "item": "betterendforge:terminite_ingot"
+    },
+    "A": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+	"B": {
+      "item": "mekanism:basic_control_circuit"
+    },
+	"D": {
+      "item": "create:precision_mechanism"
+    },
+    "W": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+	"F": {
+      "item": "mekanism:purification_chamber"
+    }
+  },
+  "result": {
+    "item": "mekanism:chemical_injection_chamber",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

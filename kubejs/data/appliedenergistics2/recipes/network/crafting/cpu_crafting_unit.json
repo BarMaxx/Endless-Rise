@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DZV ",
+    "VAPAD",
+    "XPFPX",
+    "DAPAV",
+    " VZD "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "A": {
+      "item": "pneumaticcraft:reinforced_bricks"
+    },
+	"D": {
+      "item": "create:electron_tube"
+    },
+	"Z": {
+      "item": "pneumaticcraft:plastic"
+    },
+	"V": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+	"X": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+	"F": {
+      "item": "appliedenergistics2:logic_processor"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:crafting_unit",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DZV ",
+    "VAPAD",
+    "XPFPX",
+    "DAPAV",
+    " VZD "
+  ],
+  "key": {
+    "P": {
+      "item": "appliedenergistics2:fluix_glass_cable"
+    },
+    "A": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+	"D": {
+      "item": "appliedenergistics2:formation_core"
+    },
+	"Z": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+	"V": {
+      "item": "appliedenergistics2:annihilation_core"
+    },
+	"X": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+	"F": {
+      "item": "appliedenergistics2:engineering_processor"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:drive",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

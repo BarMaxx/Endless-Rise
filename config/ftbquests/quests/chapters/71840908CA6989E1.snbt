@@ -10,6 +10,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			description: ["Чем больше разной еды Вы едите - тем больше у Вас здоровья!"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
 			id: "069657197FCCDE67"
@@ -27,6 +28,7 @@
 		{
 			x: 0.0d
 			y: -1.5d
+			description: ["В игру добавлены сезоны года!"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
 			id: "4646110081F3DA55"
@@ -44,6 +46,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
+			description: ["Ваш персонаж теперь будет хотеть пить!"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
 			id: "4B33B0F5DD68C16E"
@@ -62,6 +65,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
+			description: ["С каждым днём сложность становится всё выше!"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
 			id: "560C6C0A1DF573D5"
@@ -80,6 +84,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
+			description: ["Замена мини-карты!"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
 			id: "0D811557B1492FA9"
@@ -97,6 +102,7 @@
 		{
 			x: 1.0d
 			y: -1.0d
+			description: ["В том Акаши Вы можете добавлять любые гайд-книги, чтобы хранить их всех в 1 месте!"]
 			dependencies: ["4015F9A5ADB11078"]
 			hide: true
 			id: "0AC2DBC17F3860F2"
@@ -109,6 +115,61 @@
 				id: "157FB0ADDACC25A6"
 				type: "item"
 				item: "akashictome:tome"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: ["Получать опыт теперь невероятно важно, чтобы прокачивать Вашего персонажа!"]
+			dependencies: ["4015F9A5ADB11078"]
+			hide: true
+			id: "0D77342412CD3234"
+			tasks: [{
+				id: "4B69C8DBF84AB0D5"
+				type: "checkmark"
+				title: "Прокачка"
+			}]
+			rewards: [{
+				id: "39D6AF7A84179A0B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			description: ["Если Вы ударите мирного моба - он будет Вас атаковать!"]
+			dependencies: ["4015F9A5ADB11078"]
+			hide: true
+			id: "1BADE5F8121AC673"
+			tasks: [{
+				id: "4F820A6A703DF01D"
+				type: "checkmark"
+				title: "Агрессивные мирные мобы"
+			}]
+			rewards: [{
+				id: "5575A5F98FEA640A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			description: ["Ночью и в пещерах теперь действительно темно!"]
+			dependencies: ["4015F9A5ADB11078"]
+			hide: true
+			id: "157FC0A47A0D3DC7"
+			tasks: [{
+				id: "778EB51F63AF7FA5"
+				type: "checkmark"
+				title: "Настоящая темнота"
+			}]
+			rewards: [{
+				id: "3A53600381B8F548"
+				type: "item"
+				item: "minecraft:torch"
+				count: 4
 			}]
 		}
 	]

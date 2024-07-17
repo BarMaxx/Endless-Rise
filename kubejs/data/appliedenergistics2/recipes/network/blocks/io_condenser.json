@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DZV ",
+    "VAPAD",
+    "XPFPX",
+    "DAPAV",
+    " VZD "
+  ],
+  "key": {
+    "P": {
+      "item": "pneumaticcraft:advanced_pcb"
+    },
+    "A": {
+      "item": "pneumaticcraft:capacitor"
+    },
+	"D": {
+      "item": "appliedenergistics2:formation_core"
+    },
+	"Z": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+	"V": {
+      "item": "appliedenergistics2:annihilation_core"
+    },
+	"X": {
+      "item": "mekanism:teleportation_core"
+    },
+	"F": {
+      "item": "appliedenergistics2:64k_cell_component"
+    }
+  },
+  "result": {
+    "item": "appliedenergistics2:condenser",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

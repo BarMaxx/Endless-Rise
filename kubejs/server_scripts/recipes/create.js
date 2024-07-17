@@ -50,4 +50,27 @@ onEvent('recipes', event => {
   })
   
   
+  event.remove({output: 'create:goggles'})	
+  event.shaped('create:goggles', [
+    '   ',
+    ' S ',
+    'LGL'
+  ], {
+    S: '#forge:string',
+	G: '#forge:plates/gold',
+	L: 'kubejs:lense'
+  })
+  
+  
+  event.remove({output: 'create:electron_tube'})	
+  event.shaped('create:electron_tube', [
+    '   ',
+    'ILI',
+    '   '
+  ], {
+    I: '#forge:plates/iron',
+	L: 'kubejs:lamp'
+  })
+  
+  
 })

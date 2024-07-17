@@ -127,7 +127,7 @@
 				id: "162AA645BC55F932"
 				type: "item"
 				item: "create:iron_sheet"
-				count: 16L
+				count: 4L
 			}]
 		}
 		{
@@ -141,7 +141,7 @@
 				id: "5C45F80B572434D9"
 				type: "item"
 				item: "create:copper_sheet"
-				count: 16L
+				count: 4L
 			}]
 		}
 		{
@@ -155,7 +155,7 @@
 				id: "21320A3D0400104C"
 				type: "item"
 				item: "create:golden_sheet"
-				count: 16L
+				count: 4L
 			}]
 		}
 		{
@@ -172,7 +172,7 @@
 				id: "58ACB21720A7811D"
 				type: "item"
 				item: "create:brass_sheet"
-				count: 16L
+				count: 4L
 			}]
 		}
 		{
@@ -599,8 +599,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.5d
+			x: 0.5d
+			y: -1.0d
 			description: ["Связывают валы в полноценные конвейерные ленты."]
 			dependencies: ["31B0B795411A5508"]
 			id: "2CD44FAE0380EB2A"
@@ -997,6 +997,35 @@
 				id: "478C421FD7577C2C"
 				type: "item"
 				item: "create:blaze_cake"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["759CD5F854301CA1"]
+			id: "690DA99595BECBD9"
+			tasks: [{
+				id: "3C4C5DE9FDDD28D5"
+				type: "item"
+				item: "ironjetpacks:basic_coil"
+				count: 2L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["690DA99595BECBD9"]
+			id: "67443BACB3292C6E"
+			tasks: [{
+				id: "6A541FE5A87F6561"
+				type: "item"
+				item: {
+					id: "ironjetpacks:wood_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
 			}]
 		}
 	]

@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:ingot_bronze"
+    },
+    "S": {
+      "item": "powah:crystal_niotic"
+    },
+    "A": {
+      "item": "create:precision_mechanism"
+    },
+	"B": {
+      "item": "pneumaticcraft:advanced_pcb"
+    },
+	"D": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "W": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+	"F": {
+      "item": "mekanismgenerators:advanced_solar_generator"
+    }
+  },
+  "result": {
+    "item": "mekanism:solar_neutron_activator",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

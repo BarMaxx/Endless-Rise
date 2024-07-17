@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "mekanism:energy_tablet"
+    },
+    "S": {
+      "item": "the_bumblezone:pollen_puff"
+    },
+    "A": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+	"B": {
+      "item": "mekanism:basic_control_circuit"
+    },
+	"D": {
+      "item": "pneumaticcraft:capacitor"
+    },
+    "W": {
+      "item": "atum:nebu_ingot"
+    },
+	"F": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "result": {
+    "item": "mekanism:purification_chamber",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

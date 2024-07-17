@@ -68,10 +68,10 @@
 		{
 			x: 1.5d
 			y: 1.0d
-			shape: "hexagon"
+			shape: "gear"
 			description: ["После победы над боссом вы получите нагрду - Звезду Незера. Она вам понадобится."]
 			dependencies: ["3B1B40E055D9689D"]
-			size: 1.1d
+			size: 1.2d
 			id: "417082ECCD50CFA0"
 			tasks: [{
 				id: "71CA143BD64F22D4"
@@ -81,7 +81,7 @@
 		}
 		{
 			x: 3.0d
-			y: 1.0d
+			y: 1.5d
 			shape: "rsquare"
 			description: ["С помощью Маяка можно получить постоянный положительный эффект, но для этого вам нужно немало потратиться. Для первого уровня вам понадобится 9 драгоценный блоков, например железные. Их нужно поставить под Маяком (3х3), после чего он активируется."]
 			dependencies: ["417082ECCD50CFA0"]
@@ -501,6 +501,92 @@
 					}
 				}
 			]
+		}
+		{
+			title: "1 Уровень маяка"
+			x: 4.5d
+			y: 1.5d
+			description: ["1 уровень маяка."]
+			dependencies: ["7BBC76EDB8528709"]
+			id: "433140B2E4B68927"
+			tasks: [{
+				id: "2B0BEBEE22C4324A"
+				type: "questsadditions:structure"
+				name: "beacon_lvl_1"
+				hasCustomPicture: false
+				layer: true
+				ignoreState: false
+				rightclick: false
+			}]
+		}
+		{
+			title: "2 Уровень маяка"
+			x: 5.0d
+			y: 2.5d
+			description: ["2 уровень маяка."]
+			dependencies: ["433140B2E4B68927"]
+			id: "2E122743881CF3F1"
+			tasks: [{
+				id: "3DBA9A0DB0DD2E26"
+				type: "questsadditions:structure"
+				name: "beacon_lvl_2"
+				hasCustomPicture: false
+				layer: true
+				ignoreState: false
+				rightclick: false
+			}]
+		}
+		{
+			title: "3 Уровень маяка"
+			x: 6.0d
+			y: 2.5d
+			description: ["3 уровень маяка."]
+			dependencies: ["2E122743881CF3F1"]
+			id: "3FDF27B93851A1DB"
+			tasks: [{
+				id: "29DAE97BE1E9260F"
+				type: "questsadditions:structure"
+				name: "beacon_lvl_3"
+				hasCustomPicture: false
+				layer: true
+				ignoreState: false
+				rightclick: false
+			}]
+		}
+		{
+			title: "4 Уровень маяка"
+			x: 6.5d
+			y: 1.5d
+			description: ["4 уровень маяка."]
+			dependencies: ["3FDF27B93851A1DB"]
+			id: "0404168B1E457D56"
+			tasks: [{
+				id: "42BA6E85B9C78399"
+				type: "questsadditions:structure"
+				name: "beacon_lvl_4"
+				hasCustomPicture: false
+				layer: true
+				ignoreState: false
+				rightclick: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			shape: "rsquare"
+			dependencies: ["417082ECCD50CFA0"]
+			id: "1ABE9F47FF3EE573"
+			tasks: [{
+				id: "61BBBAE230680C16"
+				type: "item"
+				item: {
+					id: "wstweaks:blaze_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 	]
 }

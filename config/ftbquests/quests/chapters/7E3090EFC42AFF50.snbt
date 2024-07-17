@@ -25,10 +25,10 @@
 			}]
 		}
 		{
-			title: "Базовые предметы"
+			title: "Базовые элементы"
 			x: 2.0d
 			y: 0.0d
-			shape: "pentagon"
+			shape: "octagon"
 			description: ["Базовые компоненты из этого мода. Они вам понадобятся для создания различных механизмов."]
 			dependencies: ["6EDBA2148672DAB0"]
 			size: 1.2d
@@ -50,8 +50,9 @@
 		}
 		{
 			x: 4.5d
-			y: -2.0d
+			y: 2.5d
 			description: ["С помощью энергетической плавильне можно довольно быстро переплавлять руду и другие предметы."]
+			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
 			id: "503E435E7C535666"
 			tasks: [{
@@ -61,10 +62,11 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -2.0d
+			x: 4.0d
+			y: 3.0d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["503E435E7C535666"]
+			size: 0.5d
 			id: "7F8CF3FD15F15B09"
 			tasks: [{
 				id: "0E10C776EAFF494C"
@@ -73,9 +75,10 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.0d
+			x: 5.5d
+			y: 2.5d
 			description: ["С помощью камеры обогощения можно обогащять руды в их аналоги и не только."]
+			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
 			id: "3F32DC3C39248E2D"
 			tasks: [{
@@ -85,10 +88,11 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -1.0d
+			x: 5.0d
+			y: 3.0d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["3F32DC3C39248E2D"]
+			size: 0.5d
 			id: "375CDE7E8E58F594"
 			tasks: [{
 				id: "5D455AE5D1E30FD7"
@@ -97,9 +101,10 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 0.0d
+			x: 6.5d
+			y: 2.5d
 			description: ["С помощью дробителя можно передрабливать слитки в пыль, создавать биотопливо из растений и не только."]
+			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
 			id: "0C4A82F954C2A3CA"
 			tasks: [{
@@ -110,9 +115,10 @@
 		}
 		{
 			x: 6.0d
-			y: 0.0d
+			y: 3.0d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["0C4A82F954C2A3CA"]
+			size: 0.5d
 			id: "4B4E2B0C9A683E59"
 			tasks: [{
 				id: "105F264070AE8795"
@@ -121,9 +127,10 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 1.0d
+			x: 7.5d
+			y: 2.5d
 			description: ["С помощью осмиевого компрессора можно создавать различные газ из предметов и не только."]
+			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
 			id: "2D5061979FCFC54F"
 			tasks: [{
@@ -133,10 +140,11 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 1.0d
+			x: 7.0d
+			y: 3.0d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["2D5061979FCFC54F"]
+			size: 0.5d
 			id: "0EE4CDDB14ED7DD6"
 			tasks: [{
 				id: "01A0809F7E3178D5"
@@ -145,12 +153,13 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 2.0d
+			x: 8.5d
+			y: 2.5d
 			description: [
 				"С помощью объединителя можно, например, из пыли и булыжника создать руду."
 				"Улучшенная версия предыдущего механизма."
 			]
+			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
 			id: "2289980729F93539"
 			tasks: [{
@@ -160,10 +169,11 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 2.0d
+			x: 8.0d
+			y: 3.0d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["2289980729F93539"]
+			size: 0.5d
 			id: "7FDC648BF4E0D44E"
 			tasks: [{
 				id: "651BAD59369B66CA"
@@ -175,6 +185,7 @@
 			x: 3.5d
 			y: 2.5d
 			description: ["С помощью камеры очистки можно создавать глыбы из руды для дальнейшей ёё переработки."]
+			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
 			id: "33322337C2DC41D8"
 			tasks: [{
@@ -184,10 +195,11 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 4.0d
+			x: 3.0d
+			y: 3.0d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["33322337C2DC41D8"]
+			size: 0.5d
 			id: "09F287BC1BB5D7BF"
 			tasks: [{
 				id: "5E43DDFABCA5D815"
@@ -208,10 +220,11 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 4.0d
+			x: 2.0d
+			y: 3.0d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["38D63AB28ED4AADF"]
+			size: 0.5d
 			id: "394CF810847DA605"
 			tasks: [{
 				id: "6667BA5CBE1520A7"
@@ -226,6 +239,7 @@
 				""
 				"С помощью металлургического наполнителя можно создавать различные компоненты, путём наполнения их различными веществами, например редстоуном."
 			]
+			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
 			id: "3AAA0C7B246482C6"
 			tasks: [{
@@ -235,10 +249,11 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 4.0d
+			x: 1.0d
+			y: 3.0d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["3AAA0C7B246482C6"]
+			size: 0.5d
 			id: "5B606D7ACA3AC32A"
 			tasks: [{
 				id: "6CB6F4A3975DDB75"
@@ -250,6 +265,7 @@
 			x: 0.5d
 			y: 2.5d
 			description: ["С помощью лесопилки можно получать доски из различных деревянных предметов, наример люк или плита."]
+			hide_dependency_lines: true
 			dependencies: ["62856F299F843C2A"]
 			id: "554CF85C82723CA6"
 			tasks: [{
@@ -259,10 +275,11 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 4.0d
+			x: -0.25d
+			y: 3.0d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["554CF85C82723CA6"]
+			size: 0.5d
 			id: "7197967E7E122CF8"
 			tasks: [{
 				id: "2F2E6E1543F940C2"
@@ -271,8 +288,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.0d
+			x: 1.0d
+			y: 1.0d
 			shape: "pentagon"
 			description: ["С помощью солнечной панели можно вырабатывать энергию для механизмов."]
 			dependencies: ["62856F299F843C2A"]
@@ -284,8 +301,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -1.0d
+			x: 0.0d
+			y: 1.5d
 			description: ["Продвинутая версия солнечной панели."]
 			dependencies: ["468C4625B2717D3F"]
 			id: "67D0E8CE6812F777"
@@ -296,8 +313,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -2.0d
+			x: 3.0d
+			y: 1.0d
 			shape: "pentagon"
 			description: ["С помощью ветрогенератора можно вырабатывать энергию для механизмов."]
 			dependencies: ["62856F299F843C2A"]
@@ -309,10 +326,11 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -2.0d
+			x: 4.0d
+			y: 3.5d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["7F8CF3FD15F15B09"]
+			size: 0.5d
 			id: "73FA97C6C5053E2E"
 			tasks: [{
 				id: "1A8FF064223700F0"
@@ -321,10 +339,11 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -2.0d
+			x: 4.5d
+			y: 3.75d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["73FA97C6C5053E2E"]
+			size: 0.5d
 			id: "2C728E7EB4FCB2E2"
 			tasks: [{
 				id: "6B9938BCAEBACADA"
@@ -333,10 +352,11 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -2.0d
+			x: 4.5d
+			y: 3.25d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["2C728E7EB4FCB2E2"]
+			size: 0.5d
 			id: "64BD104C30269288"
 			tasks: [{
 				id: "73C7DC5C4BCFA85E"
@@ -345,10 +365,11 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -1.0d
+			x: 5.0d
+			y: 3.5d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["375CDE7E8E58F594"]
+			size: 0.5d
 			id: "7E3A98691A4F60F2"
 			tasks: [{
 				id: "654581C650283F42"
@@ -357,10 +378,11 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -1.0d
+			x: 5.5d
+			y: 3.75d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["7E3A98691A4F60F2"]
+			size: 0.5d
 			id: "602966B62B305D20"
 			tasks: [{
 				id: "42DF97F5A57630AC"
@@ -369,10 +391,11 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -1.0d
+			x: 5.5d
+			y: 3.25d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["602966B62B305D20"]
+			size: 0.5d
 			id: "2C5A3B2A81A4D14D"
 			tasks: [{
 				id: "6AEB2828EF6E5604"
@@ -381,10 +404,11 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 0.0d
+			x: 6.0d
+			y: 3.5d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["4B4E2B0C9A683E59"]
+			size: 0.5d
 			id: "5C7D0E822714E99C"
 			tasks: [{
 				id: "2ECFDB115BB4DA9B"
@@ -393,10 +417,11 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 0.0d
+			x: 6.5d
+			y: 3.75d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["5C7D0E822714E99C"]
+			size: 0.5d
 			id: "2355F2027D2806E4"
 			tasks: [{
 				id: "6FA1C8469F99CEBF"
@@ -405,10 +430,11 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 0.0d
+			x: 6.5d
+			y: 3.25d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["2355F2027D2806E4"]
+			size: 0.5d
 			id: "7EF20A271D055586"
 			tasks: [{
 				id: "5FFB8E5109CCC260"
@@ -417,10 +443,11 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 1.0d
+			x: 7.0d
+			y: 3.5d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["0EE4CDDB14ED7DD6"]
+			size: 0.5d
 			id: "0FF755C549AB49AE"
 			tasks: [{
 				id: "42CF34C1FAD9EA1A"
@@ -429,10 +456,11 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 1.0d
+			x: 7.5d
+			y: 3.75d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["0FF755C549AB49AE"]
+			size: 0.5d
 			id: "1DE41FDB3D9D4907"
 			tasks: [{
 				id: "6A139F9BE6A25A23"
@@ -441,10 +469,11 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 1.0d
+			x: 7.5d
+			y: 3.25d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["1DE41FDB3D9D4907"]
+			size: 0.5d
 			id: "6381551414008E29"
 			tasks: [{
 				id: "579C0E09F1E5587E"
@@ -453,10 +482,11 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 2.0d
+			x: 8.0d
+			y: 3.5d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["7FDC648BF4E0D44E"]
+			size: 0.5d
 			id: "5BEF27C9B66210D7"
 			tasks: [{
 				id: "29F0E69CA3CEB480"
@@ -465,10 +495,11 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 2.0d
+			x: 8.5d
+			y: 3.75d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["5BEF27C9B66210D7"]
+			size: 0.5d
 			id: "221534821196EC29"
 			tasks: [{
 				id: "50F38FAB34D55F5C"
@@ -477,10 +508,11 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 2.0d
+			x: 8.5d
+			y: 3.25d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["221534821196EC29"]
+			size: 0.5d
 			id: "7ADAA639F50D8396"
 			tasks: [{
 				id: "3A161945309F9F0A"
@@ -489,10 +521,11 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 5.5d
+			x: 3.0d
+			y: 3.5d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["09F287BC1BB5D7BF"]
+			size: 0.5d
 			id: "57B03D511EC81BDA"
 			tasks: [{
 				id: "480AF61EAC050F6C"
@@ -502,9 +535,10 @@
 		}
 		{
 			x: 3.5d
-			y: 7.0d
+			y: 3.75d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["57B03D511EC81BDA"]
+			size: 0.5d
 			id: "51239D5FD44FF05A"
 			tasks: [{
 				id: "7B342FBBBDEF733D"
@@ -514,9 +548,10 @@
 		}
 		{
 			x: 3.5d
-			y: 8.5d
+			y: 3.25d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["51239D5FD44FF05A"]
+			size: 0.5d
 			id: "60B96610836F5C0F"
 			tasks: [{
 				id: "102FBDE96CC96D9D"
@@ -525,10 +560,11 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 5.5d
+			x: 2.0d
+			y: 3.5d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["394CF810847DA605"]
+			size: 0.5d
 			id: "4A193DC022B1B955"
 			tasks: [{
 				id: "58F7646C27F9AF5A"
@@ -538,9 +574,10 @@
 		}
 		{
 			x: 2.5d
-			y: 7.0d
+			y: 3.75d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["4A193DC022B1B955"]
+			size: 0.5d
 			id: "00E29DA1ED9F14FD"
 			tasks: [{
 				id: "326937DA8801AE22"
@@ -550,9 +587,10 @@
 		}
 		{
 			x: 2.5d
-			y: 8.5d
+			y: 3.25d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["00E29DA1ED9F14FD"]
+			size: 0.5d
 			id: "11301B6701561D45"
 			tasks: [{
 				id: "4B9726EEF757A81E"
@@ -561,10 +599,11 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 5.5d
+			x: 1.0d
+			y: 3.5d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["5B606D7ACA3AC32A"]
+			size: 0.5d
 			id: "235DF1389452B882"
 			tasks: [{
 				id: "7D0F2FBA79FFC641"
@@ -574,9 +613,10 @@
 		}
 		{
 			x: 1.5d
-			y: 7.0d
+			y: 3.75d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["235DF1389452B882"]
+			size: 0.5d
 			id: "5F54333312FDD86E"
 			tasks: [{
 				id: "622C6E54776C958C"
@@ -586,9 +626,10 @@
 		}
 		{
 			x: 1.5d
-			y: 8.5d
+			y: 3.25d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["5F54333312FDD86E"]
+			size: 0.5d
 			id: "12BA658647C1846E"
 			tasks: [{
 				id: "2C04128382F65E89"
@@ -597,10 +638,11 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 5.5d
+			x: -0.25d
+			y: 3.5d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["7197967E7E122CF8"]
+			size: 0.5d
 			id: "22B99F621B5F8037"
 			tasks: [{
 				id: "1A600286117E8AC4"
@@ -609,10 +651,11 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 7.0d
+			x: 0.25d
+			y: 3.75d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["22B99F621B5F8037"]
+			size: 0.5d
 			id: "464F41746C14B2C2"
 			tasks: [{
 				id: "638599F278209286"
@@ -621,10 +664,11 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 8.5d
+			x: 0.25d
+			y: 3.25d
 			description: ["Улучшенная версия предыдущего механизма."]
 			dependencies: ["464F41746C14B2C2"]
+			size: 0.5d
 			id: "4DA76BFE501B0727"
 			tasks: [{
 				id: "2947A273293C9C70"
@@ -633,8 +677,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -2.0d
+			x: 2.0d
+			y: -1.5d
 			description: ["Личный сундук это сундук, который можно открывать везде, даже из инвентаря игрока."]
 			dependencies: ["62856F299F843C2A"]
 			id: "44E26D6A4B7A4E43"
@@ -645,8 +689,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -3.5d
+			x: 2.0d
+			y: -3.0d
 			description: ["Просто прикольной робот, который нужен для друго, более крутого робота."]
 			dependencies: ["44E26D6A4B7A4E43"]
 			id: "2840A60CEEEFAEE6"
@@ -657,8 +701,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -5.0d
+			x: 2.0d
+			y: -4.5d
 			shape: "rsquare"
 			description: ["С помощью цифрового шахтера можно добывать все блоки, в пределах 32-х блоков."]
 			dependencies: ["2840A60CEEEFAEE6"]
@@ -670,10 +714,11 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -2.5d
+			x: 6.0d
+			y: -1.5d
+			shape: "rsquare"
 			description: ["Кирка, которая работает на энергии и не имеет прочности. Также достаточно быстро копает."]
-			dependencies: ["62856F299F843C2A"]
+			dependencies: ["7986D6D72CCCD95A"]
 			id: "463C26E2FB1F6B63"
 			tasks: [{
 				id: "230128ABE8C52C66"
@@ -688,10 +733,11 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -3.5d
+			x: 3.5d
+			y: -1.5d
+			shape: "rsquare"
 			description: ["С помощью огнемёта можно выжигать различные блоки или убивать монстров."]
-			dependencies: ["463C26E2FB1F6B63"]
+			dependencies: ["4A75CC5B7B46A4FE"]
 			id: "35213A92364227E4"
 			tasks: [{
 				id: "14BCB08B8985F1B4"
@@ -701,11 +747,11 @@
 		}
 		{
 			title: "Полезности"
-			x: 1.5d
-			y: -2.0d
+			x: 4.5d
+			y: -1.5d
 			shape: "rsquare"
 			description: ["Просто довольно интересные и полезные вещи."]
-			dependencies: ["62856F299F843C2A"]
+			dependencies: ["4A75CC5B7B46A4FE"]
 			id: "3FC452A0F78F6D65"
 			tasks: [
 				{
@@ -738,15 +784,152 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: -3.5d
-			shape: "rsquare"
-			description: ["Лучшая броня на этой сборке."]
-			dependencies: ["35213A92364227E4"]
-			id: "38B6CD285874E7FE"
+			title: "Продвинутые элементы"
+			x: 4.0d
+			y: 0.0d
+			shape: "octagon"
+			dependencies: ["62856F299F843C2A"]
+			size: 1.2d
+			id: "4A75CC5B7B46A4FE"
 			tasks: [
 				{
-					id: "2FF7AA4EE3880B7F"
+					id: "0BFE728C4F3847AD"
+					type: "item"
+					item: "mekanism:alloy_reinforced"
+				}
+				{
+					id: "3AFB138D24B37EF5"
+					type: "item"
+					item: "mekanism:advanced_control_circuit"
+				}
+			]
+		}
+		{
+			title: "Элитные предметы"
+			x: 6.0d
+			y: 0.0d
+			shape: "octagon"
+			dependencies: ["4A75CC5B7B46A4FE"]
+			size: 1.2d
+			id: "7986D6D72CCCD95A"
+			tasks: [
+				{
+					id: "7C6A730CD505046C"
+					type: "item"
+					item: "mekanism:alloy_atomic"
+				}
+				{
+					id: "499ABAE00D3D6136"
+					type: "item"
+					item: "mekanism:elite_control_circuit"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			shape: "octagon"
+			dependencies: ["7986D6D72CCCD95A"]
+			size: 1.2d
+			id: "48502CFABF15A126"
+			tasks: [{
+				id: "4B8CE08A74DF3067"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			dependencies: ["48502CFABF15A126"]
+			id: "66E79C37834A07DF"
+			tasks: [{
+				id: "47C5017C59DB876E"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["66E79C37834A07DF"]
+			size: 1.2d
+			id: "0890E8870E816C1D"
+			tasks: [{
+				id: "1D9258F18440993E"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["66E79C37834A07DF"]
+			size: 1.2d
+			id: "6CBF2038A77A746C"
+			tasks: [{
+				id: "53E442F5B375F942"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			dependencies: ["48502CFABF15A126"]
+			id: "582BD1E5EC7F3963"
+			tasks: [{
+				id: "547F7F61A481D826"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			shape: "gear"
+			dependencies: ["582BD1E5EC7F3963"]
+			size: 1.2d
+			id: "5B4AD921207A3E45"
+			tasks: [{
+				id: "2544F4D7228F21A7"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			dependencies: ["0890E8870E816C1D"]
+			id: "1846E1CC0020CE6E"
+			tasks: [{
+				id: "08C095BC13397CA4"
+				type: "item"
+				item: "mekanism:reprocessed_fissile_fragment"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["48502CFABF15A126"]
+			id: "78D04004FD5671BD"
+			tasks: [{
+				id: "2BD669B31843D3FF"
+				type: "item"
+				item: "mekanism:teleportation_core"
+			}]
+		}
+		{
+			title: "Meka Suit"
+			x: 9.0d
+			y: -3.0d
+			dependencies: ["6CBF2038A77A746C"]
+			id: "3DF0AC507F11AFA0"
+			tasks: [
+				{
+					id: "3B7936ED6E92BC94"
 					type: "item"
 					item: {
 						id: "mekanism:mekasuit_helmet"
@@ -757,7 +940,7 @@
 					}
 				}
 				{
-					id: "21D98716E81CCB02"
+					id: "285490424C7A7A51"
 					type: "item"
 					item: {
 						id: "mekanism:mekasuit_bodyarmor"
@@ -768,7 +951,7 @@
 					}
 				}
 				{
-					id: "388609905F2A4DF9"
+					id: "5189EB07401147BD"
 					type: "item"
 					item: {
 						id: "mekanism:mekasuit_pants"
@@ -779,7 +962,7 @@
 					}
 				}
 				{
-					id: "1E993A6062B83056"
+					id: "590290F07A01ACD2"
 					type: "item"
 					item: {
 						id: "mekanism:mekasuit_boots"
@@ -790,6 +973,23 @@
 					}
 				}
 			]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			dependencies: ["6CBF2038A77A746C"]
+			id: "247D166680B76084"
+			tasks: [{
+				id: "798093AC7794B55B"
+				type: "item"
+				item: {
+					id: "mekanism:meka_tool"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
 		}
 	]
 }

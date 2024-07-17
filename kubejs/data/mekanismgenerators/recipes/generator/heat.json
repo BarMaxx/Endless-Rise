@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " AAA ",
+    "AAPAA",
+    "APSPA",
+    "AAPAA",
+    " AAA "
+  ],
+  "key": {
+    "P": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+    "S": {
+      "item": "immersiveengineering:sheetmetal_copper"
+    },
+    "A": {
+      "item": "mekanism:ingot_osmium"
+    }
+  },
+  "result": {
+    "item": "mekanismgenerators:heat_generator",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

@@ -64,7 +64,7 @@
 			]
 		}
 		{
-			x: 1.5d
+			x: 1.0d
 			y: -1.5d
 			description: ["С помощью любой ванильной мотыги можно получить сено, а из него волокна, которые нужны для создания верёвки."]
 			dependencies: ["5FC3EB3CCCFF0F05"]
@@ -207,6 +207,18 @@
 				type: "item"
 				item: "charcoal_pit:clay_pot"
 			}]
+			rewards: [
+				{
+					id: "3C4547580739444C"
+					type: "item"
+					item: "scalinghealth:enchanted_heart"
+				}
+				{
+					id: "290904E8330AA536"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 		}
 		{
 			title: "Кирпичи"
@@ -285,6 +297,18 @@
 					rightclick: false
 				}
 			]
+			rewards: [
+				{
+					id: "7F5EC54BC152C18E"
+					type: "item"
+					item: "scalinghealth:enchanted_heart"
+				}
+				{
+					id: "20890CEBC581DCF2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 		}
 		{
 			title: "Железная руда"
@@ -308,7 +332,6 @@
 			}]
 		}
 		{
-			title: "Железные слитки"
 			x: 13.5d
 			y: 1.5d
 			shape: "gear"
@@ -322,13 +345,25 @@
 				item: "minecraft:iron_ingot"
 				count: 8L
 			}]
-			rewards: [{
-				id: "21B05AE2B4E6E82C"
-				type: "command"
-				auto: "invisible"
-				command: "/gamestage add @a primitive false"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "21B05AE2B4E6E82C"
+					type: "command"
+					auto: "invisible"
+					command: "/gamestage add @a primitive false"
+					player_command: false
+				}
+				{
+					id: "050348F7E25635FC"
+					type: "item"
+					item: "scalinghealth:enchanted_heart"
+				}
+				{
+					id: "099290F9AF28F54E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 		}
 		{
 			title: "Блок коксового угля"
@@ -346,7 +381,7 @@
 		}
 		{
 			title: "Огниво"
-			x: 1.5d
+			x: 1.0d
 			y: 1.5d
 			description: ["Используется для разжигания огня."]
 			dependencies: ["5FC3EB3CCCFF0F05"]
@@ -425,6 +460,18 @@
 					count: 3L
 				}
 			]
+			rewards: [
+				{
+					id: "619155C1EF4B0081"
+					type: "item"
+					item: "scalinghealth:enchanted_heart"
+				}
+				{
+					id: "4AC0D505D46F4975"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 		}
 		{
 			x: 15.0d
@@ -452,6 +499,18 @@
 				type: "dimension"
 				dimension: "the_bumblezone:the_bumblezone"
 			}]
+			rewards: [
+				{
+					id: "6482D0AFA50B3C8D"
+					type: "item"
+					item: "scalinghealth:enchanted_heart"
+				}
+				{
+					id: "26AF7E7DA6B54F75"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 		}
 		{
 			title: "Пыльца"
@@ -560,7 +619,7 @@
 			}]
 		}
 		{
-			x: 13.5d
+			x: 13.0d
 			y: 3.0d
 			description: ["Камень перемещения нужен для того, чтобы сделать путеводный обелиск. И для того, чтобы без обелиска телепортироваться на другую точку. (Зажмите ПКМ)"]
 			dependencies: ["544D867E9E65F95E"]
@@ -578,7 +637,7 @@
 			}]
 		}
 		{
-			x: 13.5d
+			x: 13.0d
 			y: 4.5d
 			shape: "pentagon"
 			description: ["С помощью путеводного обелиска можно телепортироваться на большие расстояния. Для этого нужно как минимум 2 точки (2 обелиска) или камень перемещения."]
@@ -626,6 +685,7 @@
 		{
 			x: 3.5d
 			y: -1.5d
+			description: ["Для хранения предметов."]
 			dependencies: ["3A6840BC06F09951"]
 			id: "7C5C00B15B9897BC"
 			tasks: [{
@@ -645,6 +705,7 @@
 			x: 4.0d
 			y: -3.0d
 			shape: "rsquare"
+			description: ["Можно хранить много предметов в ящиках."]
 			dependencies: ["7C5C00B15B9897BC"]
 			id: "139A2673A665DA5F"
 			tasks: [{
@@ -663,13 +724,28 @@
 		{
 			x: 5.0d
 			y: 0.0d
+			shape: "gear"
+			description: ["Ваш новый рабочий стол!"]
 			dependencies: ["3A6840BC06F09951"]
+			size: 1.2d
 			id: "2B75E14C24231869"
 			tasks: [{
 				id: "5F4B5F10BC74C967"
 				type: "item"
 				item: "artisanworktables:worktable_basic"
 			}]
+			rewards: [
+				{
+					id: "3026AE4A4A035144"
+					type: "item"
+					item: "scalinghealth:enchanted_heart"
+				}
+				{
+					id: "02D9AA1B1A499667"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 		}
 		{
 			x: 15.0d
@@ -687,6 +763,7 @@
 			x: 3.0d
 			y: -3.0d
 			shape: "rsquare"
+			description: ["Можно перевозить свои вещи."]
 			dependencies: ["7C5C00B15B9897BC"]
 			id: "27F6D0F855D593D6"
 			tasks: [
@@ -706,6 +783,7 @@
 			x: 3.0d
 			y: 3.0d
 			shape: "rsquare"
+			description: ["Чистит воду."]
 			dependencies: ["41C6AB8863DA77C2"]
 			id: "6681F0ED12AC13A3"
 			tasks: [{
@@ -717,6 +795,7 @@
 		{
 			x: 2.5d
 			y: -1.0d
+			description: ["Чтобы брать воду с собой."]
 			dependencies: ["3A6840BC06F09951"]
 			id: "770AA3494C433DA3"
 			tasks: [{
@@ -726,14 +805,35 @@
 			}]
 		}
 		{
+			title: "Разное"
 			x: 4.5d
 			y: -1.0d
+			description: ["Просто разное..."]
 			dependencies: ["3A6840BC06F09951"]
 			id: "3FB829F02CA5860E"
+			tasks: [
+				{
+					id: "2BF7B97EF3B19CFB"
+					type: "item"
+					item: "dummmmmmy:target_dummy_placer"
+				}
+				{
+					id: "7658F6D556145CB2"
+					type: "item"
+					item: "paraglider:paraglider"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 3.0d
+			description: ["Для плавки железа."]
+			dependencies: ["544D867E9E65F95E"]
+			id: "5E9827D76147D7A2"
 			tasks: [{
-				id: "2BF7B97EF3B19CFB"
+				id: "10F73DE9AD2750B2"
 				type: "item"
-				item: "dummmmmmy:target_dummy_placer"
+				item: "minecraft:blast_furnace"
 			}]
 		}
 	]

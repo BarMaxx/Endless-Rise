@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "DSPSD",
+    "SAFAS",
+    "DSPSD",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "appliedenergistics2:formation_core"
+    },
+    "S": {
+      "item": "mekanism:crystal_uranium"
+    },
+    "A": {
+      "item": "appliedenergistics2:annihilation_core"
+    },
+	 "D": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+	 "F": {
+      "item": "create:refined_radiance"
+    }
+  },
+  "result": {
+    "item": "mekanism:teleportation_core",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

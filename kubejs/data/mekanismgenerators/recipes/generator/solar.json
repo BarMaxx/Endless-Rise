@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " DSD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSD "
+  ],
+  "key": {
+    "P": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "item": "betterendforge:ender_shard"
+    },
+    "A": {
+      "item": "mekanism:alloy_infused"
+    },
+	"B": {
+      "item": "mekanism:basic_control_circuit"
+    },
+	"D": {
+      "item": "mekanismgenerators:solar_panel"
+    },
+    "W": {
+      "item": "mekanism:energy_tablet"
+    },
+	"F": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "result": {
+    "item": "mekanismgenerators:solar_generator",
+    "count": 1
+  },
+  "acceptMirrored": false
+}

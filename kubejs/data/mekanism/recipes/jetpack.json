@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " USD ",
+    "BWPWB",
+    "SAFAS",
+    "BWPWB",
+    " DSU "
+  ],
+  "key": {
+    "P": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "pneumaticcraft:advanced_pcb"
+    },
+    "A": {
+      "item": "mekanism:alloy_reinforced"
+    },
+	"B": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+	"D": {
+      "item": "atum:nebu_ingot"
+    },
+    "W": {
+      "item": "tconstruct:queens_slime_ingot"
+    },
+	"U": {
+      "item": "powah:crystal_niotic"
+    },
+	"F": {
+      "item": "mekanism:ultimate_chemical_tank"
+    }
+  },
+  "result": {
+    "item": "mekanism:jetpack",
+    "count": 1
+  },
+  "acceptMirrored": false
+}
