@@ -118,24 +118,6 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -1.0d
-			description: ["Получать опыт теперь невероятно важно, чтобы прокачивать Вашего персонажа!"]
-			dependencies: ["4015F9A5ADB11078"]
-			hide: true
-			id: "0D77342412CD3234"
-			tasks: [{
-				id: "4B69C8DBF84AB0D5"
-				type: "checkmark"
-				title: "Прокачка"
-			}]
-			rewards: [{
-				id: "39D6AF7A84179A0B"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-		}
-		{
 			x: 1.0d
 			y: 1.0d
 			description: ["Если Вы ударите мирного моба - он будет Вас атаковать!"]
@@ -170,6 +152,19 @@
 				type: "item"
 				item: "minecraft:torch"
 				count: 4
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			description: ["Теперь в игре у Вас будет сверху компас, который поможет Вам ориентироваться в мире."]
+			dependencies: ["4015F9A5ADB11078"]
+			hide: true
+			id: "2F5756F9BB5C3F0F"
+			tasks: [{
+				id: "6006E90919E9E509"
+				type: "checkmark"
+				title: "Компас"
 			}]
 		}
 	]
